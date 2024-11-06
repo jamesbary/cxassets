@@ -1,0 +1,111 @@
+{
+  "common": {
+    "savings": "Cuenta de Ahorros Personal",
+    "checking": "Cuenta Corriente Personal",
+    "business": "Cuenta Empresarial",
+    "details": "Detalles",
+    "action": "Crear Cuenta"
+  },
+  "meta": {
+    "upload": {
+      "complete": "Carga completada",
+      "success": "Éxito",
+      "button": {
+        "ready": "Seleccionar imagen",
+        "isUploading": "Cargando ...",
+        "prep": "Preparándose ..."
+      },
+      "allowed": {
+        "ready": "Solo puedes subir imágenes",
+        "isUploading": "Parece que la imagen se está cargando",
+        "prep": "Verificando lo permitido"
+      }
+    },
+    "transfer": {
+      "search": "Filtrar transacciones",
+      "status": "Estado",
+      "type": "Tipo",
+      "name": "Nombre",
+      "amount": "Monto",
+      "date": "Fecha",
+      "asc": "Ascendente",
+      "desc": "Descendente",
+      "hide": "Ocultar",
+      "pending": "Pendiente",
+      "success": "Éxito",
+      "rejected": "Rechazado",
+      "transfer": "Transferir",
+      "fund": "Fondo",
+      "reset": "Reiniciar"
+    }
+  },
+  "message": {
+    "enough": "No tiene suficientes fondos en su cuenta para completar esta transacción",
+    "exist": "La cuenta no existe",
+    "generic": "Lo sentimos, no podemos completar esta acción actualmente, por favor intente de nuevo en unos minutos o contacte al servicio de atención al cliente",
+    "success": "Completado con éxito"
+  },
+  "card": {
+    "transfer": "Transferir",
+    "withdraw": "Retirar",
+    "details": "Detalles",
+    "active": "activo",
+    "inactive": "inactivo",
+    "closed": "cerrado",
+    "notEnough": {
+      "title": "¡Fondos insuficientes!",
+      "desc": "No tiene suficientes fondos en esta cuenta para completar esta transacción!",
+      "cancel": "Cancelar"
+    },
+    "transCard": {
+      "title": "Transferir",
+      "number": "Número de cuenta",
+      "amount": "Cantidad (USD)",
+      "proceed": "Transferir ahora",
+      "cancel": "Cancelar"
+    },
+    "action": "Crear cuenta"
+  },
+  "block": {
+    "title": "Cuenta bloqueada",
+    "desc": "Para desbloquear su cuenta, comuníquese con el soporte para la reactivación de la cuenta y procesamiento adicional.",
+    "action": "Contactar soporte"
+  },
+  "checking": {
+    "create": {
+      "title": "Crear Cuenta Corriente Personal",
+      "desc": "Por favor, confirme que desea crear una Cuenta Corriente haciendo clic en el botón de abajo.",
+      "confirm": "Crear Cuenta Corriente",
+      "cancel": "Cancelar",
+      "success": "Cuenta Corriente Personal creada con éxito.",
+      "exists": "Ya tiene una cuenta corriente personal",
+      "error": "No se pudo completar la solicitud. Por favor, inténtelo de nuevo o contacte con el soporte."
+    }
+  },
+  "savings": {
+    "create": {
+      "title": "Crear Cuenta de Ahorros Personal",
+      "desc": "Por favor, confirme que desea crear una Cuenta de Ahorros haciendo clic en el botón de abajo.",
+      "confirm": "Crear Cuenta de Ahorros",
+      "cancel": "Cancelar",
+      "success": "Cuenta de Ahorros Personal creada con éxito.",
+      "exists": "Ya tiene una cuenta de ahorros personal",
+      "error": "No se pudo completar la solicitud. Por favor, inténtelo de nuevo o contacte con el soporte."
+    }
+  },
+  "business": {
+    "create": {
+      "title": "Crear Cuenta Empresarial",
+      "desc": "Está a punto de crear una Cuenta Empresarial. Por favor, proporcione los datos necesarios para continuar.",
+      "confirm": "Crear Cuenta Empresarial",
+      "cancel": "Cancelar",
+      "placeholder": {
+        "name": "Nombre de la Empresa",
+        "type": "Tipo de Empresa"
+      },
+      "success": "Cuenta Empresarial creada con éxito.",
+      "exists": "Ya tiene una cuenta empresarial",
+      "error": "No se pudo completar la solicitud. Por favor, inténtelo de nuevo o contacte con el soporte."
+    }
+  }
+}

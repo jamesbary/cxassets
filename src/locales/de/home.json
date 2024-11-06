@@ -1,0 +1,173 @@
+{
+  "hero": {
+    "heading": "Investment Banking",
+    "sub": "Erleben Sie die Zukunft des modernen Bank- und Investmentwesens mit maßgeschneiderten Lösungen",
+    "action": "Loslegen",
+    "more": "Mehr erfahren"
+  },
+  "about": {
+    "heading": "Wer wir sind",
+    "description": "Ihr Partner für die Sicherung und das Wachstum Ihrer Finanzen und Investitionen",
+    "items": [
+      {
+        "title": "Mission",
+        "description": "Revolutionierung des Finanzmanagements durch fortschrittliche Technologie und exzellenten Kundenservice.",
+        "icon": "mission"
+      },
+      {
+        "title": "Werte",
+        "description": "Wir gewährleisten Datenschutz, hohe Renditen bei niedrigen Gebühren, Echtzeit-Tracking und exzellenten Kundensupport.",
+        "icon": "value"
+      }
+    ]
+  },
+  "features": {
+    "heading": "Warum uns wählen",
+    "description": "Alle Banking- und Investment-Tools, die Sie brauchen, in einer Plattform",
+    "items": [
+      {
+        "title": "Sicherheit",
+        "description": "Schützen Sie Ihre Daten mit modernster Verschlüsselung.",
+        "icon": "admin"
+      },
+      {
+        "title": "Niedrige Gebühren, hohe Renditen",
+        "description": "Profitieren Sie von niedrigen Gebühren und konkurrenzfähigen Zinssätzen.",
+        "icon": "billing"
+      },
+      {
+        "title": "Echtzeit-Management",
+        "description": "Verfolgen Sie Ihre Transaktionen und Ihr Investmentwachstum in Echtzeit.",
+        "icon": "convenience"
+      },
+      {
+        "title": "24/7 Support",
+        "description": "Wir sind jederzeit für Ihre Anfragen da.",
+        "icon": "support"
+      }
+    ]
+  },
+  "pages": {
+    "career": {
+      "title": "Karriere",
+      "description": "Wie Sie sich einbringen und Teil des Teams werden können",
+      "href": "/career"
+    },
+    "about": {
+      "title": "Über uns",
+      "description": "Erfahren Sie mehr über unser Unternehmen und unsere Mission",
+      "href": "/about"
+    },
+    "contact": {
+      "title": "Kontakt",
+      "description": "Sprechen Sie mit einem Support-Mitarbeiter",
+      "href": "/contact"
+    }
+  },
+  "home_support": {
+    "email": "E-Mail-Adresse",
+    "message": "Nachricht",
+    "send": "Nachricht senden",
+    "success": "Nachricht erfolgreich gesendet"
+  },
+  "service": {
+    "action": "Optionen erkunden",
+    "four": { "title": "Hypothekendienstleistungen" },
+    "one": {
+      "description": "Von Giro- und Sparkonten bis hin zu Online-Banking und Rechnungszahlung – verwalten Sie Ihre Finanzen mit Leichtigkeit. Genießen Sie den Komfort des 24/7-Zugriffs auf Ihre Konten, sichere Transaktionen und personalisierte Finanztools.",
+      "title": "Privatkundengeschäft"
+    },
+    "three": { "title": "Kreditlösungen" },
+    "two": { "title": "Hypothekendienstleistungen" }
+  },
+  "services": [
+    {
+      "title": "Privatkundengeschäft",
+      "href": "/personal",
+      "description": "Von Giro- und Sparkonten bis hin zu Online-Banking und Rechnungszahlung – verwalten Sie Ihre Finanzen mit Leichtigkeit. Genießen Sie den Komfort von 24/7-Zugriff auf Ihre Konten, sichere Transaktionen und personalisierte Finanztools.",
+      "icon": "user",
+      "items": [
+        {
+          "title": "Girokonten",
+          "description": "Vereinfachen Sie Ihre täglichen Transaktionen mit unseren flexiblen und gebührenfreien Girokonten."
+        },
+        {
+          "title": "Sparkonten",
+          "description": "Erhöhen Sie Ihre Ersparnisse mit wettbewerbsfähigen Zinssätzen und einfachem Zugriff auf Ihre Gelder."
+        },
+        {
+          "title": "Online-Banking",
+          "description": "Verwalten Sie Ihre Finanzen von überall und zu jeder Zeit mit unserer benutzerfreundlichen Online-Banking-Plattform."
+        },
+        {
+          "title": "Rechnungszahlung",
+          "description": "Bezahlen Sie Ihre Rechnungen schnell und sicher, ohne den Aufwand von Papierauszügen."
+        }
+      ]
+    },
+    {
+      "title": "Geschäftskundengeschäft",
+      "href": "/business",
+      "description": "Maßgeschneiderte Lösungen einschließlich Geschäftskonten, Online-Banking und Treasury-Management. Stärken Sie Ihr Unternehmen mit Tools, die Abläufe rationalisieren und die finanzielle Leistung verbessern. Effizienz.",
+      "icon": "briefcase",
+      "items": [
+        {
+          "title": "Geschäftskonten",
+          "description": "Halten Sie Ihre Geschäftsfinanzen mit unseren umfassenden Geschäftskontooptionen organisiert."
+        },
+        {
+          "title": "Internetbanking für Unternehmen",
+          "description": "Überwachen Sie Ihre Geschäftsfinanzen und führen Sie Transaktionen mühelos mit unserem sicheren Online-Banking durch."
+        },
+        {
+          "title": "Treasury Management",
+          "description": "Optimieren Sie Ihren Cashflow und verwalten Sie Ihr Vermögen effektiv mit unseren erweiterten Treasury-Services."
+        }
+      ]
+    },
+    {
+      "title": "Kreditlösungen",
+      "href": "/lending",
+      "description": "Greifen Sie auf eine Vielzahl von Krediten für kleine Unternehmen, gewerbliche Vorhaben und private Hypotheken zu. Egal, ob Sie Ihr Geschäft erweitern oder Ihr Traumhaus kaufen möchten, wir bieten flexible Kreditoptionen, die Ihren Anforderungen entsprechen.",
+      "icon": "dollarSign",
+      "items": [
+        {
+          "title": "Kredite für kleine Unternehmen",
+          "description": "Holen Sie sich mit unseren maßgeschneiderten Kreditlösungen die Finanzierung, die Sie für das Wachstum Ihres kleinen Unternehmens benötigen."
+        },
+        {
+          "title": "Gewerbliche Finanzierung",
+          "description": "Sichern Sie sich die Finanzierung Ihrer gewerblichen Projekte mit unseren wettbewerbsfähigen Kreditoptionen."
+        },
+        {
+          "title": "Privathypotheken",
+          "description": "Wählen Sie aus einer Reihe von Hypothekenprodukten, die auf Ihre finanzielle Situation und Ihre Eigenheimziele zugeschnitten sind."
+        }
+      ]
+    },
+    {
+      "title": "Hypothekendienste",
+      "href": "/mortgage",
+      "description": "Finden Sie das richtige Hypothekenprodukt, egal, ob Sie zum ersten Mal ein Eigenheim kaufen oder nach einer speziellen Finanzierung suchen. Profitieren Sie von unserer fachkundigen Beratung und unseren günstigen Preisen, damit Ihr Hauskauf reibungslos und stressfrei verläuft.",
+      "icon": "hypothek",
+      "items": [
+        {
+          "title": "Erstkäufer",
+          "description": "Bewältigen Sie den Hauskaufprozess mit Zuversicht mit unseren Programmen für Erstkäufer."
+        },
+        {
+          "title": "Anzahlungshilfe",
+          "description": "Nutzen Sie unsere Unterstützungsprogramme, um Ihren Hauskauf erschwinglicher zu machen."
+        },
+        {
+          "title": "Spezialisierte Hypotheken",
+          "description": "Entdecken Sie unser Angebot an FHA-, VA-, USDA- und Jumbo-Darlehen, die auf Ihre individuellen Bedürfnisse zugeschnitten sind."
+        }
+      ]
+    }
+  ],
+  "service_title": "Dienstleistungen",
+  "support_desc": "Kontaktieren Sie uns oder nutzen Sie unsere Ressourcen, um die Plattform zu navigieren und die Kontrolle über Ihre Bankgeschäfte und Investitionen zu übernehmen",
+  "support_more": "FAQs",
+  "support_title": "Unterstützung"
+}

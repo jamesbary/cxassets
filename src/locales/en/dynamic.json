@@ -1,0 +1,420 @@
+{
+  "sub": [
+    {
+      "tag": "checking",
+      "title": "Personal Checking Accounts",
+      "description": "Our Personal Checking Accounts offer a convenient way to manage your daily finances. With features like online banking, mobile check deposit, and no monthly maintenance fees, our checking accounts are designed to fit your lifestyle.",
+      "features": [
+        "No monthly maintenance fees",
+        "Free online and mobile banking",
+        "Mobile check deposit",
+        "Access to thousands of ATMs nationwide",
+        "Overdraft protection options"
+      ],
+      "calltoaction": "Open an account today and take control of your finances with ease"
+    },
+    {
+      "tag": "savings",
+      "title": "Personal Savings Accounts",
+      "description": "Start saving for your future with our Personal Savings Accounts. Earn competitive interest rates while having easy access to your funds. Our savings accounts are designed to help you reach your financial goals.",
+      "features": [
+        "No monthly maintenance fees",
+        "Competitive interest rates",
+        "Easy access to your funds",
+        "Online and mobile banking",
+        "Automatic transfers from your checking account"
+      ],
+      "calltoaction": "Begin your savings journey with us. Open a savings account now"
+    },
+    {
+      "tag": "cards",
+      "title": "Bank Cards",
+      "description": "Our range of bank cards offers you the flexibility and security you need for all your transactions. Whether you prefer debit cards or credit cards, we have the right option for you with various rewards and benefits.",
+      "features": [
+        "No annual fees",
+        "Secure online transactions",
+        "Rewards programs",
+        "Worldwide acceptance",
+        "24/7 customer support"
+      ],
+      "calltoaction": "Choose the card that best fits your needs and start enjoying the benefits today"
+    },
+    {
+      "tag": "internet_banking",
+      "title": "Internet Banking",
+      "description": "Our Internet Banking service provides you with secure and easy access to your accounts anytime, anywhere. Manage your finances, pay bills, transfer funds, and more with just a few clicks.",
+      "features": [
+        "Bill payment services",
+        "Fund transfers",
+        "Transaction history",
+        "Secure and user-friendly interface",
+        "24/7 customer support"
+      ],
+      "calltoaction": "Sign up for Internet Banking and take control of your finances from the comfort of your home"
+    },
+    {
+      "tag": "bill_payment",
+      "title": "Bill Payment",
+      "description": "Simplify your life with our Bill Payment service. Pay all your bills from one place quickly and securely. Never miss a due date again with automatic payments and reminders.",
+      "features": [
+        "Pay bills online",
+        "Set up automatic payments",
+        "Receive payment reminders",
+        "Secure transactions",
+        "Track your payment history"
+      ],
+      "calltoaction": "Register for Bill Payment services today and manage all your bills with ease"
+    },
+    {
+      "tag": "ussd_banking",
+      "title": "USSD Banking",
+      "description": "Experience the convenience of banking on the go with our USSD Banking service. Access your account, check balances, transfer funds, and more using simple USSD codes on your mobile phone.",
+      "features": [
+        "No internet required",
+        "Instant access to account information",
+        "Fund transfers and bill payments",
+        "Secure and convenient",
+        "Available on all mobile networks"
+      ],
+      "calltoaction": "Get an account and start using our USSD code now for seamless banking on the go"
+    },
+    {
+      "tag": "home_loans",
+      "title": "Home Loans",
+      "description": "Looking to buy your dream home? Our Home Loans offer competitive rates and flexible terms to help you achieve homeownership. Whether you’re a first-time buyer or looking to refinance, we have the right solution for you.",
+      "features": [
+        "Competitive interest rates",
+        "Flexible repayment terms",
+        "Quick and easy application process",
+        "Expert mortgage advice",
+        "Various loan options"
+      ],
+      "calltoaction": "Apply for a Home Loan today and take the first step towards owning your home"
+    },
+    {
+      "tag": "resource_center",
+      "title": "Resource Center",
+      "description": "Our Resource Center is your go-to place for financial education and advice. Find articles, guides, and tools to help you make informed financial decisions and improve your financial well-being.",
+      "features": [
+        "Financial articles and guides",
+        "Budgeting tools",
+        "Investment tips",
+        "Credit management advice",
+        "Mortgage calculators"
+      ],
+      "calltoaction": "Visit our Resource Center and start your journey towards financial literacy and security"
+    },
+    {
+      "tag": "deposit_rates",
+      "title": "Deposit Rates",
+      "description": "Stay updated with our competitive deposit rates. We offer attractive rates on savings accounts, fixed deposits, and other investment products to help you grow your money.",
+      "features": [
+        "Competitive interest rates",
+        "Flexible deposit terms",
+        "Regular updates",
+        "Secure investments",
+        "Expert financial advice"
+      ],
+      "calltoaction": "Check out our current deposit rates and start earning more on your savings"
+    },
+    {
+      "tag": "accounts",
+      "title": "Business Accounts",
+      "description": "Our Business Accounts are designed to meet the needs of businesses of all sizes. Manage your business finances efficiently with features tailored to support your growth and success.",
+      "features": [
+        "No monthly maintenance fees",
+        "Online and mobile banking",
+        "Multiple user access",
+        "Business debit cards",
+        "Overdraft protection options"
+      ],
+      "calltoaction": "Open a Business Account today and streamline your business operations"
+    },
+    {
+      "tag": "treasury",
+      "title": "Treasury Management",
+      "description": "Optimize your cash flow and manage your liquidity with our Treasury Management services. Our solutions are designed to help you maximize your working capital and minimize risks.",
+      "features": [
+        "Cash concentration and disbursement",
+        "Liquidity management",
+        "Fraud prevention tools",
+        "Comprehensive reporting",
+        "Dedicated treasury management support"
+      ],
+      "calltoaction": "Explore our Treasury Management services and take control of your financial strategy"
+    },
+    {
+      "tag": "payment",
+      "title": "Payment Solutions",
+      "description": "Enhance your payment processing with our Payment Solutions. We offer a variety of options to help you manage and streamline your payments efficiently.",
+      "features": [
+        "Merchant services",
+        "ACH payment processing",
+        "Remote deposit capture",
+        "Mobile payment solutions",
+        "Secure and reliable transactions"
+      ],
+      "calltoaction": "Learn more about our Payment Solutions and improve your payment processing today"
+    },
+    {
+      "tag": "ach",
+      "title": "ACH Solutions",
+      "description": "Simplify your payment processes with our ACH Solutions. Manage direct deposits, vendor payments, and other transactions with ease and security.",
+      "features": [
+        "Direct deposit services",
+        "Vendor payment solutions",
+        "Recurring payments",
+        "Secure and efficient processing",
+        "Detailed transaction reports"
+      ],
+      "calltoaction": "Discover our ACH Solutions and streamline your payment processes"
+    },
+    {
+      "tag": "industry",
+      "title": "Industry Solutions",
+      "description": "We offer tailored banking solutions to meet the unique needs of different industries. Whether you’re in healthcare, retail, or manufacturing, we have the expertise to support your business.",
+      "features": [
+        "Industry-specific banking solutions",
+        "Expert financial advice",
+        "Customized financing options",
+        "Cash management services",
+        "Specialized industry support"
+      ],
+      "calltoaction": "Explore our Industry Solutions and find the right banking services for your industry"
+    },
+    {
+      "tag": "small_business_loans",
+      "title": "Small Business Loans",
+      "description": "Fuel your business growth with our Small Business Loans. We offer flexible loan options to help you finance your business needs, whether it’s for expansion, equipment, or working capital.",
+      "features": [
+        "Competitive interest rates",
+        "Flexible repayment terms",
+        "Quick approval process",
+        "No prepayment penalties",
+        "Expert loan advice"
+      ],
+      "calltoaction": "Apply for a Small Business Loan today and take your business to the next level"
+    },
+    {
+      "tag": "sba_loans",
+      "title": "Small Business Administration (SBA) Loans",
+      "description": "Our SBA Loans provide government-backed financing options for small businesses. Take advantage of lower down payments and longer repayment terms to grow your business.",
+      "features": [
+        "Low down payments",
+        "Long repayment terms",
+        "Competitive interest rates",
+        "SBA loan expertise",
+        "Flexible loan options"
+      ],
+      "calltoaction": "Explore our SBA Loan options and find the right financing solution for your business"
+    },
+    {
+      "tag": "usda_business_loans",
+      "title": "USDA Business Loans",
+      "description": "Our USDA Business Loans offer financing for rural businesses. Benefit from competitive rates and terms designed to support business development in rural areas.",
+      "features": [
+        "Competitive interest rates",
+        "Long repayment terms",
+        "Support for rural businesses",
+        "Flexible loan options",
+        "Expert loan advice"
+      ],
+      "calltoaction": "Apply for a USDA Business Loan and support your rural business growth"
+    },
+    {
+      "tag": "business_reliefs",
+      "title": "Business Relief Programs",
+      "description": "We provide Business Relief Programs to support businesses during challenging times. Access funding and resources to help your business recover and thrive.",
+      "features": [
+        "Emergency funding options",
+        "Flexible repayment terms",
+        "Quick application process",
+        "Expert financial advice",
+        "Supportive resources"
+      ],
+      "calltoaction": "Learn more about our Business Relief Programs and find the support you need"
+    },
+    {
+      "tag": "real_estate",
+      "title": "Commercial Real Estate Loans",
+      "description": "Finance your commercial real estate projects with our competitive loan options. Whether you’re buying, renovating, or refinancing, we offer solutions to meet your needs.",
+      "features": [
+        "Competitive interest rates",
+        "Flexible loan terms",
+        "Quick approval process",
+        "Expert real estate advice",
+        "Various loan options"
+      ],
+      "calltoaction": "Apply for a Commercial Real Estate Loan and bring your property plans to life"
+    },
+    {
+      "tag": "equipment_loans",
+      "title": "Equipment Loans",
+      "description": "Upgrade your business operations with our Equipment Loans. Finance new or used equipment with flexible terms and competitive rates to keep your business running smoothly.",
+      "features": [
+        "Competitive interest rates",
+        "Flexible repayment terms",
+        "Quick approval process",
+        "Financing for new or used equipment",
+        "Expert loan advice"
+      ],
+      "calltoaction": "Apply for an Equipment Loan and invest in your business’s future"
+    },
+    {
+      "tag": "acquisition_loans",
+      "title": "Business Acquisition Loans",
+      "description": "Expand your business through acquisitions with our Business Acquisition Loans. We offer financing solutions to help you purchase and integrate new businesses.",
+      "features": [
+        "Competitive interest rates",
+        "Flexible loan terms",
+        "Quick approval process",
+        "Expert acquisition advice",
+        "Various loan options"
+      ],
+      "calltoaction": "Apply for a Business Acquisition Loan and grow your business through strategic acquisitions"
+    },
+    {
+      "tag": "warehouse_lending",
+      "title": "Warehouse Lending",
+      "description": "Our Warehouse Lending solutions provide funding to mortgage bankers and other financial institutions. Access flexible financing to support your lending operations.",
+      "features": [
+        "Competitive interest rates",
+        "Flexible loan terms",
+        "Quick approval process",
+        "Expert financial advice",
+        "Customizable solutions"
+      ],
+      "calltoaction": "Explore our Warehouse Lending options and support your lending operations"
+    },
+    {
+      "tag": "loan_support",
+      "title": "Business Loan Support",
+      "description": "Get the support you need for your business loans with our dedicated Business Loan Support services. From application to repayment, we’re here to help you every step of the way.",
+      "features": [
+        "Expert loan advice",
+        "Assistance with loan applications",
+        "Flexible repayment options",
+        "Dedicated support team",
+        "Comprehensive resources"
+      ],
+      "calltoaction": "Contact our Business Loan Support team today and get the help you need"
+    },
+    {
+      "tag": "first_home",
+      "title": "First-Time Home Buyers",
+      "description": "Buying your first home is a big step. Our First-Time Home Buyers program offers special financing options and support to help you achieve homeownership.",
+      "features": [
+        "Competitive interest rates",
+        "Low down payment options",
+        "Expert mortgage advice",
+        "Flexible loan terms",
+        "Homebuyer education resources"
+      ],
+      "calltoaction": "Apply for our First-Time Home Buyers program and take the first step towards owning your home"
+    },
+    {
+      "tag": "down_payment",
+      "title": "Down Payment Assistance",
+      "description": "Struggling to save for a down payment? Our Down Payment Assistance programs offer grants and low-interest loans to help you cover the cost of your down payment.",
+      "features": [
+        "Grants and low-interest loans",
+        "Flexible repayment terms",
+        "Expert mortgage advice",
+        "Quick approval process",
+        "Various assistance options"
+      ],
+      "calltoaction": "Learn more about our Down Payment Assistance programs and make homeownership more accessible"
+    },
+    {
+      "tag": "rates",
+      "title": "Mortgage Rates",
+      "description": "Stay informed with our competitive mortgage rates. Whether you’re buying a new home or refinancing, we offer rates that fit your needs.",
+      "features": [
+        "Competitive interest rates",
+        "Various loan options",
+        "Regular rate updates",
+        "Expert mortgage advice",
+        "Flexible loan terms"
+      ],
+      "calltoaction": "Check out our current mortgage rates and find the best rate for your home loan"
+    },
+    {
+      "tag": "fha_va_usda",
+      "title": "FHA, VA, & USDA Loans",
+      "description": "We offer government-backed loans to help you finance your home. Whether you’re a first-time homebuyer, a veteran, or buying in a rural area, we have the right loan for you.",
+      "features": [
+        "Low down payment options",
+        "Competitive interest rates",
+        "Flexible loan terms",
+        "Expert mortgage advice",
+        "Quick approval process"
+      ],
+      "calltoaction": "Explore our FHA, VA, and USDA loan options and find the best solution for your home financing needs"
+    },
+    {
+      "tag": "jumbo_home_loans",
+      "title": "Jumbo Home Loans",
+      "description": "For those purchasing high-value properties, our Jumbo Home Loans offer financing solutions with competitive rates and terms to meet your needs.",
+      "features": [
+        "Competitive interest rates",
+        "Flexible loan terms",
+        "Financing for high-value properties",
+        "Expert mortgage advice",
+        "Quick approval process"
+      ],
+      "calltoaction": "Apply for a Jumbo Home Loan and finance your dream home with confidence"
+    },
+    {
+      "tag": "renovation_fha",
+      "title": "Renovation & FHA 203(k) Loans",
+      "description": "Transform your home with our Renovation and FHA 203(k) loans. Finance your home improvements and renovations with flexible loan options.",
+      "features": [
+        "Competitive interest rates",
+        "Financing for home improvements",
+        "Expert renovation advice",
+        "Flexible loan terms",
+        "Quick approval process"
+      ],
+      "calltoaction": "Apply for a Renovation or FHA 203(k) loan and start your home transformation today"
+    },
+    {
+      "tag": "equity_helocs",
+      "title": "Home Equity & HELOCs",
+      "description": "Tap into your home’s equity with our Home Equity Loans and Home Equity Lines of Credit (HELOCs). Use the funds for home improvements, debt consolidation, or other expenses",
+      "features": [
+        "Competitive interest rates",
+        "Flexible repayment terms",
+        "Access to funds as needed",
+        "Expert financial advice",
+        "Quick approval process"
+      ],
+      "calltoaction": "Learn more about our Home Equity Loans and HELOCs and make the most of your home’s value"
+    },
+    {
+      "tag": "pay_for_me",
+      "title": "Pay My Mortgage",
+      "description": "Conveniently manage your mortgage payments with our online payment system. Make payments, view statements, and track your payment history with ease.",
+      "features": [
+        "Secure online payments",
+        "Easy access to statements",
+        "Payment reminders",
+        "Detailed payment history",
+        "Expert support"
+      ],
+      "calltoaction": "Sign in to Pay My Mortgage and manage your mortgage payments effortlessly"
+    },
+    {
+      "tag": "retail_offices",
+      "title": "Retail Mortgage Offices",
+      "description": "Visit our Retail Mortgage Offices for personalized mortgage assistance. Our knowledgeable staff is here to help you with your home financing needs.",
+      "features": [
+        "Expert mortgage advice",
+        "Personalized service",
+        "Convenient locations",
+        "Comprehensive mortgage solutions",
+        "In-person support"
+      ],
+      "calltoaction": "Find a Retail Mortgage Office near you and get the personalized mortgage assistance you need"
+    }
+  ]
+}

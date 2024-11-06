@@ -1,0 +1,111 @@
+{
+  "common": {
+    "savings": "Cont de Economii Personal",
+    "checking": "Cont Curent Personal",
+    "business": "Cont de Afaceri",
+    "details": "Detalii",
+    "action": "Creează Cont"
+  },
+  "meta": {
+    "upload": {
+      "complete": "Încărcare completă",
+      "success": "Succes",
+      "button": {
+        "ready": "Selectați imagine",
+        "isUploading": "Încărcare ...",
+        "prep": "Pregătire ..."
+      },
+      "allowed": {
+        "ready": "Puteți încărca doar imagini",
+        "isUploading": "Se pare că imaginea se încarcă",
+        "prep": "Verificarea a ceea ce este permis"
+      }
+    },
+    "transfer": {
+      "search": "Filtrează tranzacțiile",
+      "status": "Stare",
+      "type": "Tip",
+      "name": "Nume",
+      "amount": "Sumă",
+      "date": "Dată",
+      "asc": "Ascendent",
+      "desc": "Descendent",
+      "hide": "Ascunde",
+      "pending": "În așteptare",
+      "success": "Succes",
+      "rejected": "Respins",
+      "transfer": "Transfer",
+      "fund": "Fond",
+      "reset": "Resetare"
+    }
+  },
+  "message": {
+    "enough": "Nu aveți suficiente fonduri în contul dvs. pentru a finaliza această tranzacție",
+    "exist": "Contul nu există",
+    "generic": "Ne pare rău, nu putem finaliza această acțiune în acest moment, vă rugăm să încercați din nou peste câteva minute sau contactați suportul pentru clienți",
+    "success": "Finalizat cu succes"
+  },
+  "card": {
+    "transfer": "Transferă",
+    "withdraw": "Retragere",
+    "details": "Detalii",
+    "active": "activ",
+    "inactive": "inactiv",
+    "closed": "închis",
+    "notEnough": {
+      "title": "Fonduri insuficiente!",
+      "desc": "Nu aveți suficiente fonduri în acest cont pentru a finaliza această tranzacție!",
+      "cancel": "Anulare"
+    },
+    "transCard": {
+      "title": "Transferă",
+      "number": "Număr de cont",
+      "amount": "Sumă (USD)",
+      "proceed": "Transferă acum",
+      "cancel": "Anulare"
+    },
+    "action": "Creează cont"
+  },
+  "block": {
+    "title": "Cont blocat",
+    "desc": "Pentru a debloca contul, trimite un mesaj de suport pentru reactivarea contului și alte procesări.",
+    "action": "Contactează suportul"
+  },
+  "checking": {
+    "create": {
+      "title": "Creează Cont Curent Personal",
+      "desc": "Vă rugăm să confirmați că doriți să creați un cont curent făcând clic pe butonul de mai jos.",
+      "confirm": "Creează Cont Curent",
+      "cancel": "Anulează",
+      "success": "Cont Curent Personal creat cu succes.",
+      "exists": "Aveți deja un cont curent personal",
+      "error": "Nu s-a putut finaliza solicitarea. Vă rugăm să încercați din nou sau să contactați suportul."
+    }
+  },
+  "savings": {
+    "create": {
+      "title": "Creează Cont de Economii Personal",
+      "desc": "Vă rugăm să confirmați că doriți să creați un cont de economii făcând clic pe butonul de mai jos.",
+      "confirm": "Creează Cont de Economii",
+      "cancel": "Anulează",
+      "success": "Cont de Economii Personal creat cu succes.",
+      "exists": "Aveți deja un cont de economii personal",
+      "error": "Nu s-a putut finaliza solicitarea. Vă rugăm să încercați din nou sau să contactați suportul."
+    }
+  },
+  "business": {
+    "create": {
+      "title": "Creează Cont de Afaceri",
+      "desc": "Sunteți pe cale să creați un cont de afaceri. Vă rugăm să furnizați datele necesare pentru a continua.",
+      "confirm": "Creează Cont de Afaceri",
+      "cancel": "Anulează",
+      "placeholder": {
+        "name": "Numele Afacerii",
+        "type": "Tipul Afacerii"
+      },
+      "success": "Cont de Afaceri creat cu succes.",
+      "exists": "Aveți deja un cont de afaceri",
+      "error": "Nu s-a putut finaliza solicitarea. Vă rugăm să încercați din nou sau să contactați suportul."
+    }
+  }
+}

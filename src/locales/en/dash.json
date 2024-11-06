@@ -1,0 +1,111 @@
+{
+  "common": {
+    "savings": "Personal Savings Account",
+    "checking": "Personal Checking Account",
+    "business": "Business Account",
+    "details": "Details",
+    "action": "Create Account"
+  },
+  "meta": {
+    "upload": {
+      "complete": "Upload Completed",
+      "success": "Success",
+      "button": {
+        "ready": "Select Image",
+        "isUploading": "Uploading ...",
+        "prep": "Getting ready ..."
+      },
+      "allowed": {
+        "ready": "You can only upload Image",
+        "isUploading": "Seems like image is uploading",
+        "prep": "Checking what is allowed"
+      }
+    },
+    "transfer": {
+      "search": "Filter transactions",
+      "status": "Status",
+      "type": "Type",
+      "name": "Name",
+      "amount": "Amount",
+      "date": "Date",
+      "asc": "Asc",
+      "desc": "Desc",
+      "hide": "Hide",
+      "pending": "Pending",
+      "success": "Success",
+      "rejected": "Rejected",
+      "transfer": "Transfer",
+      "fund": "Fund",
+      "reset": "Reset"
+    }
+  },
+  "message": {
+    "enough": "You do not have enough fund in your account to complete this transaction",
+    "exist": "Account does not exist",
+    "generic": "Sorry we cannot complete this action currently, please try again in few minutes or contact customer support",
+    "success": "Completted successfully"
+  },
+  "card": {
+    "transfer": "Transfer",
+    "withdraw": "Withdraw",
+    "details": "Details",
+    "active": "active",
+    "inactive": "inactive",
+    "closed": "closed",
+    "notEnough": {
+      "title": "Not Enough Fund!",
+      "desc": "You do not have enough fund in this account to complete this transaction!",
+      "cancel": "Cancel"
+    },
+    "transCard": {
+      "title": "Transfer",
+      "number": "Account Number",
+      "amount": "Amount (USD)",
+      "proceed": "Transfer Now",
+      "cancel": "Cancel"
+    },
+    "action": "Create Account"
+  },
+  "block": {
+    "title": "Account Blocked",
+    "desc": "To unblock your account message support for account reactivation and further processing.",
+    "action": "Contact Support"
+  },
+  "checking": {
+    "create": {
+      "title": "Create Personal Checking Account",
+      "desc": "Please confirm that you wish to create a Checking Account by clicking the button below.",
+      "confirm": "Create Checking Account",
+      "cancel": "Cancel",
+      "success": "Personal Checking Account created successfully.",
+      "exists": "You already have a personal checking account",
+      "error": "Could not complete the request. Please try again or contact support"
+    }
+  },
+  "savings": {
+    "create": {
+      "title": "Create Personal Savings Account",
+      "desc": "Please confirm that you wish to create a Savings Account by clicking the button below.",
+      "confirm": "Create Savings Account",
+      "cancel": "Cancel",
+      "success": "Personal Savings Account created successfully.",
+      "exists": "You already have a personal savings account",
+      "error": "Could not complete the request. Please try again or contact support"
+    }
+  },
+  "business": {
+    "create": {
+      "title": "Create Business Account",
+      "desc": "You are about to create a Business Account. Please provide the required details to proceed.",
+      "confirm": "Create Business Account",
+      "cancel": "Cancel",
+      "placeholder": {
+        "name": "Business Name",
+        "type": "Business Type"
+      },
+      "success": "Business Account created successfully.",
+      "exists": "You already have a business account",
+      "error": "Could not complete the request. Please try again or contact support."
+    }
+  }
+}

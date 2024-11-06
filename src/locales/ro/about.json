@@ -1,0 +1,88 @@
+{
+  "story": {
+    "title": "Povestea Noastră",
+    "description": "Bine ați venit la banking-ul modern, unde credem în reimaginarea viitorului banking-ului pentru era digitală. Fondată pe principiile inovației, securității și orientării către client, misiunea noastră este să oferim o experiență bancară fără întreruperi și personalizată, care să împuternicească atât persoanele fizice, cât și afacerile."
+  },
+  "values": {
+    "title": "Misiune și Valori",
+    "description": "Misiunea noastră este să transformăm modul în care îți gestionezi finanțele prin utilizarea tehnologiei de ultimă oră și a unui serviciu excepțional pentru clienți. Suntem dedicați să:",
+    "items": [
+      {
+        "title": "Inovație",
+        "description": "Evoluăm continuu serviciile noastre pentru a satisface nevoile în schimbare ale clienților noștri."
+      },
+      {
+        "title": "Securitate",
+        "description": "Implementăm măsuri de securitate de ultimă generație pentru a proteja datele și tranzacțiile tale."
+      },
+      {
+        "title": "Orientare către Client",
+        "description": "Punem clienții în centrul a tot ceea ce facem, asigurând o experiență bancară lină și satisfăcătoare."
+      },
+      {
+        "title": "Transparență",
+        "description": "Construim încredere printr-o comunicare clară și onestă și prin produse financiare directe."
+      },
+      {
+        "title": "Incluzivitate",
+        "description": "Oferim soluții bancare accesibile pentru toată lumea, indiferent de antecedentele financiare."
+      },
+      {
+        "title": "Eficiență",
+        "description": "Optimizăm procesele pentru a asigura un serviciu rapid și eficient pentru toate nevoile tale bancare."
+      },
+      {
+        "title": "Responsabilitate",
+        "description": "Acționăm cu integritate și responsabilitate în toate practicile noastre de afaceri."
+      },
+      {
+        "title": "Sustenabilitate",
+        "description": "Promovăm practici sustenabile și contribuim la un viitor mai verde."
+      }
+    ]
+  },
+  "team": {
+    "title": "Echipa Noastră",
+    "description": "Echipa noastră este un grup divers de profesioniști pasionați de finanțe și tehnologie. Reunim experți din diferite domenii pentru a crea un mediu bancar dinamic și orientat către viitor. Cunoașteți câțiva dintre membrii cheie:",
+    "items": [
+      {
+        "title": "John Klugger, CEO",
+        "description": "Cu peste 20 de ani de experiență în industria financiară, John conduce echipa noastră cu o viziune pentru un viitor bancar mai inclusiv și inovator."
+      },
+      {
+        "title": "Jane Marlon, CTO",
+        "description": "Jane conduce divizia noastră tehnologică, asigurându-se că platforma noastră rămâne în fruntea inovației bancare digitale."
+      },
+      {
+        "title": "Alice Johnson, CFO",
+        "description": "Alice supraveghează operațiunile noastre financiare, aducând o bogăție de cunoștințe și experiență în planificarea noastră strategică."
+      },
+      {
+        "title": "Mark Thompson, Șeful Experienței Clienților",
+        "description": "Mark îndeplinește perfect rolul de Șef al Experienței Clienților, asigurându-se că fiecare interacțiune cu clienții este satisfăcătoare."
+      }
+    ]
+  },
+  "whyus": {
+    "title": "De ce să ne Alegeți?",
+    "description": "se remarcă prin angajamentul său față de:",
+    "items": [
+      {
+        "title": "Experiență Online Fără Probleme",
+        "description": "Bucurați-vă de o platformă ușor de utilizat care face gestionarea finanțelor dvs. mai ușoară ca niciodată."
+      },
+      {
+        "title": "Servicii Cuprinzătoare",
+        "description": "De la servicii bancare personale și de afaceri la soluții de creditare și servicii ipotecare, oferim o gamă largă de produse financiare adaptate nevoilor dvs."
+      },
+      {
+        "title": "Suport pentru Clienți 24/7",
+        "description": "Accesați ajutorul ori de câte ori aveți nevoie cu echipa noastră dedicată de suport."
+      },
+      {
+        "title": "Tarife Competitive",
+        "description": "Beneficiați de rate de dobândă atractive și taxe reduse pentru produsele și serviciile noastre."
+      }
+    ]
+  }
+}

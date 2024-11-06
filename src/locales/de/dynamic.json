@@ -1,0 +1,420 @@
+{
+  "sub": [
+    {
+      "tag": "checking",
+      "title": "Persönliche Girokonten",
+      "description": "Unsere persönlichen Girokonten bieten eine bequeme Möglichkeit, Ihre täglichen Finanzen zu verwalten. Mit Funktionen wie Online-Banking, mobiler Scheckeinzahlung und keinen monatlichen Wartungsgebühren sind unsere Girokonten darauf ausgelegt, zu Ihrem Lebensstil zu passen.",
+      "features": [
+        "Keine monatlichen Wartungsgebühren",
+        "Kostenloses Online- und Mobile-Banking",
+        "Mobile Scheckeinzahlung",
+        "Zugang zu Tausenden von Geldautomaten bundesweit",
+        "Überziehungsschutzoptionen"
+      ],
+      "calltoaction": "Eröffnen Sie noch heute ein Konto und verwalten Sie Ihre Finanzen mit Leichtigkeit"
+    },
+    {
+      "tag": "savings",
+      "title": "Persönliche Sparkonten",
+      "description": "Beginnen Sie mit dem Sparen für Ihre Zukunft mit unseren persönlichen Sparkonten. Erzielen Sie wettbewerbsfähige Zinssätze und haben Sie dennoch einfachen Zugang zu Ihrem Geld. Unsere Sparkonten sind darauf ausgelegt, Ihnen zu helfen, Ihre finanziellen Ziele zu erreichen.",
+      "features": [
+        "Keine monatlichen Wartungsgebühren",
+        "Wettbewerbsfähige Zinssätze",
+        "Einfacher Zugang zu Ihrem Geld",
+        "Online- und Mobile-Banking",
+        "Automatische Überweisungen von Ihrem Girokonto"
+      ],
+      "calltoaction": "Beginnen Sie Ihre Sparreise mit uns. Eröffnen Sie jetzt ein Sparkonto"
+    },
+    {
+      "tag": "cards",
+      "title": "Bankkarten",
+      "description": "Unsere Palette an Bankkarten bietet Ihnen die Flexibilität und Sicherheit, die Sie für alle Ihre Transaktionen benötigen. Ob Sie Debit- oder Kreditkarten bevorzugen, wir haben die richtige Option für Sie mit verschiedenen Belohnungen und Vorteilen.",
+      "features": [
+        "Keine Jahresgebühren",
+        "Sichere Online-Transaktionen",
+        "Belohnungsprogramme",
+        "Weltweite Akzeptanz",
+        "24/7 Kundenservice"
+      ],
+      "calltoaction": "Wählen Sie die Karte, die am besten zu Ihren Bedürfnissen passt, und genießen Sie noch heute die Vorteile"
+    },
+    {
+      "tag": "internet_banking",
+      "title": "Internet-Banking",
+      "description": "Unser Internet-Banking-Service bietet Ihnen sicheren und einfachen Zugang zu Ihren Konten jederzeit und überall. Verwalten Sie Ihre Finanzen, bezahlen Sie Rechnungen, überweisen Sie Geld und vieles mehr mit nur wenigen Klicks.",
+      "features": [
+        "Rechnungszahlung",
+        "Geldüberweisungen",
+        "Transaktionshistorie",
+        "Sichere und benutzerfreundliche Oberfläche",
+        "24/7 Kundenservice"
+      ],
+      "calltoaction": "Melden Sie sich für das Internet-Banking an und verwalten Sie Ihre Finanzen bequem von zu Hause aus"
+    },
+    {
+      "tag": "bill_payment",
+      "title": "Rechnungszahlung",
+      "description": "Vereinfachen Sie Ihr Leben mit unserem Rechnungszahlungsservice. Bezahlen Sie alle Ihre Rechnungen von einem Ort aus schnell und sicher. Verpassen Sie nie wieder ein Fälligkeitsdatum mit automatischen Zahlungen und Erinnerungen.",
+      "features": [
+        "Rechnungen online bezahlen",
+        "Automatische Zahlungen einrichten",
+        "Zahlungserinnerungen erhalten",
+        "Sichere Transaktionen",
+        "Verfolgen Sie Ihre Zahlungshistorie"
+      ],
+      "calltoaction": "Registrieren Sie sich noch heute für den Rechnungszahlungsservice und verwalten Sie alle Ihre Rechnungen mühelos"
+    },
+    {
+      "tag": "ussd_banking",
+      "title": "USSD-Banking",
+      "description": "Erleben Sie die Bequemlichkeit des Bankings unterwegs mit unserem USSD-Banking-Service. Greifen Sie auf Ihr Konto zu, überprüfen Sie Salden, überweisen Sie Geld und mehr mit einfachen USSD-Codes auf Ihrem Mobiltelefon.",
+      "features": [
+        "Kein Internet erforderlich",
+        "Sofortiger Zugriff auf Kontoinformationen",
+        "Geldüberweisungen und Rechnungszahlungen",
+        "Sicher und bequem",
+        "Verfügbar in allen Mobilfunknetzen"
+      ],
+      "calltoaction": "Eröffnen Sie ein Konto und beginnen Sie jetzt, unseren USSD-Code für nahtloses Banking unterwegs zu nutzen"
+    },
+    {
+      "tag": "home_loans",
+      "title": "Hypothekendarlehen",
+      "description": "Möchten Sie Ihr Traumhaus kaufen? Unsere Hypothekendarlehen bieten wettbewerbsfähige Zinssätze und flexible Konditionen, um Ihnen beim Erreichen des Eigentums zu helfen. Ob Sie ein Erstkäufer sind oder refinanzieren möchten, wir haben die richtige Lösung für Sie.",
+      "features": [
+        "Wettbewerbsfähige Zinssätze",
+        "Flexible Rückzahlungsbedingungen",
+        "Schneller und einfacher Antragsprozess",
+        "Expertenberatung für Hypotheken",
+        "Verschiedene Darlehensoptionen"
+      ],
+      "calltoaction": "Beantragen Sie noch heute ein Hypothekendarlehen und machen Sie den ersten Schritt zum Besitz Ihres Hauses"
+    },
+    {
+      "tag": "resource_center",
+      "title": "Ressourcenzentrum",
+      "description": "Unser Ressourcenzentrum ist Ihr Anlaufpunkt für finanzielle Bildung und Beratung. Finden Sie Artikel, Leitfäden und Werkzeuge, die Ihnen helfen, informierte finanzielle Entscheidungen zu treffen und Ihr finanzielles Wohl zu verbessern.",
+      "features": [
+        "Finanzartikel und -leitfäden",
+        "Budgetierungswerkzeuge",
+        "Investmenttipps",
+        "Beratung zur Kreditverwaltung",
+        "Hypothekenrechner"
+      ],
+      "calltoaction": "Besuchen Sie unser Ressourcenzentrum und beginnen Sie Ihre Reise zur finanziellen Bildung und Sicherheit"
+    },
+    {
+      "tag": "deposit_rates",
+      "title": "Einlagenzinsen",
+      "description": "Bleiben Sie informiert über unsere wettbewerbsfähigen Einlagenzinsen. Wir bieten attraktive Zinsen auf Sparkonten, Festgelder und andere Anlageprodukte, um Ihnen zu helfen, Ihr Geld zu vermehren.",
+      "features": [
+        "Wettbewerbsfähige Zinssätze",
+        "Flexible Einzahlungsbedingungen",
+        "Regelmäßige Updates",
+        "Sichere Investitionen",
+        "Expertenberatung"
+      ],
+      "calltoaction": "Überprüfen Sie unsere aktuellen Einlagenzinsen und beginnen Sie, mehr aus Ihren Ersparnissen zu machen"
+    },
+    {
+      "tag": "accounts",
+      "title": "Geschäftskonten",
+      "description": "Unsere Geschäftskonten sind darauf ausgelegt, die Bedürfnisse von Unternehmen jeder Größe zu erfüllen. Verwalten Sie Ihre Unternehmensfinanzen effizient mit Funktionen, die darauf abgestimmt sind, Ihr Wachstum und Ihren Erfolg zu unterstützen.",
+      "features": [
+        "Keine monatlichen Kontoführungsgebühren",
+        "Online- und Mobile-Banking",
+        "Zugriff für mehrere Benutzer",
+        "Geschäftsdebitkarten",
+        "Überziehungsschutzoptionen"
+      ],
+      "calltoaction": "Eröffnen Sie noch heute ein Geschäftskonto und optimieren Sie Ihre Geschäftsabläufe"
+    },
+    {
+      "tag": "treasury",
+      "title": "Treasury-Management",
+      "description": "Optimieren Sie Ihren Cashflow und verwalten Sie Ihre Liquidität mit unseren Treasury-Management-Dienstleistungen. Unsere Lösungen sind darauf ausgelegt, Ihnen zu helfen, Ihr Betriebskapital zu maximieren und Risiken zu minimieren.",
+      "features": [
+        "Bargeldkonzentration und -auszahlung",
+        "Liquiditätsmanagement",
+        "Betrugspräventionswerkzeuge",
+        "Umfassende Berichterstattung",
+        "Engagierter Treasury-Management-Support"
+      ],
+      "calltoaction": "Erforschen Sie unsere Treasury-Management-Dienstleistungen und übernehmen Sie die Kontrolle über Ihre Finanzstrategie"
+    },
+    {
+      "tag": "payment",
+      "title": "Zahlungslösungen",
+      "description": "Verbessern Sie Ihre Zahlungsabwicklung mit unseren Zahlungslösungen. Wir bieten eine Vielzahl von Optionen, um Ihre Zahlungen effizient zu verwalten und zu optimieren.",
+      "features": [
+        "Händlerdienste",
+        "ACH-Zahlungsabwicklung",
+        "Fernabgabe von Einlagen",
+        "Mobile Zahlungslösungen",
+        "Sichere und zuverlässige Transaktionen"
+      ],
+      "calltoaction": "Erfahren Sie mehr über unsere Zahlungslösungen und verbessern Sie Ihre Zahlungsabwicklung noch heute"
+    },
+    {
+      "tag": "ach",
+      "title": "ACH-Lösungen",
+      "description": "Vereinfachen Sie Ihre Zahlungsprozesse mit unseren ACH-Lösungen. Verwalten Sie direkte Einzahlungen, Zahlungen an Lieferanten und andere Transaktionen einfach und sicher.",
+      "features": [
+        "Direkteinzahlungsdienste",
+        "Zahlungslösungen für Lieferanten",
+        "Wiederkehrende Zahlungen",
+        "Sichere und effiziente Verarbeitung",
+        "Detaillierte Transaktionsberichte"
+      ],
+      "calltoaction": "Entdecken Sie unsere ACH-Lösungen und optimieren Sie Ihre Zahlungsprozesse"
+    },
+    {
+      "tag": "industry",
+      "title": "Branchenspezifische Lösungen",
+      "description": "Wir bieten maßgeschneiderte Banklösungen, die den spezifischen Bedürfnissen verschiedener Branchen gerecht werden. Egal, ob Sie im Gesundheitswesen, Einzelhandel oder in der Fertigung tätig sind, wir haben die Expertise, um Ihr Unternehmen zu unterstützen.",
+      "features": [
+        "Branchenspezifische Banklösungen",
+        "Expertenrat in finanziellen Angelegenheiten",
+        "Maßgeschneiderte Finanzierungsoptionen",
+        "Cash-Management-Dienstleistungen",
+        "Spezialisierte Unterstützung für die Branche"
+      ],
+      "calltoaction": "Erforschen Sie unsere branchenspezifischen Lösungen und finden Sie die richtigen Bankdienstleistungen für Ihre Branche"
+    },
+    {
+      "tag": "small_business_loans",
+      "title": "Kredite für kleine Unternehmen",
+      "description": "Fördern Sie das Wachstum Ihres Unternehmens mit unseren Krediten für kleine Unternehmen. Wir bieten flexible Kreditoptionen, um Ihre Geschäftsbedürfnisse zu finanzieren, sei es für Expansion, Ausrüstung oder Betriebskapital.",
+      "features": [
+        "Wettbewerbsfähige Zinssätze",
+        "Flexible Rückzahlungsbedingungen",
+        "Schneller Genehmigungsprozess",
+        "Keine Vorfälligkeitsentschädigungen",
+        "Expertenrat für Kredite"
+      ],
+      "calltoaction": "Beantragen Sie noch heute einen Kredit für kleine Unternehmen und bringen Sie Ihr Geschäft auf die nächste Stufe"
+    },
+    {
+      "tag": "sba_loans",
+      "title": "Kredite der Small Business Administration (SBA)",
+      "description": "Unsere SBA-Kredite bieten staatlich unterstützte Finanzierungsmöglichkeiten für kleine Unternehmen. Nutzen Sie die niedrigeren Anzahlungen und längeren Rückzahlungsfristen, um Ihr Geschäft auszubauen.",
+      "features": [
+        "Niedrige Anzahlungen",
+        "Lange Rückzahlungsfristen",
+        "Wettbewerbsfähige Zinssätze",
+        "SBA-Kreditsachverstand",
+        "Flexible Kreditoptionen"
+      ],
+      "calltoaction": "Entdecken Sie unsere SBA-Kreditoptionen und finden Sie die richtige Finanzierungslösung für Ihr Unternehmen"
+    },
+    {
+      "tag": "usda_business_loans",
+      "title": "USDA Geschäftskredite",
+      "description": "Unsere USDA Geschäftskredite bieten Finanzierung für ländliche Unternehmen. Profitieren Sie von wettbewerbsfähigen Sätzen und Bedingungen, die darauf abzielen, die Geschäftsentwicklung in ländlichen Gebieten zu unterstützen.",
+      "features": [
+        "Wettbewerbsfähige Zinssätze",
+        "Lange Rückzahlungsfristen",
+        "Unterstützung für ländliche Unternehmen",
+        "Flexible Kreditoptionen",
+        "Fachkundige Kreditberatung"
+      ],
+      "calltoaction": "Beantragen Sie einen USDA Geschäftskredit und unterstützen Sie das Wachstum Ihres ländlichen Unternehmens"
+    },
+    {
+      "tag": "business_reliefs",
+      "title": "Unternehmenshilfsprogramme",
+      "description": "Wir bieten Unternehmenshilfsprogramme an, um Unternehmen in schwierigen Zeiten zu unterstützen. Greifen Sie auf Finanzierung und Ressourcen zu, um Ihrem Unternehmen zu helfen, sich zu erholen und zu gedeihen.",
+      "features": [
+        "Notfinanzierungsoptionen",
+        "Flexible Rückzahlungsbedingungen",
+        "Schneller Bewerbungsprozess",
+        "Fachkundige Finanzberatung",
+        "Unterstützende Ressourcen"
+      ],
+      "calltoaction": "Erfahren Sie mehr über unsere Unternehmenshilfsprogramme und finden Sie die Unterstützung, die Sie benötigen"
+    },
+    {
+      "tag": "real_estate",
+      "title": "Gewerbliche Immobilienkredite",
+      "description": "Finanzieren Sie Ihre Projekte für gewerbliche Immobilien mit unseren wettbewerbsfähigen Kreditoptionen. Ob Sie kaufen, renovieren oder refinanzieren, wir bieten Lösungen, die Ihren Bedürfnissen entsprechen.",
+      "features": [
+        "Wettbewerbsfähige Zinssätze",
+        "Flexible Kreditbedingungen",
+        "Schneller Genehmigungsprozess",
+        "Fachkundige Immobilienberatung",
+        "Verschiedene Kreditoptionen"
+      ],
+      "calltoaction": "Beantragen Sie einen gewerblichen Immobilienkredit und setzen Sie Ihre Immobilienpläne in die Tat um"
+    },
+    {
+      "tag": "equipment_loans",
+      "title": "Ausrüstungsdarlehen",
+      "description": "Verbessern Sie Ihre Geschäftstätigkeiten mit unseren Ausrüstungsdarlehen. Finanzieren Sie neue oder gebrauchte Ausrüstung mit flexiblen Bedingungen und wettbewerbsfähigen Zinsen, um Ihr Unternehmen reibungslos am Laufen zu halten.",
+      "features": [
+        "Wettbewerbsfähige Zinssätze",
+        "Flexible Rückzahlungsbedingungen",
+        "Schneller Genehmigungsprozess",
+        "Finanzierung für neue oder gebrauchte Ausrüstung",
+        "Fachkundige Kreditberatung"
+      ],
+      "calltoaction": "Beantragen Sie ein Ausrüstungsdarlehen und investieren Sie in die Zukunft Ihres Unternehmens"
+    },
+    {
+      "tag": "acquisition_loans",
+      "title": "Darlehen für Unternehmensakquisitionen",
+      "description": "Erweitern Sie Ihr Geschäft durch Akquisitionen mit unseren Darlehen für Unternehmensakquisitionen. Wir bieten Finanzierungslösungen, um Ihnen zu helfen, neue Unternehmen zu kaufen und zu integrieren.",
+      "features": [
+        "Wettbewerbsfähige Zinssätze",
+        "Flexible Kreditbedingungen",
+        "Schneller Genehmigungsprozess",
+        "Fachkundige Akquisitionsberatung",
+        "Verschiedene Kreditoptionen"
+      ],
+      "calltoaction": "Beantragen Sie ein Darlehen für Unternehmensakquisitionen und wachsen Sie Ihr Unternehmen durch strategische Akquisitionen"
+    },
+    {
+      "tag": "warehouse_lending",
+      "title": "Lagerfinanzierung",
+      "description": "Unsere Lagerfinanzierungslösungen bieten Finanzierung für Hypothekenbanken und andere Finanzinstitute. Greifen Sie auf flexible Finanzierungen zu, um Ihre Kreditoperationen zu unterstützen.",
+      "features": [
+        "Wettbewerbsfähige Zinssätze",
+        "Flexible Darlehensbedingungen",
+        "Schneller Genehmigungsprozess",
+        "Expertenrat für Finanzen",
+        "Anpassbare Lösungen"
+      ],
+      "calltoaction": "Entdecken Sie unsere Lagerfinanzierungsoptionen und unterstützen Sie Ihre Kreditoperationen"
+    },
+    {
+      "tag": "loan_support",
+      "title": "Unterstützung für Geschäftsdarlehen",
+      "description": "Erhalten Sie die Unterstützung, die Sie für Ihre Geschäftsdarlehen benötigen, mit unseren speziellen Dienstleistungen zur Unterstützung von Geschäftsdarlehen. Von der Antragstellung bis zur Rückzahlung sind wir hier, um Ihnen in jedem Schritt zu helfen.",
+      "features": [
+        "Expertenrat für Darlehen",
+        "Hilfe bei Darlehensanträgen",
+        "Flexible Rückzahlungsoptionen",
+        "Engagiertes Support-Team",
+        "Umfassende Ressourcen"
+      ],
+      "calltoaction": "Kontaktieren Sie unser Team für die Unterstützung von Geschäftsdarlehen noch heute und erhalten Sie die Hilfe, die Sie benötigen"
+    },
+    {
+      "tag": "first_home",
+      "title": "Erstkäufer von Eigenheimen",
+      "description": "Den eigenen ersten Wohnsitz zu kaufen, ist ein großer Schritt. Unser Programm für Erstkäufer von Eigenheimen bietet spezielle Finanzierungsoptionen und Unterstützung, um Ihnen zu helfen, Eigentum zu erlangen.",
+      "features": [
+        "Wettbewerbsfähige Zinssätze",
+        "Optionen für niedrige Anzahlung",
+        "Expertenrat für Hypotheken",
+        "Flexible Darlehensbedingungen",
+        "Bildungsressourcen für Käufer von Eigenheimen"
+      ],
+      "calltoaction": "Beantragen Sie unser Programm für Erstkäufer von Eigenheimen und machen Sie den ersten Schritt in Richtung Eigentum"
+    },
+    {
+      "tag": "down_payment",
+      "title": "Hilfe bei der Anzahlung",
+      "description": "Haben Sie Schwierigkeiten, für eine Anzahlung zu sparen? Unsere Programme zur Unterstützung bei der Anzahlung bieten Zuschüsse und zinsgünstige Darlehen, um Ihnen zu helfen, die Kosten Ihrer Anzahlung zu decken.",
+      "features": [
+        "Zuschüsse und zinsgünstige Darlehen",
+        "Flexible Rückzahlungsbedingungen",
+        "Expertenrat für Hypotheken",
+        "Schneller Genehmigungsprozess",
+        "Verschiedene Unterstützungsoptionen"
+      ],
+      "calltoaction": "Erfahren Sie mehr über unsere Programme zur Unterstützung bei der Anzahlung und machen Sie den Eigenheimkauf zugänglicher"
+    },
+    {
+      "tag": "rates",
+      "title": "Hypothekenzinsen",
+      "description": "Bleiben Sie informiert mit unseren wettbewerbsfähigen Hypothekenzinsen. Egal, ob Sie ein neues Zuhause kaufen oder refinanzieren, wir bieten Zinsen, die Ihren Bedürfnissen entsprechen.",
+      "features": [
+        "Wettbewerbsfähige Zinssätze",
+        "Verschiedene Darlehensoptionen",
+        "Regelmäßige Zinsaktualisierungen",
+        "Expertenrat für Hypotheken",
+        "Flexible Darlehensbedingungen"
+      ],
+      "calltoaction": "Überprüfen Sie unsere aktuellen Hypothekenzinsen und finden Sie den besten Zinssatz für Ihr Wohnungsdarlehen"
+    },
+    {
+      "tag": "fha_va_usda",
+      "title": "FHA-, VA- und USDA-Darlehen",
+      "description": "Wir bieten staatlich geförderte Darlehen, um Ihnen zu helfen, Ihr Zuhause zu finanzieren. Egal, ob Sie ein Erstkäufer, ein Veteran oder Käufer in ländlichen Gebieten sind, wir haben das richtige Darlehen für Sie.",
+      "features": [
+        "Optionen für niedrige Anzahlung",
+        "Wettbewerbsfähige Zinssätze",
+        "Flexible Darlehensbedingungen",
+        "Expertenrat für Hypotheken",
+        "Schneller Genehmigungsprozess"
+      ],
+      "calltoaction": "Entdecken Sie unsere Optionen für FHA-, VA- und USDA-Darlehen und finden Sie die beste Lösung für Ihre Wohnfinanzierungsbedürfnisse"
+    },
+    {
+      "tag": "jumbo_home_loans",
+      "title": "Jumbo-Hypothekendarlehen",
+      "description": "Für Käufer von Immobilien mit hohem Wert bieten unsere Jumbo-Hypothekendarlehen Finanzierungslösungen mit wettbewerbsfähigen Zinssätzen und Konditionen, die Ihren Bedürfnissen entsprechen.",
+      "features": [
+        "Wettbewerbsfähige Zinssätze",
+        "Flexible Darlehensbedingungen",
+        "Finanzierung für hochwertige Immobilien",
+        "Fachkundige Hypothekenberatung",
+        "Schneller Genehmigungsprozess"
+      ],
+      "calltoaction": "Beantragen Sie ein Jumbo-Hypothekendarlehen und finanzieren Sie Ihr Traumhaus mit Zuversicht"
+    },
+    {
+      "tag": "renovation_fha",
+      "title": "Renovierungs- & FHA 203(k) Darlehen",
+      "description": "Verwandeln Sie Ihr Zuhause mit unseren Renovierungs- und FHA 203(k) Darlehen. Finanzieren Sie Ihre Hausverbesserungen und Renovierungen mit flexiblen Darlehensoptionen.",
+      "features": [
+        "Wettbewerbsfähige Zinssätze",
+        "Finanzierung für Hausverbesserungen",
+        "Fachkundige Renovierungsberatung",
+        "Flexible Darlehensbedingungen",
+        "Schneller Genehmigungsprozess"
+      ],
+      "calltoaction": "Beantragen Sie ein Renovierungs- oder FHA 203(k) Darlehen und starten Sie noch heute Ihre Hausumgestaltung"
+    },
+    {
+      "tag": "equity_helocs",
+      "title": "Eigenheimdarlehen & HELOCs",
+      "description": "Nutzen Sie das Eigenkapital Ihres Hauses mit unseren Eigenheimdarlehen und Eigenheimlinien von Kredit (HELOCs). Verwenden Sie die Mittel für Hausverbesserungen, Schuldenkonsolidierung oder andere Ausgaben.",
+      "features": [
+        "Wettbewerbsfähige Zinssätze",
+        "Flexible Rückzahlungsbedingungen",
+        "Zugriff auf Mittel nach Bedarf",
+        "Fachkundige Finanzberatung",
+        "Schneller Genehmigungsprozess"
+      ],
+      "calltoaction": "Erfahren Sie mehr über unsere Eigenheimdarlehen und HELOCs und maximieren Sie den Wert Ihres Hauses"
+    },
+    {
+      "tag": "pay_for_me",
+      "title": "Hypothekenzahlung verwalten",
+      "description": "Verwalten Sie Ihre Hypothekenzahlungen bequem mit unserem Online-Zahlungssystem. Tätigen Sie Zahlungen, sehen Sie sich Kontoauszüge an und verfolgen Sie Ihre Zahlungshistorie ganz einfach.",
+      "features": [
+        "Sichere Online-Zahlungen",
+        "Einfacher Zugriff auf Kontoauszüge",
+        "Zahlungserinnerungen",
+        "Detaillierte Zahlungshistorie",
+        "Fachkundige Unterstützung"
+      ],
+      "calltoaction": "Melden Sie sich an, um Ihre Hypothekenzahlungen einfach zu verwalten"
+    },
+    {
+      "tag": "retail_offices",
+      "title": "Einzelhandelshypothekenbüros",
+      "description": "Besuchen Sie unsere Einzelhandelshypothekenbüros für persönliche Unterstützung bei Hypotheken. Unser kompetentes Personal hilft Ihnen gerne bei Ihren Finanzierungsbedürfnissen.",
+      "features": [
+        "Fachkundige Hypothekenberatung",
+        "Personalisierter Service",
+        "Bequeme Standorte",
+        "Umfassende Hypothekenlösungen",
+        "Persönliche Unterstützung"
+      ],
+      "calltoaction": "Finden Sie ein Einzelhandelshypothekenbüro in Ihrer Nähe und erhalten Sie die persönliche Hilfe, die Sie benötigen"
+    }
+  ]
+}

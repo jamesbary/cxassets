@@ -1,0 +1,173 @@
+{
+  "hero": {
+    "heading": "Banca de Inversión",
+    "sub": "Experimente el futuro de la banca y la inversión moderna con soluciones adaptadas a sus necesidades",
+    "action": "Comenzar",
+    "more": "Saber más"
+  },
+  "about": {
+    "heading": "Quiénes Somos",
+    "description": "Su socio para asegurar y hacer crecer sus finanzas e inversiones",
+    "items": [
+      {
+        "title": "Misión",
+        "description": "Revolucionamos la gestión financiera mediante tecnología avanzada y un excelente servicio al cliente.",
+        "icon": "mission"
+      },
+      {
+        "title": "Valores",
+        "description": "Garantizamos la protección de datos, altos rendimientos con bajas tarifas, seguimiento financiero en tiempo real y un excelente soporte al cliente.",
+        "icon": "value"
+      }
+    ]
+  },
+  "features": {
+    "heading": "Por Qué Elegirnos",
+    "description": "Todas las herramientas de banca e inversión que necesita en una sola plataforma",
+    "items": [
+      {
+        "title": "Seguridad",
+        "description": "Proteja sus datos con encriptación de última generación.",
+        "icon": "admin"
+      },
+      {
+        "title": "Bajas Tarifas, Altos Rendimientos",
+        "description": "Benefíciese de tarifas bajas y tasas de interés competitivas.",
+        "icon": "billing"
+      },
+      {
+        "title": "Gestión en Tiempo Real",
+        "description": "Siga sus transacciones y el crecimiento de sus inversiones en tiempo real.",
+        "icon": "convenience"
+      },
+      {
+        "title": "Soporte 24/7",
+        "description": "Siempre estamos disponibles para ayudarle con sus consultas.",
+        "icon": "support"
+      }
+    ]
+  },
+  "pages": {
+    "career": {
+      "title": "Carrera",
+      "description": "Cómo involucrarse y unirse al equipo",
+      "href": "/career"
+    },
+    "about": {
+      "title": "Sobre Nosotros",
+      "description": "Conozca más sobre nuestra empresa y misión",
+      "href": "/about"
+    },
+    "contact": {
+      "title": "Contáctenos",
+      "description": "Hable con un agente de soporte",
+      "href": "/contact"
+    }
+  },
+  "home_support": {
+    "email": "Dirección de correo electrónico",
+    "message": "Mensaje",
+    "send": "Enviar mensaje",
+    "success": "Mensaje enviado con éxito"
+  },
+  "service": {
+    "action": "Explorar opciones",
+    "four": { "title": "Servicios hipotecarios" },
+    "one": {
+      "description": "Desde cuentas corrientes y de ahorro hasta banca por Internet y pago de facturas, administre sus finanzas con facilidad. Disfrute de la comodidad del acceso las 24 horas del día, los 7 días de la semana a sus cuentas, transacciones seguras y herramientas financieras personalizadas.",
+      "title": "Banca personal"
+    },
+    "three": { "title": "Soluciones de préstamos" },
+    "two": { "title": "Servicios hipotecarios" }
+  },
+  "services": [
+    {
+      "title": "Banca personal",
+      "href": "/personal",
+      "description": "Desde cuentas corrientes y de ahorro hasta banca por Internet y pago de facturas, administre sus finanzas con facilidad. Disfrute de la comodidad de estar disponible las 24 horas, los 7 días de la semana acceso a sus cuentas, transacciones seguras y herramientas financieras personalizadas.",
+      "icon": "user",
+      "items": [
+        {
+          "title": "Cuentas corrientes",
+          "description": "Simplifique sus transacciones diarias con nuestro sistema flexible y cuentas corrientes sin comisiones."
+        },
+        {
+          "title": "Cuentas de ahorros",
+          "description": "Haga crecer sus ahorros con tasas de interés competitivas y fácil acceso a sus fondos."
+        },
+        {
+          "title": "Banca por Internet ",
+          "description": "Administre sus finanzas desde cualquier lugar y en cualquier momento, con nuestra plataforma de banca en línea fácil de usar."
+        },
+        {
+          "title": "Pago de facturas",
+          "description": "Pague sus facturas de forma rápida y segura , sin la molestia de los estados de cuenta en papel."
+        }
+      ]
+    },
+    {
+      "title": "Banca empresarial",
+      "href": "/business",
+      "description": "Soluciones personalizadas que incluyen cuentas comerciales, banca por Internet y gestión de tesorería. Potencie su empresa con herramientas que agilizan las operaciones y mejoran la eficiencia financiera.",
+      "icon": "maletín",
+      "items": [
+        {
+          "title": "Cuentas comerciales",
+          "description": "Mantenga las finanzas de su empresa organizadas con nuestras opciones integrales de cuentas comerciales."
+        },
+        {
+          "title": "Banca por Internet para empresas",
+          "description": "Supervise las finanzas de su empresa y realice transacciones sin esfuerzo con nuestra banca en línea segura."
+        },
+        {
+          "title": "Gestión de tesorería",
+          "description": "Optimice su flujo de caja y administre sus activos de manera efectiva con nuestros servicios avanzados de tesorería."
+        }
+      ]
+    },
+    {
+      "title": "Soluciones de préstamos",
+      "href": "/lending",
+      "description": " Acceda a una variedad de préstamos para pequeñas empresas, emprendimientos comerciales e hipotecas personales. Ya sea que esté ampliando su negocio o comprando la casa de sus sueños, ofrecemos opciones de préstamos flexibles para satisfacer sus necesidades.",
+      "icon": "dollarSign",
+      "items": [
+        {
+          "title": "Préstamos para pequeñas empresas",
+          " descripción": "Obtenga el financiamiento que necesita para hacer crecer su pequeña empresa con nuestras soluciones de préstamos personalizados."
+        },
+        {
+          "title": "Financiamiento comercial",
+          "description": "Asegure financiamiento para sus proyectos comerciales con nuestras competitivas opciones de préstamos. "
+        },
+        {
+          "title": "Hipotecas personales",
+          "description": "Elija entre una variedad de productos hipotecarios diseñados para adaptarse a su situación financiera y objetivos de propiedad de vivienda."
+        }
+      ]
+    },
+    {
+      "title": "Servicios hipotecarios",
+      "href": "/mortgage",
+      "description": "Encuentre el producto hipotecario adecuado, ya sea que compre una vivienda por primera vez o busque financiación especializada. Benefíciese de nuestro asesoramiento experto y tarifas competitivas para que su proceso de compra de vivienda sea sencillo y sin estrés.",
+      "icon": "hipoteca",
+      "items": [
+        {
+          "title": "Compradores de vivienda por primera vez",
+          "description ": "Navegue por el proceso de compra de una vivienda con confianza con nuestros programas para compradores de vivienda por primera vez."
+        },
+        {
+          "title": "Asistencia para el pago inicial",
+          "description": "Aproveche nuestros programas de asistencia para que la compra de su vivienda sea más asequible ."
+        },
+        {
+          "title": "Hipotecas especializadas",
+          "description": "Explore nuestra gama de préstamos FHA, VA, USDA y jumbo adaptados a sus necesidades únicas."
+        }
+      ]
+    }
+  ],
+  "service_title": "Servicios",
+  "support_desc": "Contáctenos o utilice nuestros recursos para navegar por la plataforma y tomar el control de sus operaciones bancarias e inversiones.",
+  "support_more": "Preguntas frecuentes",
+  "support_title": "Apoyo"
+}

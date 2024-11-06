@@ -1,0 +1,212 @@
+{
+  "error": {
+    "title": "Etwas ist schiefgegangen!",
+    "cancel": "Abbrechen",
+    "toHome": "Zurück zur Startseite",
+    "retry": "Erneut versuchen"
+  },
+  "notfound": {
+    "title": "Nicht gefunden",
+    "desc": "Ressource konnte nicht gefunden werden",
+    "toHome": "Zurück zur Startseite",
+    "retry": "Erneut versuchen"
+  },
+  "services": [
+    {
+      "title": "Privatbanking",
+      "href": "/personal",
+      "description": "Von Giro- und Sparkonten bis hin zu Internetbanking und Rechnungszahlung, verwalten Sie Ihre Finanzen mühelos. Genießen Sie den Komfort eines 24/7-Zugangs zu Ihren Konten, sichere Transaktionen und personalisierte Finanzinstrumente.",
+      "icon": "user",
+      "items": [
+        {
+          "title": "Girokonten",
+          "description": "Vereinfachen Sie Ihre täglichen Transaktionen mit unseren flexiblen und gebührenfreien Girokonten."
+        },
+        {
+          "title": "Sparkonten",
+          "description": "Steigern Sie Ihre Ersparnisse mit wettbewerbsfähigen Zinssätzen und einfachem Zugang zu Ihren Mitteln."
+        },
+        {
+          "title": "Internetbanking",
+          "description": "Verwalten Sie Ihre Finanzen von überall, jederzeit, mit unserer benutzerfreundlichen Online-Banking-Plattform."
+        },
+        {
+          "title": "Rechnungszahlung",
+          "description": "Bezahlen Sie Ihre Rechnungen schnell und sicher, ohne den Aufwand von Papierabrechnungen."
+        }
+      ]
+    },
+    {
+      "title": "Geschäftsbanking",
+      "href": "/business",
+      "description": "Maßgeschneiderte Lösungen einschließlich Geschäftskonten, Internetbanking und Treasury-Management. Stärken Sie Ihr Unternehmen mit Tools, die die Abläufe optimieren und die finanzielle Effizienz steigern.",
+      "icon": "briefcase",
+      "items": [
+        {
+          "title": "Geschäftskonten",
+          "description": "Halten Sie Ihre Unternehmensfinanzen organisiert mit unseren umfassenden Geschäftskontooptionen."
+        },
+        {
+          "title": "Geschäfts-Internetbanking",
+          "description": "Überwachen Sie Ihre Unternehmensfinanzen und führen Sie Transaktionen mühelos mit unserem sicheren Online-Banking durch."
+        },
+        {
+          "title": "Treasury-Management",
+          "description": "Optimieren Sie Ihren Cashflow und verwalten Sie Ihre Vermögenswerte effektiv mit unseren fortschrittlichen Treasury-Dienstleistungen."
+        }
+      ]
+    },
+    {
+      "title": "Kreditlösungen",
+      "href": "/lending",
+      "description": "Zugang zu einer Vielzahl von Krediten für kleine Unternehmen, kommerzielle Projekte und private Hypotheken. Egal, ob Sie Ihr Geschäft erweitern oder Ihr Traumhaus kaufen, wir bieten flexible Kreditoptionen, um Ihren Bedürfnissen gerecht zu werden.",
+      "icon": "dollarSign",
+      "items": [
+        {
+          "title": "Kredite für kleine Unternehmen",
+          "description": "Erhalten Sie die Finanzierung, die Sie benötigen, um Ihr kleines Unternehmen mit unseren maßgeschneiderten Kreditlösungen zu erweitern."
+        },
+        {
+          "title": "Kommerzielle Finanzierung",
+          "description": "Sichern Sie die Finanzierung für Ihre kommerziellen Projekte mit unseren wettbewerbsfähigen Kreditoptionen."
+        },
+        {
+          "title": "Private Hypotheken",
+          "description": "Wählen Sie aus einer Reihe von Hypothekenprodukten, die auf Ihre finanzielle Situation und Ihre Ziele beim Hauskauf zugeschnitten sind."
+        }
+      ]
+    },
+    {
+      "title": "Hypothekendienstleistungen",
+      "href": "/mortgage",
+      "description": "Finden Sie das richtige Hypothekenprodukt, egal ob Sie ein Ersterwerber sind oder spezielle Finanzierungen suchen. Profitieren Sie von unserer fachkundigen Beratung und wettbewerbsfähigen Zinssätzen, um Ihren Hauskauf reibungslos und stressfrei zu gestalten.",
+      "icon": "mortgage",
+      "items": [
+        {
+          "title": "Ersterwerber",
+          "description": "Navigieren Sie den Hauskaufprozess mit Vertrauen mit unseren Programmen für Ersterwerber."
+        },
+        {
+          "title": "Unterstützung bei der Anzahlung",
+          "description": "Nutzen Sie unsere Unterstützungsprogramme, um den Hauskauf erschwinglicher zu machen."
+        },
+        {
+          "title": "Spezialisierte Hypotheken",
+          "description": "Entdecken Sie unsere Palette an FHA-, VA-, USDA- und Jumbo-Darlehen, die auf Ihre einzigartigen Bedürfnisse zugeschnitten sind."
+        }
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "title": "Allgemeines Banking",
+      "items": [
+        {
+          "question": "Wie eröffne ich ein neues Konto?",
+          "answer": "Um ein neues Konto zu eröffnen, besuchen Sie unsere Filiale oder gehen Sie auf unsere Website, klicken Sie auf 'Loslegen' und füllen Sie das Formular aus. Wählen Sie dann den gewünschten Kontotyp aus."
+        },
+        {
+          "question": "Welche Arten von Konten bieten Sie an?",
+          "answer": "Wir bieten eine Vielzahl von Konten an, darunter Privatgirokonten, Sparkonten, Geschäftskonten und mehr. Besuchen Sie unsere Website oder kontaktieren Sie uns für weitere Details zu den einzelnen Kontotypen."
+        },
+        {
+          "question": "Wie finde ich meine Kontonummer?",
+          "answer": "Ihre Kontonummer finden Sie auf Ihrem Kontoauszug, im Dashboard des Online-Banking-Portals oder indem Sie den Kundenservice kontaktieren."
+        },
+        {
+          "question": "Was soll ich tun, wenn ich meine Bankkarte verliere?",
+          "answer": "Wenn Sie Ihre Bankkarte verlieren, kontaktieren Sie uns sofort, um den Verlust zu melden und eine Ersatzkarte zu beantragen. Sie können Ihre Karte auch vorübergehend über unsere mobile App sperren."
+        }
+      ]
+    },
+    {
+      "title": "Girokonten",
+      "items": [
+        {
+          "question": "Welche Vorteile bietet ein Girokonto?",
+          "answer": "Unsere Girokonten bieten Vorteile wie einfachen Zugriff auf Ihr Geld, Online-Banking, mobile Einzahlungen und mehr. Die spezifischen Funktionen können je nach Kontotyp variieren."
+        },
+        {
+          "question": "Sind mit Girokonten Gebühren verbunden?",
+          "answer": "Einige Girokonten können monatliche Wartungsgebühren, Überziehungsgebühren oder Geldautomatengebühren haben. Bitte überprüfen Sie unseren Gebührenplan oder kontaktieren Sie uns für Details zu den einzelnen Konten."
+        },
+        {
+          "question": "Wie kann ich Überziehungsgebühren vermeiden?",
+          "answer": "Um Überziehungsgebühren zu vermeiden, verfolgen Sie Ihr Kontoguthaben, richten Sie Guthabenwarnungen ein und erwägen Sie die Anmeldung für Überziehungsschutz."
+        }
+      ]
+    },
+    {
+      "title": "Sparkonten",
+      "items": [
+        {
+          "question": "Welches Mindestguthaben ist für ein Sparkonto erforderlich?",
+          "answer": "Es gibt keins."
+        },
+        {
+          "question": "Wie oft kann ich von meinem Sparkonto abheben?",
+          "answer": "Bundesvorschriften beschränken bestimmte Arten von Abhebungen und Überweisungen von Sparkonten auf sechs pro Monat. Für weitere Informationen lesen Sie bitte unsere Geschäftsbedingungen für Sparkonten."
+        },
+        {
+          "question": "Gibt es Gebühren für Sparkonten?",
+          "answer": "Einige Sparkonten können monatliche Wartungsgebühren haben, wenn das Mindestguthaben nicht eingehalten wird. Bitte überprüfen Sie unseren Gebührenplan für Details."
+        }
+      ]
+    },
+    {
+      "title": "Internet-Banking",
+      "items": [
+        {
+          "question": "Wie melde ich mich für das Internet-Banking an?",
+          "answer": "Registrieren Sie sich einfach und aktivieren Sie den gewünschten Kontotyp, um nahtloses Internet-Banking zu genießen."
+        },
+        {
+          "question": "Welche Funktionen sind im Internet-Banking verfügbar?",
+          "answer": "Das Internet-Banking ermöglicht Ihnen die Ansicht von Kontosalden, Überweisungen, Rechnungszahlungen, Kontoauszüge und mehr."
+        },
+        {
+          "question": "Ist Internet-Banking sicher?",
+          "answer": "Ja, wir verwenden fortschrittliche Sicherheitsmaßnahmen wie Verschlüsselung und Mehrfaktor-Authentifizierung, um Ihre Informationen zu schützen."
+        }
+      ]
+    },
+    {
+      "title": "Hypothekendarlehen",
+      "items": [
+        {
+          "question": "Welche Arten von Hypothekendarlehen bieten Sie an?",
+          "answer": "Wir bieten eine Vielzahl von Hypothekendarlehen an, darunter Festzins-Hypotheken, Hypotheken mit variablem Zinssatz, FHA-Darlehen, VA-Darlehen und mehr."
+        },
+        {
+          "question": "Wie beantrage ich ein Hypothekendarlehen?",
+          "answer": "Um ein Hypothekendarlehen zu beantragen, besuchen Sie unsere Website oder kontaktieren Sie einen unserer Hypothekenspezialisten, um den Antragsprozess zu starten."
+        },
+        {
+          "question": "Welche Dokumente benötige ich, um ein Hypothekendarlehen zu beantragen?",
+          "answer": "Zu den üblicherweise erforderlichen Dokumenten gehören Einkommensnachweise, Steuererklärungen, Kontoauszüge und Ausweisdokumente. Abhängig von Ihrer speziellen Situation können zusätzliche Dokumente erforderlich sein."
+        },
+        {
+          "question": "Wie lange dauert die Genehmigung eines Hypothekendarlehens?",
+          "answer": "Der Genehmigungsprozess kann variieren, dauert jedoch normalerweise 30 bis 45 Tage. Das Bereitstellen vollständiger und genauer Informationen kann den Prozess beschleunigen."
+        }
+      ]
+    },
+    {
+      "title": "Kundensupport",
+      "items": [
+        {
+          "question": "Wie kann ich den Kundensupport kontaktieren?",
+          "answer": "Sie können den Kundensupport über unsere Support-Seite kontaktieren."
+        },
+        {
+          "question": "Wie sind die Öffnungszeiten des Kundensupports?",
+          "answer": "Der Kundensupport ist von Montag bis Freitag von 9:00 bis 17:00 Uhr verfügbar. Außerhalb der Geschäftszeiten steht Support für dringende Anliegen zur Verfügung."
+        },
+        {
+          "question": "Wie kann ich einen Streitfall mit einer Transaktion lösen?",
+          "answer": "Um einen Streitfall zu lösen, kontaktieren Sie den Kundensupport mit den Details der betreffenden Transaktion. Wir werden den Fall untersuchen und Ihnen bei der Lösung des Problems helfen."
+        }
+      ]
+    }
+  ]
+}

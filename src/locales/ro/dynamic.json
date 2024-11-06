@@ -1,0 +1,420 @@
+{
+  "sub": [
+    {
+      "tag": "checking",
+      "title": "Conturi Curente Personale",
+      "description": "Conturile noastre curente personale oferă un mod convenabil de a-ți gestiona finanțele zilnice. Cu funcții precum internet banking, depunere de cecuri prin telefon mobil și fără comisioane lunare de întreținere, conturile noastre curente sunt concepute pentru a se potrivi stilului tău de viață.",
+      "features": [
+        "Fără comisioane lunare de întreținere",
+        "Internet banking și mobile banking gratuit",
+        "Depunere de cecuri prin telefon mobil",
+        "Acces la mii de bancomate la nivel național",
+        "Opțiuni de protecție împotriva descoperirii de cont"
+      ],
+      "calltoaction": "Deschide un cont astăzi și preia controlul finanțelor tale cu ușurință"
+    },
+    {
+      "tag": "savings",
+      "title": "Conturi de Economii Personale",
+      "description": "Începe să economisești pentru viitorul tău cu conturile noastre de economii personale. Câștigă rate de dobândă competitive având acces ușor la fondurile tale. Conturile noastre de economii sunt concepute pentru a te ajuta să îți atingi obiectivele financiare.",
+      "features": [
+        "Fără comisioane lunare de întreținere",
+        "Rate de dobândă competitive",
+        "Acces facil la fondurile tale",
+        "Internet banking și mobile banking",
+        "Transferuri automate din contul tău curent"
+      ],
+      "calltoaction": "Începe călătoria ta de economisire cu noi. Deschide un cont de economii acum"
+    },
+    {
+      "tag": "cards",
+      "title": "Carduri Bancare",
+      "description": "Gama noastră de carduri bancare îți oferă flexibilitatea și securitatea de care ai nevoie pentru toate tranzacțiile tale. Indiferent dacă preferi cardurile de debit sau de credit, avem opțiunea potrivită pentru tine cu diverse recompense și beneficii.",
+      "features": [
+        "Fără comisioane anuale",
+        "Tranzacții online sigure",
+        "Programe de recompense",
+        "Acceptare la nivel mondial",
+        "Suport clienți 24/7"
+      ],
+      "calltoaction": "Alege cardul care se potrivește cel mai bine nevoilor tale și începe să te bucuri de beneficii astăzi"
+    },
+    {
+      "tag": "internet_banking",
+      "title": "Internet Banking",
+      "description": "Serviciul nostru de Internet Banking îți oferă acces securizat și ușor la conturile tale oricând și oriunde. Gestionează-ți finanțele, plătește facturi, transferă fonduri și multe altele cu doar câteva clicuri.",
+      "features": [
+        "Servicii de plată a facturilor",
+        "Transferuri de fonduri",
+        "Istoric al tranzacțiilor",
+        "Interfață sigură și ușor de utilizat",
+        "Suport clienți 24/7"
+      ],
+      "calltoaction": "Înscrie-te pentru Internet Banking și preia controlul asupra finanțelor tale din confortul casei tale"
+    },
+    {
+      "tag": "bill_payment",
+      "title": "Plata Facturilor",
+      "description": "Simplifică-ți viața cu serviciul nostru de plată a facturilor. Plătește toate facturile dintr-un singur loc rapid și în siguranță. Nu mai rata niciodată o dată scadentă cu plăți automate și mementouri.",
+      "features": [
+        "Plătește facturile online",
+        "Configurează plăți automate",
+        "Primește mementouri de plată",
+        "Tranzacții sigure",
+        "Urmărește istoricul plăților tale"
+      ],
+      "calltoaction": "Înregistrează-te pentru serviciul de plată a facturilor astăzi și gestionează toate facturile tale cu ușurință"
+    },
+    {
+      "tag": "ussd_banking",
+      "title": "Bancă USSD",
+      "description": "Experimentează confortul bancar în mișcare cu serviciul nostru de Bancă USSD. Accesează-ți contul, verifică soldurile, transferă fonduri și multe altele folosind coduri USSD simple pe telefonul tău mobil.",
+      "features": [
+        "Nu este necesar internet",
+        "Acces instantaneu la informațiile contului",
+        "Transferuri de fonduri și plăți de facturi",
+        "Securizat și convenabil",
+        "Disponibil pe toate rețelele mobile"
+      ],
+      "calltoaction": "Deschide un cont și începe să folosești codul nostru USSD acum pentru o experiență bancară fără probleme în mișcare"
+    },
+    {
+      "tag": "home_loans",
+      "title": "Împrumuturi pentru Casă",
+      "description": "Dorești să cumpări casa visurilor tale? Împrumuturile noastre pentru casă oferă rate competitive și termeni flexibili pentru a te ajuta să devii proprietar. Fie că ești un cumpărător pentru prima dată sau cauți să refinanțezi, avem soluția potrivită pentru tine.",
+      "features": [
+        "Rate de interes competitive",
+        "Termeni de rambursare flexibili",
+        "Proces de aplicare rapid și simplu",
+        "Consultanță expertă în credite ipotecare",
+        "Diverse opțiuni de împrumut"
+      ],
+      "calltoaction": "Aplică pentru un împrumut pentru casă astăzi și fă primul pas către proprietatea casei tale"
+    },
+    {
+      "tag": "resource_center",
+      "title": "Centru de Resurse",
+      "description": "Centrul nostru de Resurse este locul tău de referință pentru educație și sfaturi financiare. Găsește articole, ghiduri și instrumente care te pot ajuta să iei decizii financiare informate și să-ți îmbunătățești bunăstarea financiară.",
+      "features": [
+        "Articole și ghiduri financiare",
+        "Instrumente de bugetare",
+        "Sfaturi pentru investiții",
+        "Consultanță în gestionarea creditului",
+        "Calculatoare pentru credite ipotecare"
+      ],
+      "calltoaction": "Vizitează Centrul nostru de Resurse și începe-ți călătoria spre educația și securitatea financiară"
+    },
+    {
+      "tag": "deposit_rates",
+      "title": "Rate de Depozit",
+      "description": "Rămâi la curent cu ratele noastre competitive de depozit. Oferim rate atractive pentru conturi de economii, depozite pe termen fix și alte produse de investiție pentru a te ajuta să-ți crești banii.",
+      "features": [
+        "Rate de interes competitive",
+        "Termeni de depozit flexibili",
+        "Actualizări regulate",
+        "Investiții securizate",
+        "Consultanță financiară expertă"
+      ],
+      "calltoaction": "Verifică ratele noastre de depozit actuale și începe să câștigi mai mult din economiile tale"
+    },
+    {
+      "tag": "accounts",
+      "title": "Conturi pentru Afaceri",
+      "description": "Conturile noastre pentru afaceri sunt concepute pentru a răspunde nevoilor companiilor de toate dimensiunile. Gestionează-ți finanțele afacerii eficient cu funcții personalizate pentru a susține creșterea și succesul tău.",
+      "features": [
+        "Fără taxe lunare de întreținere",
+        "Bancă online și mobilă",
+        "Acces pentru mai mulți utilizatori",
+        "Carduri de debit pentru afaceri",
+        "Opțiuni de protecție la descoperit"
+      ],
+      "calltoaction": "Deschide un Cont pentru Afaceri astăzi și eficientizează-ți operațiunile de afaceri"
+    },
+    {
+      "tag": "treasury",
+      "title": "Managementul Trezoreriei",
+      "description": "Optimizează fluxul de numerar și gestionează lichiditatea cu serviciile noastre de Management al Trezoreriei. Soluțiile noastre sunt concepute pentru a te ajuta să maximizezi capitalul de lucru și să minimizezi riscurile.",
+      "features": [
+        "Concentrarea și distribuția numerarului",
+        "Managementul lichidității",
+        "Instrumente de prevenire a fraudelor",
+        "Raportare cuprinzătoare",
+        "Suport dedicat pentru managementul trezoreriei"
+      ],
+      "calltoaction": "Explorează serviciile noastre de Management al Trezoreriei și preia controlul asupra strategiei tale financiare"
+    },
+    {
+      "tag": "payment",
+      "title": "Soluții de Plată",
+      "description": "Îmbunătățește procesarea plăților cu Soluțiile noastre de Plată. Oferim o varietate de opțiuni pentru a te ajuta să gestionezi și să eficientizezi plățile.",
+      "features": [
+        "Servicii pentru comercianți",
+        "Procesare plăți ACH",
+        "Captura de depuneri de la distanță",
+        "Soluții de plată mobilă",
+        "Tranzacții securizate și fiabile"
+      ],
+      "calltoaction": "Află mai multe despre Soluțiile noastre de Plată și îmbunătățește procesarea plăților astăzi"
+    },
+    {
+      "tag": "ach",
+      "title": "Soluții ACH",
+      "description": "Simplifică procesele de plată cu Soluțiile noastre ACH. Gestionează depozitele directe, plățile către furnizori și alte tranzacții cu ușurință și securitate.",
+      "features": [
+        "Servicii de depozit direct",
+        "Soluții pentru plățile către furnizori",
+        "Plăți recurente",
+        "Procesare sigură și eficientă",
+        "Rapoarte detaliate ale tranzacțiilor"
+      ],
+      "calltoaction": "Descoperă Soluțiile noastre ACH și eficientizează procesele de plată"
+    },
+    {
+      "tag": "industry",
+      "title": "Soluții pentru Industrie",
+      "description": "Oferim soluții bancare personalizate pentru a răspunde nevoilor unice ale diferitelor industrii. Indiferent dacă ești în domeniul sănătății, retail sau manufacturing, avem expertiza necesară pentru a sprijini afacerea ta.",
+      "features": [
+        "Soluții bancare specifice industriei",
+        "Consiliere financiară de specialitate",
+        "Opțiuni de finanțare personalizate",
+        "Servicii de gestionare a numerarului",
+        "Suport specializat pentru industrie"
+      ],
+      "calltoaction": "Explorează Soluțiile noastre pentru Industrie și găsește serviciile bancare potrivite pentru domeniul tău"
+    },
+    {
+      "tag": "small_business_loans",
+      "title": "Împrumuturi pentru Micile Afaceri",
+      "description": "Susține creșterea afacerii tale cu Împrumuturile pentru Micile Afaceri. Oferim opțiuni de împrumut flexibile pentru a te ajuta să finanțezi nevoile afacerii tale, fie că este vorba despre expansiune, echipamente sau capital de lucru.",
+      "features": [
+        "Rate de dobândă competitive",
+        "Termeni de rambursare flexibili",
+        "Proces rapid de aprobat",
+        "Fără penalizări pentru rambursare anticipată",
+        "Consiliere de specialitate pentru împrumuturi"
+      ],
+      "calltoaction": "Aplică pentru un Împrumut pentru Micile Afaceri astăzi și du-ți afacerea la nivelul următor"
+    },
+    {
+      "tag": "sba_loans",
+      "title": "Împrumuturi de la Small Business Administration (SBA)",
+      "description": "Împrumuturile noastre SBA oferă opțiuni de finanțare garantate de guvern pentru întreprinderile mici. Profită de avansuri mici și termene de rambursare mai lungi pentru a-ți dezvolta afacerea.",
+      "features": [
+        "Avansuri mici",
+        "Termene lungi de rambursare",
+        "Rate de dobândă competitive",
+        "Expertiză în împrumuturile SBA",
+        "Opțiuni de împrumut flexibile"
+      ],
+      "calltoaction": "Explorează opțiunile noastre de împrumut SBA și găsește soluția de finanțare potrivită pentru afacerea ta"
+    },
+    {
+      "tag": "usda_business_loans",
+      "title": "Împrumuturi pentru Afaceri USDA",
+      "description": "Împrumuturile noastre pentru afaceri USDA oferă finanțare pentru afaceri rurale. Beneficiază de rate și condiții competitive concepute pentru a sprijini dezvoltarea afacerilor în zonele rurale.",
+      "features": [
+        "Rate de dobândă competitive",
+        "Termene lungi de rambursare",
+        "Sprijin pentru afaceri rurale",
+        "Opțiuni de împrumut flexibile",
+        "Consiliere expertă în împrumuturi"
+      ],
+      "calltoaction": "Aplică pentru un împrumut pentru afaceri USDA și susține creșterea afacerii tale rurale"
+    },
+    {
+      "tag": "business_reliefs",
+      "title": "Programe de Sprijin pentru Afaceri",
+      "description": "Oferim programe de sprijin pentru afaceri pentru a ajuta întreprinderile în perioade dificile. Accesează finanțare și resurse pentru a-ți ajuta afacerea să se recupereze și să prospere.",
+      "features": [
+        "Opțiuni de finanțare de urgență",
+        "Termene flexibile de rambursare",
+        "Proces rapid de aplicare",
+        "Consiliere financiară expertă",
+        "Resurse de sprijin"
+      ],
+      "calltoaction": "Află mai multe despre programele noastre de sprijin pentru afaceri și găsește suportul de care ai nevoie"
+    },
+    {
+      "tag": "real_estate",
+      "title": "Împrumuturi pentru Imobile Comerciale",
+      "description": "Finanțează-ți proiectele imobiliare comerciale cu opțiunile noastre competitive de împrumut. Fie că cumperi, renovezi sau refinanțezi, oferim soluții care să-ți satisfacă nevoile.",
+      "features": [
+        "Rate de dobândă competitive",
+        "Termeni flexibili de împrumut",
+        "Proces rapid de aprobat",
+        "Consiliere expertă în imobiliare",
+        "Diverse opțiuni de împrumut"
+      ],
+      "calltoaction": "Aplică pentru un împrumut pentru imobile comerciale și transformă-ți planurile în realitate"
+    },
+    {
+      "tag": "equipment_loans",
+      "title": "Împrumuturi pentru Echipamente",
+      "description": "Îmbunătățește-ți operațiunile de afaceri cu împrumuturile noastre pentru echipamente. Finanțează echipamente noi sau folosite cu termeni flexibili și rate competitive pentru a menține afacerea ta pe drumul cel bun.",
+      "features": [
+        "Rate de dobândă competitive",
+        "Termeni flexibili de rambursare",
+        "Proces rapid de aprobat",
+        "Finanțare pentru echipamente noi sau folosite",
+        "Consiliere expertă în împrumuturi"
+      ],
+      "calltoaction": "Aplică pentru un împrumut pentru echipamente și investește în viitorul afacerii tale"
+    },
+    {
+      "tag": "acquisition_loans",
+      "title": "Împrumuturi pentru Achiziții de Afaceri",
+      "description": "Extinde-ți afacerea prin achiziții cu împrumuturile noastre pentru achiziții de afaceri. Oferim soluții de finanțare pentru a te ajuta să achiziționezi și să integrezi noi afaceri.",
+      "features": [
+        "Rate de dobândă competitive",
+        "Termeni flexibili de împrumut",
+        "Proces rapid de aprobat",
+        "Consiliere expertă în achiziții",
+        "Diverse opțiuni de împrumut"
+      ],
+      "calltoaction": "Aplică pentru un împrumut pentru achiziții de afaceri și dezvoltă-ți afacerea prin achiziții strategice"
+    },
+    {
+      "tag": "warehouse_lending",
+      "title": "Împrumuturi de Depozit",
+      "description": "Soluțiile noastre de împrumuturi de depozit oferă finanțare pentru bancherii ipotecari și alte instituții financiare. Accesați finanțare flexibilă pentru a susține operațiunile de împrumut.",
+      "features": [
+        "Rate de interes competitive",
+        "Termeni flexibili de împrumut",
+        "Proces rapid de aprobat",
+        "Consultanță financiară de specialitate",
+        "Soluții personalizabile"
+      ],
+      "calltoaction": "Explorați opțiunile noastre de împrumuturi de depozit și susțineți operațiunile de împrumut"
+    },
+    {
+      "tag": "loan_support",
+      "title": "Asistență pentru Împrumuturi de Afaceri",
+      "description": "Obțineți sprijinul de care aveți nevoie pentru împrumuturile de afaceri cu serviciile noastre dedicate de asistență. De la aplicare până la rambursare, suntem aici să vă ajutăm în fiecare pas.",
+      "features": [
+        "Consultanță expertă pentru împrumuturi",
+        "Asistență pentru aplicațiile de împrumut",
+        "Opțiuni flexibile de rambursare",
+        "Echipă de suport dedicată",
+        "Resurse cuprinzătoare"
+      ],
+      "calltoaction": "Contactați astăzi echipa noastră de asistență pentru împrumuturi de afaceri și obțineți ajutorul de care aveți nevoie"
+    },
+    {
+      "tag": "first_home",
+      "title": "Cumpărători de Primă Casă",
+      "description": "Cumpărarea primei case este un pas important. Programul nostru pentru cumpărătorii de primă casă oferă opțiuni speciale de finanțare și suport pentru a vă ajuta să obțineți proprietatea.",
+      "features": [
+        "Rate de interes competitive",
+        "Opțiuni de plată inițială reduse",
+        "Consultanță expertă pentru credite ipotecare",
+        "Termeni flexibili de împrumut",
+        "Resurse educaționale pentru cumpărători"
+      ],
+      "calltoaction": "Aplicați pentru programul nostru pentru cumpărători de primă casă și faceți primul pas către proprietate"
+    },
+    {
+      "tag": "down_payment",
+      "title": "Asistență pentru Plăți Inițiale",
+      "description": "Întâmpinați dificultăți în economisirea pentru o plată inițială? Programele noastre de asistență pentru plăți inițiale oferă subvenții și împrumuturi cu dobândă mică pentru a vă ajuta să acoperiți costul plății inițiale.",
+      "features": [
+        "Subvenții și împrumuturi cu dobândă mică",
+        "Termeni flexibili de rambursare",
+        "Consultanță expertă pentru credite ipotecare",
+        "Proces rapid de aprobat",
+        "Varietate de opțiuni de asistență"
+      ],
+      "calltoaction": "Aflați mai multe despre programele noastre de asistență pentru plăți inițiale și faceți proprietatea mai accesibilă"
+    },
+    {
+      "tag": "rates",
+      "title": "Ratele Împrumuturilor Ipotecare",
+      "description": "Rămâneți informat cu privire la ratele noastre competitive pentru împrumuturi ipotecare. Fie că achiziționați o nouă casă sau refinanțați, oferim rate care se potrivesc nevoilor dvs.",
+      "features": [
+        "Rate de interes competitive",
+        "Varietate de opțiuni de împrumut",
+        "Actualizări regulate ale ratelor",
+        "Consultanță expertă pentru credite ipotecare",
+        "Termeni flexibili de împrumut"
+      ],
+      "calltoaction": "Verificați ratele noastre actuale pentru împrumuturi ipotecare și găsiți cea mai bună rată pentru împrumutul dvs."
+    },
+    {
+      "tag": "fha_va_usda",
+      "title": "Împrumuturi FHA, VA și USDA",
+      "description": "Oferim împrumuturi garantate de guvern pentru a vă ajuta să finanțați casa. Fie că sunteți un cumpărător pentru prima dată, un veteran sau cumpărați într-o zonă rurală, avem împrumutul potrivit pentru dvs.",
+      "features": [
+        "Opțiuni de plată inițială reduse",
+        "Rate de interes competitive",
+        "Termeni flexibili de împrumut",
+        "Consultanță expertă pentru credite ipotecare",
+        "Proces rapid de aprobat"
+      ],
+      "calltoaction": "Explorați opțiunile noastre de împrumuturi FHA, VA și USDA și găsiți cea mai bună soluție pentru nevoile dvs. de finanțare a casei"
+    },
+    {
+      "tag": "jumbo_home_loans",
+      "title": "Împrumuturi Ipotece Jumbo",
+      "description": "Pentru cei care achiziționează proprietăți de valoare mare, împrumuturile noastre ipotecare jumbo oferă soluții de finanțare cu rate și termeni competitivi pentru a răspunde nevoilor tale.",
+      "features": [
+        "Rate de interes competitive",
+        "Termeni de împrumut flexibili",
+        "Finanțare pentru proprietăți de valoare mare",
+        "Consiliere ipotecară expertă",
+        "Proces rapid de aprobat"
+      ],
+      "calltoaction": "Aplică pentru un împrumut ipotecar jumbo și finanțează-ți casa visurilor cu încredere"
+    },
+    {
+      "tag": "renovation_fha",
+      "title": "Împrumuturi de Renovare și FHA 203(k)",
+      "description": "Transformă-ți casa cu împrumuturile noastre de renovare și FHA 203(k). Finanțează-ți îmbunătățirile și renovările cu opțiuni flexibile de împrumut.",
+      "features": [
+        "Rate de interes competitive",
+        "Finanțare pentru îmbunătățiri ale locuinței",
+        "Consiliere expertă în renovări",
+        "Termeni flexibili de împrumut",
+        "Proces rapid de aprobat"
+      ],
+      "calltoaction": "Aplică pentru un împrumut de renovare sau FHA 203(k) și începe astăzi transformarea casei tale"
+    },
+    {
+      "tag": "equity_helocs",
+      "title": "Împrumuturi pe Echipă și HELOC-uri",
+      "description": "Accesează capitalul propriu al casei tale cu împrumuturile noastre pe echipă și liniile de credit pe echipă (HELOC-uri). Folosește fondurile pentru îmbunătățiri ale locuinței, consolidarea datoriilor sau alte cheltuieli.",
+      "features": [
+        "Rate de interes competitive",
+        "Termeni flexibili de rambursare",
+        "Acces la fonduri după cum este necesar",
+        "Consiliere financiară expertă",
+        "Proces rapid de aprobat"
+      ],
+      "calltoaction": "Află mai multe despre împrumuturile noastre pe echipă și HELOC-uri și profită la maximum de valoarea casei tale"
+    },
+    {
+      "tag": "pay_for_me",
+      "title": "Plătește Ipoteca Mea",
+      "description": "Gestionează convenabil plățile ipotecare cu sistemul nostru de plată online. Efectuează plăți, vizualizează extrasele de cont și urmărește istoricul plăților tale cu ușurință.",
+      "features": [
+        "Plăți online sigure",
+        "Acces ușor la extrasele de cont",
+        "Alerte de plată",
+        "Istoric detaliat al plăților",
+        "Asistență expertă"
+      ],
+      "calltoaction": "Conectează-te la Plătește Ipoteca Mea și gestionează-ți plățile ipotecare fără efort"
+    },
+    {
+      "tag": "retail_offices",
+      "title": "Birouri Ipotecare Retail",
+      "description": "Vizitează birourile noastre ipotecare retail pentru asistență ipotecară personalizată. Personalul nostru experimentat este aici pentru a te ajuta cu nevoile tale de finanțare.",
+      "features": [
+        "Consiliere ipotecară expertă",
+        "Serviciu personalizat",
+        "Locații convenabile",
+        "Soluții ipotecare complete",
+        "Asistență față în față"
+      ],
+      "calltoaction": "Găsește un birou ipotecar retail aproape de tine și primește asistența ipotecară personalizată de care ai nevoie"
+    }
+  ]
+}

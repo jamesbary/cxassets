@@ -1,0 +1,212 @@
+{
+  "error": {
+    "title": "Something went wrong!",
+    "cancel": "Cancel",
+    "toHome": "Go back to home",
+    "retry": "Try again"
+  },
+  "notfound": {
+    "title": "Not Found",
+    "desc": "Could not find requested resource",
+    "toHome": "Return Home",
+    "retry": "Try again"
+  },
+  "services": [
+    {
+      "title": "Personal Banking",
+      "href": "/personal",
+      "description": "From checking and savings accounts to internet banking and bill payment, manage your finances with ease. Enjoy the convenience of 24/7 access to your accounts, secure transactions, and personalized financial tools.",
+      "icon": "user",
+      "items": [
+        {
+          "title": "Checking Accounts",
+          "description": "Simplify your daily transactions with our flexible and fee-free checking accounts."
+        },
+        {
+          "title": "Savings Accounts",
+          "description": "Grow your savings with competitive interest rates and easy access to your funds."
+        },
+        {
+          "title": "Internet Banking",
+          "description": "Manage your finances from anywhere, at any time, with our user-friendly online banking platform."
+        },
+        {
+          "title": "Bill Payment",
+          "description": "Pay your bills quickly and securely, without the hassle of paper statements."
+        }
+      ]
+    },
+    {
+      "title": "Business Banking",
+      "href": "/business",
+      "description": "Tailored solutions including business accounts, internet banking, and treasury management. Empower your business with tools that streamline operations and enhance financial efficiency.",
+      "icon": "briefcase",
+      "items": [
+        {
+          "title": "Business Accounts",
+          "description": "Keep your business finances organized with our comprehensive business account options."
+        },
+        {
+          "title": "Business Internet Banking",
+          "description": "Monitor your business finances and perform transactions effortlessly with our secure online banking."
+        },
+        {
+          "title": "Treasury Management",
+          "description": "Optimize your cash flow and manage your assets effectively with our advanced treasury services."
+        }
+      ]
+    },
+    {
+      "title": "Lending Solutions",
+      "href": "/lending",
+      "description": "Access a variety of loans for small businesses, commercial ventures, and personal mortgages. Whether you’re expanding your business or purchasing your dream home, we offer flexible lending options to meet your needs.",
+      "icon": "dollarSign",
+      "items": [
+        {
+          "title": "Small Business Loans",
+          "description": "Get the funding you need to grow your small business with our tailored loan solutions."
+        },
+        {
+          "title": "Commercial Financing",
+          "description": "Secure financing for your commercial projects with our competitive loan options."
+        },
+        {
+          "title": "Personal Mortgages",
+          "description": "Choose from a range of mortgage products designed to fit your financial situation and homeownership goals."
+        }
+      ]
+    },
+    {
+      "title": "Mortgage Services",
+      "href": "/mortgage",
+      "description": "Find the right mortgage product, whether you’re a first-time homebuyer or looking for specialized financing. Benefit from our expert advice and competitive rates to make your home buying journey smooth and stress-free.",
+      "icon": "mortgage",
+      "items": [
+        {
+          "title": "First-Time Home Buyers",
+          "description": "Navigate the home buying process with confidence with our first-time homebuyer programs."
+        },
+        {
+          "title": "Down Payment Assistance",
+          "description": "Take advantage of our assistance programs to make your home purchase more affordable."
+        },
+        {
+          "title": "Specialized Mortgages",
+          "description": "Explore our range of FHA, VA, USDA, and jumbo loans tailored to your unique needs."
+        }
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "title": "General Banking",
+      "items": [
+        {
+          "question": "How do I open a new account?",
+          "answer": "To open a new account, visit our branch or go online to our website, click on get started and fill out the form. Then select the type of account you wish to open."
+        },
+        {
+          "question": "What types of accounts do you offer?",
+          "answer": "We offer a variety of accounts including personal checking, savings, business accounts, and more. Visit our website or contact us for more details on each account type."
+        },
+        {
+          "question": "How can I find my account number?",
+          "answer": "Your account number can be found on your bank statement, online banking portal dashboard, or by contacting customer service."
+        },
+        {
+          "question": "What should I do if I lose my bank card?",
+          "answer": "If you lose your bank card, contact us immediately to report the loss and request a replacement card. You can also temporarily lock your card via our mobile app."
+        }
+      ]
+    },
+    {
+      "title": "Checking Accounts",
+      "items": [
+        {
+          "question": "What are the benefits of a checking account?",
+          "answer": "Our checking accounts offer benefits such as easy access to your money, online banking, mobile deposits, and more. Specific features may vary by account type."
+        },
+        {
+          "question": "Are there any fees associated with checking accounts?",
+          "answer": "Some checking accounts may have monthly maintenance fees, overdraft fees, or ATM fees. Please review our fee schedule or contact us for details on specific accounts."
+        },
+        {
+          "question": "How can I avoid overdraft fees?",
+          "answer": "To avoid overdraft fees, keep track of your account balance, set up balance alerts, and consider enrolling in overdraft protection."
+        }
+      ]
+    },
+    {
+      "title": "Savings Accounts",
+      "items": [
+        {
+          "question": "What is the minimum balance required for a savings account?",
+          "answer": "There is none"
+        },
+        {
+          "question": "How often can I withdraw from my savings account?",
+          "answer": "Federal regulations limit certain types of withdrawals and transfers from savings accounts to six per month. For more information, please refer to our savings account terms and conditions."
+        },
+        {
+          "question": "Are there any fees for savings accounts?",
+          "answer": "Some savings accounts may have monthly maintenance fees if the minimum balance is not maintained. Please review our fee schedule for details."
+        }
+      ]
+    },
+    {
+      "title": "Internet Banking",
+      "items": [
+        {
+          "question": "How do I enroll in internet banking?",
+          "answer": "Simply register and activate the type of account you want and start enjoying seamless internet banking."
+        },
+        {
+          "question": "What features are available in internet banking?",
+          "answer": "Internet banking allows you to view account balances, transfer funds, pay bills, view statements, and more."
+        },
+        {
+          "question": "Is internet banking secure?",
+          "answer": "Yes, we use advanced security measures such as encryption and multi-factor authentication to protect your information."
+        }
+      ]
+    },
+    {
+      "title": "Home Loans",
+      "items": [
+        {
+          "question": "What types of home loans do you offer?",
+          "answer": "We offer a variety of home loans including fixed-rate mortgages, adjustable-rate mortgages, FHA loans, VA loans, and more."
+        },
+        {
+          "question": "How do I apply for a home loan?",
+          "answer": "To apply for a home loan, visit our website or contact one of our mortgage specialists to start the application process."
+        },
+        {
+          "question": "What documents do I need to apply for a home loan?",
+          "answer": "Commonly required documents include proof of income, tax returns, bank statements, and identification. Additional documents may be required based on your specific situation."
+        },
+        {
+          "question": "How long does it take to get approved for a home loan?",
+          "answer": "The approval process can vary, but it typically takes 30 to 45 days. Providing complete and accurate information can help speed up the process."
+        }
+      ]
+    },
+    {
+      "title": "Customer Support",
+      "items": [
+        {
+          "question": "How can I contact customer support?",
+          "answer": "You can contact customer support via our support page."
+        },
+        {
+          "question": "What are your customer support hours?",
+          "answer": "Customer support is available Monday through Friday, 9 AM to 5 PM. After-hours support is available for urgent issues."
+        },
+        {
+          "question": "How can I resolve a dispute with a transaction?",
+          "answer": "To resolve a dispute, contact customer support with the details of the transaction in question. We will investigate and assist you in resolving the issue."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,212 @@
+{
+  "error": {
+    "title": "¡Algo salió mal!",
+    "cancel": "Cancelar",
+    "toHome": "Volver a inicio",
+    "retry": "Intenta de nuevo"
+  },
+  "notfound": {
+    "title": "No encontrado",
+    "desc": "No se pudo encontrar el recurso solicitado",
+    "toHome": "Volver a casa",
+    "retry": "Intenta de nuevo"
+  },
+  "services": [
+    {
+      "title": "Banca Personal",
+      "href": "/personal",
+      "description": "Desde cuentas corrientes y de ahorro hasta banca por Internet y pago de facturas, gestione sus finanzas con facilidad. Disfrute de la comodidad de acceso 24/7 a sus cuentas, transacciones seguras y herramientas financieras personalizadas.",
+      "icon": "user",
+      "items": [
+        {
+          "title": "Cuentas Corrientes",
+          "description": "Simplifique sus transacciones diarias con nuestras cuentas corrientes flexibles y sin comisiones."
+        },
+        {
+          "title": "Cuentas de Ahorro",
+          "description": "Aumente sus ahorros con tasas de interés competitivas y fácil acceso a sus fondos."
+        },
+        {
+          "title": "Banca por Internet",
+          "description": "Gestione sus finanzas desde cualquier lugar y en cualquier momento con nuestra plataforma de banca en línea fácil de usar."
+        },
+        {
+          "title": "Pago de Facturas",
+          "description": "Pague sus facturas de forma rápida y segura, sin la molestia de los estados de cuenta en papel."
+        }
+      ]
+    },
+    {
+      "title": "Banca Empresarial",
+      "href": "/business",
+      "description": "Soluciones personalizadas, incluidas cuentas comerciales, banca por Internet y gestión de tesorería. Potencie su negocio con herramientas que optimizan las operaciones y mejoran la eficiencia financiera.",
+      "icon": "briefcase",
+      "items": [
+        {
+          "title": "Cuentas Comerciales",
+          "description": "Mantenga sus finanzas comerciales organizadas con nuestras opciones integrales de cuentas comerciales."
+        },
+        {
+          "title": "Banca por Internet para Negocios",
+          "description": "Monitoree sus finanzas comerciales y realice transacciones sin esfuerzo con nuestra banca en línea segura."
+        },
+        {
+          "title": "Gestión de Tesorería",
+          "description": "Optimice su flujo de efectivo y gestione sus activos de manera efectiva con nuestros servicios avanzados de tesorería."
+        }
+      ]
+    },
+    {
+      "title": "Soluciones de Préstamos",
+      "href": "/lending",
+      "description": "Acceda a una variedad de préstamos para pequeñas empresas, proyectos comerciales y hipotecas personales. Ya sea que esté expandiendo su negocio o comprando la casa de sus sueños, ofrecemos opciones de préstamos flexibles para satisfacer sus necesidades.",
+      "icon": "dollarSign",
+      "items": [
+        {
+          "title": "Préstamos para Pequeñas Empresas",
+          "description": "Obtenga la financiación que necesita para hacer crecer su pequeña empresa con nuestras soluciones de préstamos personalizadas."
+        },
+        {
+          "title": "Financiación Comercial",
+          "description": "Asegure la financiación para sus proyectos comerciales con nuestras opciones de préstamos competitivos."
+        },
+        {
+          "title": "Hipotecas Personales",
+          "description": "Elija entre una variedad de productos hipotecarios diseñados para ajustarse a su situación financiera y objetivos de compra de vivienda."
+        }
+      ]
+    },
+    {
+      "title": "Servicios Hipotecarios",
+      "href": "/mortgage",
+      "description": "Encuentre el producto hipotecario adecuado, ya sea que sea un comprador de vivienda por primera vez o busque una financiación especializada. Benefíciese de nuestro asesoramiento experto y tasas competitivas para hacer que su viaje de compra de vivienda sea fluido y sin estrés.",
+      "icon": "mortgage",
+      "items": [
+        {
+          "title": "Compradores de Vivienda por Primera Vez",
+          "description": "Navegue por el proceso de compra de vivienda con confianza con nuestros programas para compradores de vivienda por primera vez."
+        },
+        {
+          "title": "Asistencia para el Pago Inicial",
+          "description": "Aproveche nuestros programas de asistencia para hacer que la compra de una vivienda sea más asequible."
+        },
+        {
+          "title": "Hipotecas Especializadas",
+          "description": "Explore nuestra gama de préstamos FHA, VA, USDA y jumbo adaptados a sus necesidades únicas."
+        }
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "title": "Banca General",
+      "items": [
+        {
+          "question": "¿Cómo abro una nueva cuenta?",
+          "answer": "Para abrir una nueva cuenta, visita nuestra sucursal o ve a nuestro sitio web, haz clic en 'Comenzar' y completa el formulario. Luego, selecciona el tipo de cuenta que deseas abrir."
+        },
+        {
+          "question": "¿Qué tipos de cuentas ofrecen?",
+          "answer": "Ofrecemos una variedad de cuentas, incluyendo cuentas de cheques personales, cuentas de ahorros, cuentas comerciales y más. Visita nuestro sitio web o contáctanos para más detalles sobre cada tipo de cuenta."
+        },
+        {
+          "question": "¿Cómo puedo encontrar mi número de cuenta?",
+          "answer": "Tu número de cuenta se puede encontrar en tu estado de cuenta bancario, en el panel del portal de banca en línea o contactando al servicio al cliente."
+        },
+        {
+          "question": "¿Qué debo hacer si pierdo mi tarjeta bancaria?",
+          "answer": "Si pierdes tu tarjeta bancaria, contáctanos de inmediato para reportar la pérdida y solicitar una tarjeta de reemplazo. También puedes bloquear temporalmente tu tarjeta a través de nuestra aplicación móvil."
+        }
+      ]
+    },
+    {
+      "title": "Cuentas de Cheques",
+      "items": [
+        {
+          "question": "¿Cuáles son los beneficios de una cuenta de cheques?",
+          "answer": "Nuestras cuentas de cheques ofrecen beneficios como fácil acceso a tu dinero, banca en línea, depósitos móviles y más. Las características específicas pueden variar según el tipo de cuenta."
+        },
+        {
+          "question": "¿Hay tarifas asociadas con las cuentas de cheques?",
+          "answer": "Algunas cuentas de cheques pueden tener tarifas mensuales de mantenimiento, tarifas por sobregiros o tarifas de cajeros automáticos. Consulta nuestro programa de tarifas o contáctanos para detalles sobre cuentas específicas."
+        },
+        {
+          "question": "¿Cómo puedo evitar las tarifas por sobregiro?",
+          "answer": "Para evitar tarifas por sobregiro, lleva un seguimiento de tu saldo, establece alertas de saldo y considera inscribirte en la protección contra sobregiros."
+        }
+      ]
+    },
+    {
+      "title": "Cuentas de Ahorros",
+      "items": [
+        {
+          "question": "¿Cuál es el saldo mínimo requerido para una cuenta de ahorros?",
+          "answer": "No hay ninguno."
+        },
+        {
+          "question": "¿Con qué frecuencia puedo retirar de mi cuenta de ahorros?",
+          "answer": "Las regulaciones federales limitan ciertos tipos de retiros y transferencias de cuentas de ahorros a seis por mes. Para más información, consulta nuestros términos y condiciones de la cuenta de ahorros."
+        },
+        {
+          "question": "¿Hay tarifas por cuentas de ahorros?",
+          "answer": "Algunas cuentas de ahorros pueden tener tarifas mensuales de mantenimiento si no se mantiene el saldo mínimo. Consulta nuestro programa de tarifas para detalles."
+        }
+      ]
+    },
+    {
+      "title": "Banca en Línea",
+      "items": [
+        {
+          "question": "¿Cómo me inscribo en la banca en línea?",
+          "answer": "Simplemente regístrate y activa el tipo de cuenta que deseas y comienza a disfrutar de la banca en línea sin inconvenientes."
+        },
+        {
+          "question": "¿Qué funciones están disponibles en la banca en línea?",
+          "answer": "La banca en línea te permite ver saldos de cuentas, transferir fondos, pagar facturas, ver estados de cuenta y más."
+        },
+        {
+          "question": "¿Es segura la banca en línea?",
+          "answer": "Sí, utilizamos medidas de seguridad avanzadas como encriptación y autenticación de múltiples factores para proteger tu información."
+        }
+      ]
+    },
+    {
+      "title": "Préstamos Hipotecarios",
+      "items": [
+        {
+          "question": "¿Qué tipos de préstamos hipotecarios ofrecen?",
+          "answer": "Ofrecemos una variedad de préstamos hipotecarios, incluyendo hipotecas de tasa fija, hipotecas de tasa ajustable, préstamos FHA, préstamos VA y más."
+        },
+        {
+          "question": "¿Cómo solicito un préstamo hipotecario?",
+          "answer": "Para solicitar un préstamo hipotecario, visita nuestro sitio web o contacta a uno de nuestros especialistas en hipotecas para iniciar el proceso de solicitud."
+        },
+        {
+          "question": "¿Qué documentos necesito para solicitar un préstamo hipotecario?",
+          "answer": "Los documentos comúnmente requeridos incluyen comprobantes de ingresos, declaraciones de impuestos, estados de cuenta bancarios e identificación. Pueden ser necesarios documentos adicionales según tu situación específica."
+        },
+        {
+          "question": "¿Cuánto tiempo tarda la aprobación de un préstamo hipotecario?",
+          "answer": "El proceso de aprobación puede variar, pero normalmente toma entre 30 y 45 días. Proporcionar información completa y precisa puede ayudar a acelerar el proceso."
+        }
+      ]
+    },
+    {
+      "title": "Soporte al Cliente",
+      "items": [
+        {
+          "question": "¿Cómo puedo contactar al soporte al cliente?",
+          "answer": "Puedes contactar al soporte al cliente a través de nuestra página de soporte."
+        },
+        {
+          "question": "¿Cuáles son los horarios de atención al cliente?",
+          "answer": "El soporte al cliente está disponible de lunes a viernes, de 9 AM a 5 PM. El soporte fuera de horario está disponible para problemas urgentes."
+        },
+        {
+          "question": "¿Cómo puedo resolver una disputa con una transacción?",
+          "answer": "Para resolver una disputa, contacta al soporte al cliente con los detalles de la transacción en cuestión. Investigaremos y te ayudaremos a resolver el problema."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,328 @@
+{
+  "mainNav": [
+    {
+      "title": "Privat",
+      "items": [
+        {
+          "title": "Privat Banking",
+          "items": [
+            {
+              "title": "Girokonten",
+              "items": []
+            },
+            {
+              "title": "Sparkonten",
+              "items": []
+            },
+            {
+              "title": "Bankkarten",
+              "items": []
+            }
+          ]
+        },
+        {
+          "title": "Bequemes Banking",
+          "items": [
+            {
+              "title": "Internet Banking",
+              "items": []
+            },
+            {
+              "title": "Rechnungszahlung",
+              "items": []
+            },
+            {
+              "title": "USSD Banking",
+              "items": []
+            }
+          ]
+        },
+        {
+          "title": "Private Ressourcen",
+          "items": [
+            {
+              "title": "Wohnkredite",
+              "items": []
+            },
+            {
+              "title": "Ressourcenzentrum",
+              "items": []
+            },
+            {
+              "title": "Einlagenzinsen",
+              "items": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Geschäft",
+      "items": [
+        {
+          "title": "Banklösungen",
+          "items": [
+            {
+              "title": "Geschäftskonten",
+              "items": []
+            },
+            {
+              "title": "Business Internet Banking",
+              "items": []
+            },
+            {
+              "title": "Treasury Management",
+              "items": []
+            },
+            {
+              "title": "Bankkarten",
+              "items": []
+            }
+          ]
+        },
+        {
+          "title": "Spezialbanking",
+          "items": [
+            {
+              "title": "Zahlungslösungen",
+              "items": []
+            },
+            {
+              "title": "ACH Lösungen",
+              "items": []
+            },
+            {
+              "title": "Branchenspezifische Lösungen",
+              "items": []
+            },
+            {
+              "title": "Einlagenzinsen",
+              "items": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Kreditvergabe",
+      "items": [
+        {
+          "title": "Unternehmensfinanzierung",
+          "items": [
+            {
+              "title": "Kleinkredite für Unternehmen",
+              "items": []
+            },
+            {
+              "title": "SBA-Darlehen",
+              "items": []
+            },
+            {
+              "title": "USDA-Darlehen",
+              "items": []
+            },
+            {
+              "title": "Unterstützungsprogramme für Unternehmen",
+              "items": []
+            }
+          ]
+        },
+        {
+          "title": "Kommerzielle Finanzierung",
+          "items": [
+            {
+              "title": "Gewerbeimmobilien",
+              "items": []
+            },
+            {
+              "title": "Ausrüstungsdarlehen",
+              "items": []
+            },
+            {
+              "title": "Übernahmekredite",
+              "items": []
+            },
+            {
+              "title": "Lagerkreditvergabe",
+              "items": []
+            }
+          ]
+        },
+        {
+          "title": "Kreditressourcen",
+          "items": [
+            {
+              "title": "Unterstützung für Geschäftskredite",
+              "items": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Hypotheken",
+      "items": [
+        {
+          "title": "Hypothekenprodukte",
+          "items": [
+            {
+              "title": "Erstkäufer",
+              "items": []
+            },
+            {
+              "title": "Anzahlungshilfe",
+              "items": []
+            },
+            {
+              "title": "Hypothekenzinsen",
+              "items": []
+            },
+            {
+              "title": "FHA, VA, & USDA",
+              "items": []
+            },
+            {
+              "title": "Jumbo-Darlehen",
+              "items": []
+            }
+          ]
+        },
+        {
+          "title": "Spezialprodukte",
+          "items": [
+            {
+              "title": "Renovierung & FHA 203(k)",
+              "items": []
+            },
+            {
+              "title": "Eigenheimkredite & HELOCs",
+              "items": []
+            }
+          ]
+        },
+        {
+          "title": "Hypothekenressourcen",
+          "items": [
+            {
+              "title": "Meine Hypothek bezahlen",
+              "items": []
+            },
+            {
+              "title": "Hypothekenbüros",
+              "items": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Häufig gestellte Fragen"
+    }
+  ],
+  "sidebarNav": [
+    {
+      "title": "Dashboard",
+      "href": "/dashboard",
+      "icon": "dashboard",
+      "role": "user",
+      "items": [
+        {
+          "title": "Überweisen",
+          "href": "/dashboard/transfer",
+          "icon": "transactions",
+          "role": "user",
+          "items": []
+        },
+        {
+          "title": "Anfrage",
+          "href": "/dashboard/request",
+          "role": "user",
+          "items": []
+        }
+      ]
+    },
+    {
+      "title": "Admin",
+      "href": "/admin",
+      "icon": "admin",
+      "role": "admin",
+      "items": [
+        {
+          "title": "Überweisen",
+          "href": "/admin/transfer",
+          "icon": "transactions",
+          "role": "admin",
+          "items": []
+        },
+        {
+          "title": "Anfrage",
+          "href": "/admin/request",
+          "role": "admin",
+          "items": []
+        }
+      ]
+    }
+  ],
+  "navSecondary": [
+    {
+      "title": "Support",
+      "href": "/dashboard/support",
+      "icon": "support"
+    }
+  ],
+  "accounts": [
+    {
+      "name": "Girokonto",
+      "href": "/dashboard/checking",
+      "icon": "check",
+      "options": {
+        "view": "Konto anzeigen",
+        "transfer": "Überweisen",
+        "withdraw": "Abheben",
+        "create": "Konto erstellen"
+      }
+    },
+    {
+      "name": "Sparkonto",
+      "href": "/dashboard/savings",
+      "icon": "billing",
+      "options": {
+        "view": "Konto anzeigen",
+        "transfer": "Überweisen",
+        "withdraw": "Abheben",
+        "create": "Konto erstellen"
+      }
+    },
+    {
+      "name": "Geschäft",
+      "href": "/dashboard/business",
+      "icon": "briefcase",
+      "options": {
+        "view": "Konto anzeigen",
+        "transfer": "Überweisen",
+        "withdraw": "Abheben",
+        "create": "Konto erstellen"
+      }
+    }
+  ],
+  "adminNav": [
+    { "href": "/admin", "icon": "admin", "name": "Admin" },
+    { "href": "/admin/transfer", "icon": "transactions", "name": "Übertragen" }
+  ],
+  "userNav": [
+    {
+      "title": "Admin",
+      "href": "/admin",
+      "icon": "admin",
+      "cmd": "⇧⌘X",
+      "role": "admin"
+    },
+    {
+      "title": "Dashboard",
+      "href": "/dashboard",
+      "icon": "dashboard",
+      "cmd": "⇧⌘D",
+      "role": "user"
+    }
+  ]
+}

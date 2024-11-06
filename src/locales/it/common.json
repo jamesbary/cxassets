@@ -1,0 +1,212 @@
+{
+  "error": {
+    "title": "Qualcosa è andato storto!",
+    "cancel": "Annulla",
+    "toHome": "Torna alla homepage",
+    "retry": "Riprova"
+  },
+  "notfound": {
+    "title": "Non trovato",
+    "desc": "Impossibile trovare la risorsa richiesta",
+    "toHome": "Torna a casa",
+    "retry": "Riprova"
+  },
+  "services": [
+    {
+      "title": "Banca Personale",
+      "href": "/personal",
+      "description": "Dai conti correnti e di risparmio al banking online e al pagamento delle bollette, gestisci le tue finanze con facilità. Goditi la comodità di accedere ai tuoi conti 24 ore su 24, 7 giorni su 7, transazioni sicure e strumenti finanziari personalizzati.",
+      "icon": "user",
+      "items": [
+        {
+          "title": "Conti Correnti",
+          "description": "Semplifica le tue transazioni quotidiane con i nostri conti correnti flessibili e senza commissioni."
+        },
+        {
+          "title": "Conti di Risparmio",
+          "description": "Fai crescere i tuoi risparmi con tassi di interesse competitivi e facile accesso ai tuoi fondi."
+        },
+        {
+          "title": "Banking Online",
+          "description": "Gestisci le tue finanze da qualsiasi luogo e in qualsiasi momento con la nostra piattaforma di banking online facile da usare."
+        },
+        {
+          "title": "Pagamento delle Bollette",
+          "description": "Paga le tue bollette in modo rapido e sicuro, senza il fastidio degli estratti conto cartacei."
+        }
+      ]
+    },
+    {
+      "title": "Banca Aziendale",
+      "href": "/business",
+      "description": "Soluzioni personalizzate, comprese conti aziendali, banking online e gestione della tesoreria. Potenzia la tua azienda con strumenti che ottimizzano le operazioni e migliorano l'efficienza finanziaria.",
+      "icon": "briefcase",
+      "items": [
+        {
+          "title": "Conti Aziendali",
+          "description": "Tieni in ordine le tue finanze aziendali con le nostre opzioni complete di conti aziendali."
+        },
+        {
+          "title": "Banking Online per Aziende",
+          "description": "Monitora le tue finanze aziendali ed esegui transazioni senza sforzo con il nostro banking online sicuro."
+        },
+        {
+          "title": "Gestione della Tesoreria",
+          "description": "Ottimizza il tuo flusso di cassa e gestisci efficacemente i tuoi beni con i nostri servizi avanzati di tesoreria."
+        }
+      ]
+    },
+    {
+      "title": "Soluzioni di Prestito",
+      "href": "/lending",
+      "description": "Accedi a una varietà di prestiti per piccole imprese, progetti commerciali e mutui personali. Che tu stia espandendo la tua attività o acquistando la casa dei tuoi sogni, offriamo opzioni di prestito flessibili per soddisfare le tue esigenze.",
+      "icon": "dollarSign",
+      "items": [
+        {
+          "title": "Prestiti per Piccole Imprese",
+          "description": "Ottieni i finanziamenti necessari per far crescere la tua piccola impresa con le nostre soluzioni di prestito su misura."
+        },
+        {
+          "title": "Finanziamenti Commerciali",
+          "description": "Assicura finanziamenti per i tuoi progetti commerciali con le nostre opzioni di prestito competitive."
+        },
+        {
+          "title": "Mutui Personali",
+          "description": "Scegli tra una gamma di prodotti ipotecari progettati per adattarsi alla tua situazione finanziaria e ai tuoi obiettivi di proprietà immobiliare."
+        }
+      ]
+    },
+    {
+      "title": "Servizi Ipotecari",
+      "href": "/mortgage",
+      "description": "Trova il prodotto ipotecario giusto, che tu sia un acquirente di una casa per la prima volta o che cerchi un finanziamento specializzato. Approfitta dei nostri consigli esperti e dei tassi competitivi per rendere il tuo percorso di acquisto della casa fluido e senza stress.",
+      "icon": "mortgage",
+      "items": [
+        {
+          "title": "Acquirenti di Casa per la Prima Volta",
+          "description": "Affronta con fiducia il processo di acquisto della casa con i nostri programmi per i primi acquirenti."
+        },
+        {
+          "title": "Assistenza per il Pagamento della Caparra",
+          "description": "Approfitta dei nostri programmi di assistenza per rendere più accessibile l'acquisto della tua casa."
+        },
+        {
+          "title": "Mutui Specializzati",
+          "description": "Esplora la nostra gamma di prestiti FHA, VA, USDA e jumbo adattati alle tue esigenze uniche."
+        }
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "title": "Banca Generale",
+      "items": [
+        {
+          "question": "Come posso aprire un nuovo conto?",
+          "answer": "Per aprire un nuovo conto, visita la nostra filiale o vai sul nostro sito web, clicca su 'Inizia' e compila il modulo. Poi seleziona il tipo di conto che desideri aprire."
+        },
+        {
+          "question": "Quali tipi di conti offrite?",
+          "answer": "Offriamo una varietà di conti, tra cui conti correnti personali, conti di risparmio, conti aziendali e altro. Visita il nostro sito web o contattaci per ulteriori dettagli su ciascun tipo di conto."
+        },
+        {
+          "question": "Come posso trovare il mio numero di conto?",
+          "answer": "Il tuo numero di conto può essere trovato sull'estratto conto bancario, nel pannello del portale di banking online o contattando il servizio clienti."
+        },
+        {
+          "question": "Cosa devo fare se perdo la mia carta bancaria?",
+          "answer": "Se perdi la tua carta bancaria, contattaci immediatamente per segnalare la perdita e richiedere una carta di sostituzione. Puoi anche bloccare temporaneamente la tua carta tramite la nostra app mobile."
+        }
+      ]
+    },
+    {
+      "title": "Conti Correnti",
+      "items": [
+        {
+          "question": "Quali sono i benefici di un conto corrente?",
+          "answer": "I nostri conti correnti offrono benefici come accesso facile ai tuoi soldi, banking online, depositi mobili e altro. Le caratteristiche specifiche possono variare a seconda del tipo di conto."
+        },
+        {
+          "question": "Ci sono commissioni associate ai conti correnti?",
+          "answer": "Alcuni conti correnti possono avere commissioni mensili di gestione, commissioni per scoperto o commissioni per prelievi da bancomat. Controlla il nostro programma delle commissioni o contattaci per dettagli su conti specifici."
+        },
+        {
+          "question": "Come posso evitare le commissioni per scoperto?",
+          "answer": "Per evitare commissioni per scoperto, tieni traccia del tuo saldo, imposta avvisi di saldo e considera l'iscrizione alla protezione contro gli scoperti."
+        }
+      ]
+    },
+    {
+      "title": "Conti di Risparmio",
+      "items": [
+        {
+          "question": "Qual è il saldo minimo richiesto per un conto di risparmio?",
+          "answer": "Non c'è nessun saldo minimo."
+        },
+        {
+          "question": "Quante volte posso prelevare dal mio conto di risparmio?",
+          "answer": "Le normative federali limitano alcuni tipi di prelievi e trasferimenti dai conti di risparmio a sei al mese. Per ulteriori informazioni, consulta i termini e le condizioni del nostro conto di risparmio."
+        },
+        {
+          "question": "Ci sono commissioni per i conti di risparmio?",
+          "answer": "Alcuni conti di risparmio possono avere commissioni mensili di gestione se non si mantiene il saldo minimo. Controlla il nostro programma delle commissioni per dettagli."
+        }
+      ]
+    },
+    {
+      "title": "Banca Online",
+      "items": [
+        {
+          "question": "Come mi iscrivo alla banca online?",
+          "answer": "Registrati semplicemente e attiva il tipo di conto che desideri e inizia a godere di un banking online senza problemi."
+        },
+        {
+          "question": "Quali funzionalità sono disponibili nella banca online?",
+          "answer": "La banca online ti consente di visualizzare i saldi dei conti, trasferire fondi, pagare bollette, visualizzare estratti conto e altro."
+        },
+        {
+          "question": "La banca online è sicura?",
+          "answer": "Sì, utilizziamo misure di sicurezza avanzate come crittografia e autenticazione a più fattori per proteggere le tue informazioni."
+        }
+      ]
+    },
+    {
+      "title": "Prestiti per la Casa",
+      "items": [
+        {
+          "question": "Quali tipi di prestiti per la casa offrite?",
+          "answer": "Offriamo una varietà di prestiti per la casa, tra cui mutui a tasso fisso, mutui a tasso variabile, prestiti FHA, prestiti VA e altro."
+        },
+        {
+          "question": "Come faccio a richiedere un prestito per la casa?",
+          "answer": "Per richiedere un prestito per la casa, visita il nostro sito web o contatta uno dei nostri specialisti di mutui per avviare il processo di richiesta."
+        },
+        {
+          "question": "Quali documenti ho bisogno per richiedere un prestito per la casa?",
+          "answer": "I documenti comunemente richiesti includono la prova di reddito, le dichiarazioni dei redditi, gli estratti conto bancari e un documento d'identità. Potrebbero essere necessari documenti aggiuntivi a seconda della tua situazione specifica."
+        },
+        {
+          "question": "Quanto tempo ci vuole per ottenere l'approvazione per un prestito per la casa?",
+          "answer": "Il processo di approvazione può variare, ma normalmente richiede tra i 30 e i 45 giorni. Fornire informazioni complete e accurate può aiutare ad accelerare il processo."
+        }
+      ]
+    },
+    {
+      "title": "Assistenza Clienti",
+      "items": [
+        {
+          "question": "Come posso contattare l'assistenza clienti?",
+          "answer": "Puoi contattare l'assistenza clienti tramite la nostra pagina di supporto."
+        },
+        {
+          "question": "Quali sono gli orari di assistenza clienti?",
+          "answer": "L'assistenza clienti è disponibile da lunedì a venerdì, dalle 9:00 alle 17:00. L'assistenza dopo l'orario è disponibile per problemi urgenti."
+        },
+        {
+          "question": "Come posso risolvere una controversia su una transazione?",
+          "answer": "Per risolvere una controversia, contatta l'assistenza clienti fornendo i dettagli della transazione in questione. Indagheremo e ti aiuteremo a risolvere il problema."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,420 @@
+{
+  "sub": [
+    {
+      "tag": "checking",
+      "title": "Cuentas Corrientes Personales",
+      "description": "Nuestras cuentas corrientes personales ofrecen una forma conveniente de gestionar tus finanzas diarias. Con funciones como banca en línea, depósito de cheques por móvil y sin cargos mensuales de mantenimiento, nuestras cuentas corrientes están diseñadas para adaptarse a tu estilo de vida.",
+      "features": [
+        "Sin cargos mensuales de mantenimiento",
+        "Banca en línea y móvil gratuita",
+        "Depósito de cheques por móvil",
+        "Acceso a miles de cajeros automáticos en todo el país",
+        "Opciones de protección contra sobregiros"
+      ],
+      "calltoaction": "Abre una cuenta hoy y toma el control de tus finanzas con facilidad"
+    },
+    {
+      "tag": "savings",
+      "title": "Cuentas de Ahorro Personales",
+      "description": "Empieza a ahorrar para tu futuro con nuestras cuentas de ahorro personales. Gana tasas de interés competitivas mientras tienes fácil acceso a tus fondos. Nuestras cuentas de ahorro están diseñadas para ayudarte a alcanzar tus metas financieras.",
+      "features": [
+        "Sin cargos mensuales de mantenimiento",
+        "Tasas de interés competitivas",
+        "Fácil acceso a tus fondos",
+        "Banca en línea y móvil",
+        "Transferencias automáticas desde tu cuenta corriente"
+      ],
+      "calltoaction": "Empieza tu camino de ahorro con nosotros. Abre una cuenta de ahorro ahora"
+    },
+    {
+      "tag": "cards",
+      "title": "Tarjetas Bancarias",
+      "description": "Nuestra gama de tarjetas bancarias te ofrece la flexibilidad y seguridad que necesitas para todas tus transacciones. Ya sea que prefieras tarjetas de débito o crédito, tenemos la opción adecuada para ti con varias recompensas y beneficios.",
+      "features": [
+        "Sin cargos anuales",
+        "Transacciones en línea seguras",
+        "Programas de recompensas",
+        "Aceptación mundial",
+        "Soporte al cliente 24/7"
+      ],
+      "calltoaction": "Elige la tarjeta que mejor se adapte a tus necesidades y empieza a disfrutar de los beneficios hoy mismo"
+    },
+    {
+      "tag": "internet_banking",
+      "title": "Banca por Internet",
+      "description": "Nuestro servicio de banca por internet te proporciona acceso seguro y fácil a tus cuentas en cualquier momento y lugar. Gestiona tus finanzas, paga facturas, transfiere fondos y mucho más con solo unos clics.",
+      "features": [
+        "Servicios de pago de facturas",
+        "Transferencias de fondos",
+        "Historial de transacciones",
+        "Interfaz segura y fácil de usar",
+        "Soporte al cliente 24/7"
+      ],
+      "calltoaction": "Regístrate en la banca por internet y toma el control de tus finanzas desde la comodidad de tu hogar"
+    },
+    {
+      "tag": "bill_payment",
+      "title": "Pago de Facturas",
+      "description": "Simplifica tu vida con nuestro servicio de pago de facturas. Paga todas tus facturas desde un solo lugar de manera rápida y segura. Nunca vuelvas a perder una fecha de vencimiento con pagos automáticos y recordatorios.",
+      "features": [
+        "Pago de facturas en línea",
+        "Configura pagos automáticos",
+        "Recibe recordatorios de pago",
+        "Transacciones seguras",
+        "Rastrea tu historial de pagos"
+      ],
+      "calltoaction": "Regístrate en el servicio de pago de facturas hoy y gestiona todas tus facturas con facilidad"
+    },
+    {
+      "tag": "ussd_banking",
+      "title": "Banca USSD",
+      "description": "Experimente la conveniencia de la banca en movimiento con nuestro servicio de Banca USSD. Acceda a su cuenta, verifique saldos, transfiera fondos y más utilizando códigos USSD simples en su teléfono móvil.",
+      "features": [
+        "No se requiere internet",
+        "Acceso instantáneo a la información de la cuenta",
+        "Transferencias de fondos y pagos de facturas",
+        "Seguro y conveniente",
+        "Disponible en todas las redes móviles"
+      ],
+      "calltoaction": "Obtenga una cuenta y comience a usar nuestro código USSD ahora para una banca fluida en movimiento"
+    },
+    {
+      "tag": "home_loans",
+      "title": "Préstamos para Vivienda",
+      "description": "¿Está buscando comprar la casa de sus sueños? Nuestros Préstamos para Vivienda ofrecen tasas competitivas y condiciones flexibles para ayudarlo a lograr la propiedad de su hogar. Ya sea que sea un comprador por primera vez o que busque refinanciar, tenemos la solución adecuada para usted.",
+      "features": [
+        "Tasas de interés competitivas",
+        "Términos de pago flexibles",
+        "Proceso de solicitud rápido y fácil",
+        "Asesoría experta en hipotecas",
+        "Varias opciones de préstamos"
+      ],
+      "calltoaction": "Solicite un Préstamo para Vivienda hoy y dé el primer paso hacia la propiedad de su hogar"
+    },
+    {
+      "tag": "resource_center",
+      "title": "Centro de Recursos",
+      "description": "Nuestro Centro de Recursos es su lugar de referencia para educación y asesoría financiera. Encuentre artículos, guías y herramientas que le ayudarán a tomar decisiones financieras informadas y mejorar su bienestar financiero.",
+      "features": [
+        "Artículos y guías financieras",
+        "Herramientas de presupuesto",
+        "Consejos de inversión",
+        "Asesoría en gestión de crédito",
+        "Calculadoras de hipotecas"
+      ],
+      "calltoaction": "Visite nuestro Centro de Recursos y comience su viaje hacia la educación y seguridad financiera"
+    },
+    {
+      "tag": "deposit_rates",
+      "title": "Tasas de Depósito",
+      "description": "Manténgase informado con nuestras tasas de depósito competitivas. Ofrecemos tasas atractivas en cuentas de ahorro, depósitos a plazo y otros productos de inversión para ayudarlo a hacer crecer su dinero.",
+      "features": [
+        "Tasas de interés competitivas",
+        "Términos de depósito flexibles",
+        "Actualizaciones regulares",
+        "Inversiones seguras",
+        "Asesoría financiera experta"
+      ],
+      "calltoaction": "Consulte nuestras tasas de depósito actuales y comience a ganar más con sus ahorros"
+    },
+    {
+      "tag": "accounts",
+      "title": "Cuentas Empresariales",
+      "description": "Nuestras Cuentas Empresariales están diseñadas para satisfacer las necesidades de empresas de todos los tamaños. Administre sus finanzas empresariales de manera eficiente con características adaptadas para apoyar su crecimiento y éxito.",
+      "features": [
+        "Sin tarifas de mantenimiento mensual",
+        "Banca en línea y móvil",
+        "Acceso para múltiples usuarios",
+        "Tarjetas de débito empresarial",
+        "Opciones de protección contra sobregiros"
+      ],
+      "calltoaction": "Abra una Cuenta Empresarial hoy y optimice sus operaciones comerciales"
+    },
+    {
+      "tag": "treasury",
+      "title": "Gestión de Tesorería",
+      "description": "Optimice su flujo de efectivo y gestione su liquidez con nuestros servicios de Gestión de Tesorería. Nuestras soluciones están diseñadas para ayudarle a maximizar su capital de trabajo y minimizar riesgos.",
+      "features": [
+        "Concentración y desembolso de efectivo",
+        "Gestión de liquidez",
+        "Herramientas de prevención de fraudes",
+        "Informes completos",
+        "Soporte dedicado en gestión de tesorería"
+      ],
+      "calltoaction": "Explore nuestros servicios de Gestión de Tesorería y tome el control de su estrategia financiera"
+    },
+    {
+      "tag": "payment",
+      "title": "Soluciones de Pago",
+      "description": "Mejore su procesamiento de pagos con nuestras Soluciones de Pago. Ofrecemos una variedad de opciones para ayudarle a gestionar y optimizar sus pagos de manera eficiente.",
+      "features": [
+        "Servicios para comerciantes",
+        "Procesamiento de pagos ACH",
+        "Captura remota de depósitos",
+        "Soluciones de pago móvil",
+        "Transacciones seguras y confiables"
+      ],
+      "calltoaction": "Descubra más sobre nuestras Soluciones de Pago y mejore su procesamiento de pagos hoy"
+    },
+    {
+      "tag": "ach",
+      "title": "Soluciones ACH",
+      "description": "Simplifique sus procesos de pago con nuestras Soluciones ACH. Gestione depósitos directos, pagos a proveedores y otras transacciones con facilidad y seguridad.",
+      "features": [
+        "Servicios de depósito directo",
+        "Soluciones de pago a proveedores",
+        "Pagos recurrentes",
+        "Procesamiento seguro y eficiente",
+        "Informes detallados de transacciones"
+      ],
+      "calltoaction": "Descubra nuestras Soluciones ACH y optimice sus procesos de pago"
+    },
+    {
+      "tag": "industry",
+      "title": "Soluciones para la Industria",
+      "description": "Ofrecemos soluciones bancarias personalizadas para satisfacer las necesidades únicas de diferentes industrias. Ya sea que esté en atención médica, venta minorista o fabricación, tenemos la experiencia para apoyar su negocio.",
+      "features": [
+        "Soluciones bancarias específicas de la industria",
+        "Asesoramiento financiero experto",
+        "Opciones de financiamiento personalizadas",
+        "Servicios de gestión de efectivo",
+        "Soporte especializado para la industria"
+      ],
+      "calltoaction": "Explore nuestras Soluciones para la Industria y encuentre los servicios bancarios adecuados para su sector"
+    },
+    {
+      "tag": "small_business_loans",
+      "title": "Préstamos para Pequeñas Empresas",
+      "description": "Impulse el crecimiento de su negocio con nuestros Préstamos para Pequeñas Empresas. Ofrecemos opciones de préstamos flexibles para ayudarle a financiar sus necesidades comerciales, ya sea para expansión, equipo o capital de trabajo.",
+      "features": [
+        "Tasas de interés competitivas",
+        "Términos de reembolso flexibles",
+        "Proceso de aprobación rápido",
+        "Sin penalizaciones por pago anticipado",
+        "Asesoramiento experto en préstamos"
+      ],
+      "calltoaction": "Solicite un Préstamo para Pequeñas Empresas hoy y lleve su negocio al siguiente nivel"
+    },
+    {
+      "tag": "sba_loans",
+      "title": "Préstamos de la Administración de Pequeñas Empresas (SBA)",
+      "description": "Nuestros préstamos SBA ofrecen opciones de financiamiento respaldadas por el gobierno para pequeñas empresas. Aproveche los pagos iniciales más bajos y plazos de pago más largos para hacer crecer su negocio.",
+      "features": [
+        "Bajos pagos iniciales",
+        "Largos plazos de pago",
+        "Tasas de interés competitivas",
+        "Experiencia en préstamos SBA",
+        "Opciones de préstamo flexibles"
+      ],
+      "calltoaction": "Explore nuestras opciones de préstamos SBA y encuentre la solución de financiamiento adecuada para su negocio"
+    },
+    {
+      "tag": "usda_business_loans",
+      "title": "Préstamos para Negocios USDA",
+      "description": "Nuestros préstamos para negocios USDA ofrecen financiamiento para empresas rurales. Benefíciese de tasas y condiciones competitivas diseñadas para apoyar el desarrollo empresarial en áreas rurales.",
+      "features": [
+        "Tasas de interés competitivas",
+        "Largos plazos de pago",
+        "Apoyo a empresas rurales",
+        "Opciones de préstamo flexibles",
+        "Asesoría experta en préstamos"
+      ],
+      "calltoaction": "Solicite un préstamo para negocios USDA y apoye el crecimiento de su empresa rural"
+    },
+    {
+      "tag": "business_reliefs",
+      "title": "Programas de Alivio Empresarial",
+      "description": "Proporcionamos programas de alivio empresarial para apoyar a las empresas en tiempos difíciles. Acceda a financiamiento y recursos para ayudar a su negocio a recuperarse y prosperar.",
+      "features": [
+        "Opciones de financiamiento de emergencia",
+        "Términos de pago flexibles",
+        "Proceso de solicitud rápido",
+        "Asesoría financiera experta",
+        "Recursos de apoyo"
+      ],
+      "calltoaction": "Aprenda más sobre nuestros programas de alivio empresarial y encuentre el apoyo que necesita"
+    },
+    {
+      "tag": "real_estate",
+      "title": "Préstamos para Bienes Raíces Comerciales",
+      "description": "Financie sus proyectos de bienes raíces comerciales con nuestras opciones de préstamos competitivas. Ya sea que esté comprando, renovando o refinanciando, ofrecemos soluciones que se adaptan a sus necesidades.",
+      "features": [
+        "Tasas de interés competitivas",
+        "Términos de préstamo flexibles",
+        "Proceso de aprobación rápido",
+        "Asesoría experta en bienes raíces",
+        "Varias opciones de préstamo"
+      ],
+      "calltoaction": "Solicite un préstamo para bienes raíces comerciales y haga realidad sus planes de propiedad"
+    },
+    {
+      "tag": "equipment_loans",
+      "title": "Préstamos para Equipos",
+      "description": "Mejore sus operaciones comerciales con nuestros préstamos para equipos. Financie equipos nuevos o usados con términos flexibles y tasas competitivas para mantener su negocio en funcionamiento.",
+      "features": [
+        "Tasas de interés competitivas",
+        "Términos de pago flexibles",
+        "Proceso de aprobación rápido",
+        "Financiamiento para equipos nuevos o usados",
+        "Asesoría experta en préstamos"
+      ],
+      "calltoaction": "Solicite un préstamo para equipos e invierta en el futuro de su negocio"
+    },
+    {
+      "tag": "acquisition_loans",
+      "title": "Préstamos para Adquisiciones Empresariales",
+      "description": "Expanda su negocio a través de adquisiciones con nuestros préstamos para adquisiciones empresariales. Ofrecemos soluciones de financiamiento para ayudarle a comprar e integrar nuevos negocios.",
+      "features": [
+        "Tasas de interés competitivas",
+        "Términos de préstamo flexibles",
+        "Proceso de aprobación rápido",
+        "Asesoría experta en adquisiciones",
+        "Varias opciones de préstamo"
+      ],
+      "calltoaction": "Solicite un préstamo para adquisiciones empresariales y haga crecer su negocio mediante adquisiciones estratégicas"
+    },
+    {
+      "tag": "warehouse_lending",
+      "title": "Préstamos de Almacenaje",
+      "description": "Nuestras soluciones de préstamos de almacenaje brindan financiamiento a banqueros hipotecarios y otras instituciones financieras. Acceda a financiamiento flexible para respaldar sus operaciones de préstamos.",
+      "features": [
+        "Tasas de interés competitivas",
+        "Términos de préstamo flexibles",
+        "Proceso de aprobación rápido",
+        "Asesoramiento financiero experto",
+        "Soluciones personalizables"
+      ],
+      "calltoaction": "Explore nuestras opciones de préstamos de almacenaje y apoye sus operaciones de préstamos"
+    },
+    {
+      "tag": "loan_support",
+      "title": "Apoyo para Préstamos Empresariales",
+      "description": "Obtenga el apoyo que necesita para sus préstamos empresariales con nuestros servicios dedicados de apoyo a préstamos empresariales. Desde la solicitud hasta el reembolso, estamos aquí para ayudarle en cada paso del camino.",
+      "features": [
+        "Asesoramiento experto sobre préstamos",
+        "Asistencia con solicitudes de préstamos",
+        "Opciones de reembolso flexibles",
+        "Equipo de soporte dedicado",
+        "Recursos completos"
+      ],
+      "calltoaction": "Contacte a nuestro equipo de apoyo a préstamos empresariales hoy y obtenga la ayuda que necesita"
+    },
+    {
+      "tag": "first_home",
+      "title": "Compradores de Vivienda por Primera Vez",
+      "description": "Comprar su primera vivienda es un gran paso. Nuestro programa para compradores de vivienda por primera vez ofrece opciones de financiamiento especiales y apoyo para ayudarle a alcanzar la propiedad de vivienda.",
+      "features": [
+        "Tasas de interés competitivas",
+        "Opciones de bajo pago inicial",
+        "Asesoramiento experto sobre hipotecas",
+        "Términos de préstamo flexibles",
+        "Recursos educativos para compradores"
+      ],
+      "calltoaction": "Solicite nuestro programa para compradores de vivienda por primera vez y dé el primer paso hacia la propiedad"
+    },
+    {
+      "tag": "down_payment",
+      "title": "Asistencia para el Pago Inicial",
+      "description": "¿Le cuesta ahorrar para un pago inicial? Nuestros programas de asistencia para el pago inicial ofrecen subvenciones y préstamos a bajo interés para ayudarle a cubrir el costo de su pago inicial.",
+      "features": [
+        "Subvenciones y préstamos a bajo interés",
+        "Términos de reembolso flexibles",
+        "Asesoramiento experto sobre hipotecas",
+        "Proceso de aprobación rápido",
+        "Varias opciones de asistencia"
+      ],
+      "calltoaction": "Infórmese más sobre nuestros programas de asistencia para el pago inicial y haga que la propiedad sea más accesible"
+    },
+    {
+      "tag": "rates",
+      "title": "Tasas de Hipoteca",
+      "description": "Manténgase informado con nuestras tasas de hipoteca competitivas. Ya sea que esté comprando una nueva vivienda o refinanciando, ofrecemos tasas que se ajustan a sus necesidades.",
+      "features": [
+        "Tasas de interés competitivas",
+        "Varias opciones de préstamo",
+        "Actualizaciones regulares de tasas",
+        "Asesoramiento experto sobre hipotecas",
+        "Términos de préstamo flexibles"
+      ],
+      "calltoaction": "Revise nuestras tasas hipotecarias actuales y encuentre la mejor tasa para su préstamo hipotecario"
+    },
+    {
+      "tag": "fha_va_usda",
+      "title": "Préstamos FHA, VA y USDA",
+      "description": "Ofrecemos préstamos respaldados por el gobierno para ayudarle a financiar su hogar. Ya sea que sea un comprador por primera vez, un veterano o esté comprando en un área rural, tenemos el préstamo adecuado para usted.",
+      "features": [
+        "Opciones de bajo pago inicial",
+        "Tasas de interés competitivas",
+        "Términos de préstamo flexibles",
+        "Asesoramiento experto sobre hipotecas",
+        "Proceso de aprobación rápido"
+      ],
+      "calltoaction": "Explore nuestras opciones de préstamos FHA, VA y USDA y encuentre la mejor solución para sus necesidades de financiamiento de vivienda"
+    },
+    {
+      "tag": "jumbo_home_loans",
+      "title": "Préstamos Hipotecarios Jumbo",
+      "description": "Para aquellos que compran propiedades de alto valor, nuestros Préstamos Hipotecarios Jumbo ofrecen soluciones de financiamiento con tasas y términos competitivos para satisfacer sus necesidades.",
+      "features": [
+        "Tasas de interés competitivas",
+        "Términos de préstamo flexibles",
+        "Financiamiento para propiedades de alto valor",
+        "Asesoría hipotecaria experta",
+        "Proceso de aprobación rápido"
+      ],
+      "calltoaction": "Solicite un Préstamo Hipotecario Jumbo y financie su casa soñada con confianza"
+    },
+    {
+      "tag": "renovation_fha",
+      "title": "Préstamos de Renovación y FHA 203(k)",
+      "description": "Transforme su hogar con nuestros préstamos de Renovación y FHA 203(k). Financia sus mejoras y renovaciones del hogar con opciones de préstamo flexibles.",
+      "features": [
+        "Tasas de interés competitivas",
+        "Financiamiento para mejoras en el hogar",
+        "Asesoría experta en renovaciones",
+        "Términos de préstamo flexibles",
+        "Proceso de aprobación rápido"
+      ],
+      "calltoaction": "Solicite un préstamo de Renovación o FHA 203(k) y comience su transformación del hogar hoy"
+    },
+    {
+      "tag": "equity_helocs",
+      "title": "Préstamos sobre el Valor del Hogar y HELOCs",
+      "description": "Acceda al valor de su hogar con nuestros Préstamos sobre el Valor del Hogar y Líneas de Crédito sobre el Valor del Hogar (HELOCs). Use los fondos para mejoras en el hogar, consolidación de deudas u otros gastos.",
+      "features": [
+        "Tasas de interés competitivas",
+        "Términos de reembolso flexibles",
+        "Acceso a fondos según sea necesario",
+        "Asesoría financiera experta",
+        "Proceso de aprobación rápido"
+      ],
+      "calltoaction": "Obtenga más información sobre nuestros Préstamos sobre el Valor del Hogar y HELOCs y aproveche al máximo el valor de su hogar"
+    },
+    {
+      "tag": "pay_for_me",
+      "title": "Pagar Mi Hipoteca",
+      "description": "Gestione sus pagos hipotecarios cómodamente con nuestro sistema de pago en línea. Realice pagos, vea estados de cuenta y haga un seguimiento de su historial de pagos con facilidad.",
+      "features": [
+        "Pagos en línea seguros",
+        "Fácil acceso a estados de cuenta",
+        "Recordatorios de pago",
+        "Historial de pagos detallado",
+        "Soporte experto"
+      ],
+      "calltoaction": "Inicie sesión para Pagar Mi Hipoteca y gestione sus pagos hipotecarios sin esfuerzo"
+    },
+    {
+      "tag": "retail_offices",
+      "title": "Oficinas Hipotecarias Minoristas",
+      "description": "Visite nuestras Oficinas Hipotecarias Minoristas para obtener asistencia hipotecaria personalizada. Nuestro personal capacitado está aquí para ayudarle con sus necesidades de financiamiento.",
+      "features": [
+        "Asesoría hipotecaria experta",
+        "Servicio personalizado",
+        "Ubicaciones convenientes",
+        "Soluciones hipotecarias integrales",
+        "Soporte en persona"
+      ],
+      "calltoaction": "Encuentre una Oficina Hipotecaria Minorista cerca de usted y obtenga la asistencia hipotecaria personalizada que necesita"
+    }
+  ]
+}

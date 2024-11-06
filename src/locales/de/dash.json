@@ -1,0 +1,111 @@
+{
+  "common": {
+    "savings": "Persönliches Sparkonto",
+    "checking": "Persönliches Girokonto",
+    "business": "Geschäftskonto",
+    "details": "Details",
+    "action": "Konto erstellen"
+  },
+  "meta": {
+    "upload": {
+      "complete": "Upload abgeschlossen",
+      "success": "Erfolg",
+      "button": {
+        "ready": "Bild auswählen",
+        "isUploading": "Wird hochgeladen ...",
+        "prep": "Vorbereitung ..."
+      },
+      "allowed": {
+        "ready": "Sie können nur Bilder hochladen",
+        "isUploading": "Das Bild wird hochgeladen",
+        "prep": "Überprüfen, was erlaubt ist"
+      }
+    },
+    "transfer": {
+      "search": "Transaktionen filtern",
+      "status": "Status",
+      "type": "Typ",
+      "name": "Name",
+      "amount": "Betrag",
+      "date": "Datum",
+      "asc": "Aufsteigend",
+      "desc": "Absteigend",
+      "hide": "Verbergen",
+      "pending": "Ausstehend",
+      "success": "Erfolg",
+      "rejected": "Abgelehnt",
+      "transfer": "Überweisung",
+      "fund": "Fonds",
+      "reset": "Zurücksetzen"
+    }
+  },
+  "message": {
+    "enough": "Sie haben nicht genügend Guthaben auf Ihrem Konto, um diese Transaktion abzuschließen",
+    "exist": "Konto existiert nicht",
+    "generic": "Leider können wir diese Aktion derzeit nicht ausführen, bitte versuchen Sie es in ein paar Minuten erneut oder kontaktieren Sie den Kundensupport",
+    "success": "Erfolgreich abgeschlossen"
+  },
+  "card": {
+    "transfer": "Überweisen",
+    "withdraw": "Abheben",
+    "details": "Details",
+    "active": "aktiv",
+    "inactive": "inaktiv",
+    "closed": "geschlossen",
+    "notEnough": {
+      "title": "Nicht genügend Guthaben!",
+      "desc": "Sie haben nicht genügend Guthaben auf diesem Konto, um diese Transaktion abzuschließen!",
+      "cancel": "Abbrechen"
+    },
+    "transCard": {
+      "title": "Überweisen",
+      "number": "Kontonummer",
+      "amount": "Betrag (USD)",
+      "proceed": "Jetzt überweisen",
+      "cancel": "Abbrechen"
+    },
+    "action": "Konto erstellen"
+  },
+  "block": {
+    "title": "Konto gesperrt",
+    "desc": "Um Ihr Konto zu entsperren, wenden Sie sich an den Support zur Reaktivierung und weiteren Bearbeitung.",
+    "action": "Support kontaktieren"
+  },
+  "checking": {
+    "create": {
+      "title": "Persönliches Girokonto erstellen",
+      "desc": "Bitte bestätigen Sie, dass Sie ein Girokonto erstellen möchten, indem Sie auf die Schaltfläche unten klicken.",
+      "confirm": "Girokonto erstellen",
+      "cancel": "Abbrechen",
+      "success": "Persönliches Girokonto erfolgreich erstellt.",
+      "exists": "Sie haben bereits ein persönliches Girokonto",
+      "error": "Die Anfrage konnte nicht abgeschlossen werden. Bitte versuchen Sie es erneut oder kontaktieren Sie den Support."
+    }
+  },
+  "savings": {
+    "create": {
+      "title": "Persönliches Sparkonto erstellen",
+      "desc": "Bitte bestätigen Sie, dass Sie ein Sparkonto erstellen möchten, indem Sie auf die Schaltfläche unten klicken.",
+      "confirm": "Sparkonto erstellen",
+      "cancel": "Abbrechen",
+      "success": "Persönliches Sparkonto erfolgreich erstellt.",
+      "exists": "Sie haben bereits ein persönliches Sparkonto",
+      "error": "Die Anfrage konnte nicht abgeschlossen werden. Bitte versuchen Sie es erneut oder kontaktieren Sie den Support."
+    }
+  },
+  "business": {
+    "create": {
+      "title": "Geschäftskonto erstellen",
+      "desc": "Sie sind dabei, ein Geschäftskonto zu erstellen. Bitte geben Sie die erforderlichen Daten ein, um fortzufahren.",
+      "confirm": "Geschäftskonto erstellen",
+      "cancel": "Abbrechen",
+      "placeholder": {
+        "name": "Geschäftsname",
+        "type": "Geschäftstyp"
+      },
+      "success": "Geschäftskonto erfolgreich erstellt.",
+      "exists": "Sie haben bereits ein Geschäftskonto",
+      "error": "Die Anfrage konnte nicht abgeschlossen werden. Bitte versuchen Sie es erneut oder kontaktieren Sie den Support."
+    }
+  }
+}

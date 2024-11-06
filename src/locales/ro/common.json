@@ -1,0 +1,212 @@
+{
+  "error": {
+    "title": "Ceva nu a mers bine!",
+    "cancel": "Anulează",
+    "toHome": "Întoarce-te la pagina principală",
+    "retry": "Încearcă din nou"
+  },
+  "notfound": {
+    "title": "Nu a fost găsit",
+    "desc": "Nu s-a putut găsi resursa solicitată",
+    "toHome": "Întoarce-te acasă",
+    "retry": "Încearcă din nou"
+  },
+  "services": [
+    {
+      "title": "Servicii Bancare Personale",
+      "href": "/personal",
+      "description": "De la conturi curente și de economii la banking online și plata facturilor, gestionează-ți finanțele cu ușurință. Bucură-te de comoditatea accesului 24/7 la conturile tale, tranzacții sigure și instrumente financiare personalizate.",
+      "icon": "user",
+      "items": [
+        {
+          "title": "Conturi Curente",
+          "description": "Simplifică-ți tranzacțiile zilnice cu conturile noastre curente flexibile și fără comisioane."
+        },
+        {
+          "title": "Conturi de Economii",
+          "description": "Crește-ți economiile cu rate competitive ale dobânzii și acces facil la fondurile tale."
+        },
+        {
+          "title": "Banking Online",
+          "description": "Gestionează-ți finanțele de oriunde, în orice moment, cu platforma noastră de banking online ușor de utilizat."
+        },
+        {
+          "title": "Plata Facturilor",
+          "description": "Plătește-ți facturile rapid și în siguranță, fără a te confrunta cu extrase de cont pe hârtie."
+        }
+      ]
+    },
+    {
+      "title": "Servicii Bancare pentru Afaceri",
+      "href": "/business",
+      "description": "Soluții personalizate care includ conturi de afaceri, banking online și managementul trezoreriei. Împuternicește-ți afacerea cu instrumente care optimizează operațiunile și îmbunătățesc eficiența financiară.",
+      "icon": "briefcase",
+      "items": [
+        {
+          "title": "Conturi de Afaceri",
+          "description": "Păstrează-ți finanțele de afaceri organizate cu opțiunile noastre complete de conturi de afaceri."
+        },
+        {
+          "title": "Banking Online pentru Afaceri",
+          "description": "Monitorizează-ți finanțele de afaceri și efectuează tranzacții fără efort cu banking-ul nostru online securizat."
+        },
+        {
+          "title": "Managementul Trezoreriei",
+          "description": "Optimizează-ți fluxul de numerar și gestionează-ți eficient activele cu serviciile noastre avansate de trezorerie."
+        }
+      ]
+    },
+    {
+      "title": "Soluții de Împrumut",
+      "href": "/lending",
+      "description": "Accesează o varietate de împrumuturi pentru întreprinderi mici, proiecte comerciale și ipoteci personale. Fie că îți extinzi afacerea sau îți cumperi casa visurilor tale, oferim opțiuni flexibile de împrumut pentru a-ți satisface nevoile.",
+      "icon": "dollarSign",
+      "items": [
+        {
+          "title": "Împrumuturi pentru Întreprinderi Mici",
+          "description": "Obține finanțarea de care ai nevoie pentru a-ți dezvolta mica afacere cu soluțiile noastre de împrumut personalizate."
+        },
+        {
+          "title": "Finanțare Comercială",
+          "description": "Asigură finanțare pentru proiectele tale comerciale cu opțiunile noastre competitive de împrumut."
+        },
+        {
+          "title": "Ipoteci Personale",
+          "description": "Alege dintr-o gamă de produse ipotecare concepute pentru a se potrivi situației tale financiare și obiectivelor tale de proprietate."
+        }
+      ]
+    },
+    {
+      "title": "Servicii Ipotecare",
+      "href": "/mortgage",
+      "description": "Găsește produsul ipotecar potrivit, fie că ești un cumpărător de casă pentru prima dată sau cauți finanțare specializată. Profită de sfaturile noastre de expert și de ratele competitive pentru a face parcursul achiziționării casei tale cât mai ușor și lipsit de stres.",
+      "icon": "mortgage",
+      "items": [
+        {
+          "title": "Cumpărători de Casă pentru Prima Dată",
+          "description": "Navighează cu încredere procesul de cumpărare a casei cu programele noastre pentru primii cumpărători."
+        },
+        {
+          "title": "Asistență pentru Avans",
+          "description": "Profită de programele noastre de asistență pentru a face achiziționarea casei tale mai accesibilă."
+        },
+        {
+          "title": "Ipoteci Specializate",
+          "description": "Explorează gama noastră de împrumuturi FHA, VA, USDA și jumbo adaptate nevoilor tale unice."
+        }
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "title": "Banca Generală",
+      "items": [
+        {
+          "question": "Cum pot deschide un nou cont?",
+          "answer": "Pentru a deschide un nou cont, vizitați sucursala noastră sau accesați site-ul nostru, faceți clic pe 'Începeți' și completați formularul. Apoi, selectați tipul de cont pe care doriți să-l deschideți."
+        },
+        {
+          "question": "Ce tipuri de conturi oferiți?",
+          "answer": "Oferim o varietate de conturi, inclusiv conturi curente personale, conturi de economii, conturi pentru afaceri și multe altele. Vizitați site-ul nostru sau contactați-ne pentru mai multe detalii despre fiecare tip de cont."
+        },
+        {
+          "question": "Cum pot găsi numărul meu de cont?",
+          "answer": "Numărul dvs. de cont poate fi găsit pe extrasul de cont bancar, în tabloul de bord al portalului de internet banking sau contactând serviciul pentru clienți."
+        },
+        {
+          "question": "Ce ar trebui să fac dacă îmi pierd cardul bancar?",
+          "answer": "Dacă îți pierzi cardul bancar, contactează-ne imediat pentru a raporta pierderea și pentru a solicita un card de înlocuire. De asemenea, poți bloca temporar cardul prin aplicația noastră mobilă."
+        }
+      ]
+    },
+    {
+      "title": "Conturi Curente",
+      "items": [
+        {
+          "question": "Care sunt beneficiile unui cont curent?",
+          "answer": "Conturile noastre curente oferă beneficii precum acces ușor la banii tăi, internet banking, depozite mobile și multe altele. Caracteristicile specifice pot varia în funcție de tipul de cont."
+        },
+        {
+          "question": "Există taxe asociate cu conturile curente?",
+          "answer": "Unele conturi curente pot avea taxe de întreținere lunare, taxe pentru descoperit sau taxe pentru retrageri de la ATM. Te rugăm să consulți programul nostru de taxe sau să ne contactezi pentru detalii despre conturile specifice."
+        },
+        {
+          "question": "Cum pot evita taxele pentru descoperit?",
+          "answer": "Pentru a evita taxele pentru descoperit, urmărește-ți soldul contului, setează alerte de sold și ia în considerare înscrierea în protecția împotriva descoperitului."
+        }
+      ]
+    },
+    {
+      "title": "Conturi de Economii",
+      "items": [
+        {
+          "question": "Care este soldul minim necesar pentru un cont de economii?",
+          "answer": "Nu există un sold minim."
+        },
+        {
+          "question": "Câte retrageri pot face din contul meu de economii?",
+          "answer": "Regulamentele federale limitează anumite tipuri de retrageri și transferuri din conturile de economii la șase pe lună. Pentru mai multe informații, te rugăm să consulți termenii și condițiile contului nostru de economii."
+        },
+        {
+          "question": "Există taxe pentru conturile de economii?",
+          "answer": "Unele conturi de economii pot avea taxe de întreținere lunare dacă nu se menține soldul minim. Te rugăm să consulți programul nostru de taxe pentru detalii."
+        }
+      ]
+    },
+    {
+      "title": "Internet Banking",
+      "items": [
+        {
+          "question": "Cum mă înscriu în internet banking?",
+          "answer": "Înscrie-te pur și simplu și activează tipul de cont dorit și începe să te bucuri de internet banking fără probleme."
+        },
+        {
+          "question": "Ce funcții sunt disponibile în internet banking?",
+          "answer": "Internet banking-ul îți permite să vizualizezi soldurile conturilor, să transferi fonduri, să plătești facturi, să vizualizezi extrasele de cont și multe altele."
+        },
+        {
+          "question": "Este internet banking-ul sigur?",
+          "answer": "Da, folosim măsuri avansate de securitate, cum ar fi criptarea și autentificarea în doi pași pentru a-ți proteja informațiile."
+        }
+      ]
+    },
+    {
+      "title": "Împrumuturi pentru Locuințe",
+      "items": [
+        {
+          "question": "Ce tipuri de împrumuturi pentru locuințe oferiți?",
+          "answer": "Oferim o varietate de împrumuturi pentru locuințe, inclusiv ipoteci cu rată fixă, ipoteci cu rată variabilă, împrumuturi FHA, împrumuturi VA și multe altele."
+        },
+        {
+          "question": "Cum pot aplica pentru un împrumut pentru locuință?",
+          "answer": "Pentru a aplica pentru un împrumut pentru locuință, vizitează site-ul nostru sau contactează unul dintre specialiștii noștri în ipoteci pentru a începe procesul de aplicare."
+        },
+        {
+          "question": "Ce documente am nevoie pentru a aplica pentru un împrumut pentru locuință?",
+          "answer": "Documentele frecvent necesare includ dovada venitului, declarațiile de impozit, extrasele de cont bancar și un act de identitate. Pot fi necesare documente suplimentare în funcție de situația ta specifică."
+        },
+        {
+          "question": "Cât timp durează să obțin aprobarea pentru un împrumut pentru locuință?",
+          "answer": "Procesul de aprobat poate varia, dar de obicei durează între 30 și 45 de zile. Furnizarea de informații complete și precise poate ajuta la accelerarea procesului."
+        }
+      ]
+    },
+    {
+      "title": "Asistență pentru Clienți",
+      "items": [
+        {
+          "question": "Cum pot contacta asistența pentru clienți?",
+          "answer": "Poți contacta asistența pentru clienți prin intermediul paginii noastre de suport."
+        },
+        {
+          "question": "Care sunt orele de asistență pentru clienți?",
+          "answer": "Asistența pentru clienți este disponibilă de luni până vineri, între orele 9:00 și 17:00. Asistența după program este disponibilă pentru probleme urgente."
+        },
+        {
+          "question": "Cum pot rezolva o dispută legată de o tranzacție?",
+          "answer": "Pentru a rezolva o dispută, contactează asistența pentru clienți cu detaliile tranzacției în cauză. Vom investiga și te vom ajuta să rezolvi problema."
+        }
+      ]
+    }
+  ]
+}

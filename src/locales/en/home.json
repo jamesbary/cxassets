@@ -1,0 +1,173 @@
+{
+  "hero": {
+    "heading": "Investment Banking",
+    "sub": "Experience the future of Modern Banking and Investment with solutions tailored to your needs",
+    "action": "Get Started",
+    "more": "Learn More"
+  },
+  "about": {
+    "heading": "Who We Are",
+    "description": "Your partner in securing and growing your finances and investments",
+    "items": [
+      {
+        "title": "Mission",
+        "description": "Revolutionizing financial management through advanced technology and outstanding customer service.",
+        "icon": "mission"
+      },
+      {
+        "title": "Value",
+        "description": "We ensure data protection, high returns with low fees, real-time financial tracking, and stellar customer support.",
+        "icon": "value"
+      }
+    ]
+  },
+  "features": {
+    "heading": "Why Choose Us",
+    "description": "All the Banking & Investment Tools You Need in One Platform",
+    "items": [
+      {
+        "title": "Security",
+        "description": "Protect your data with state-of-the-art encryptions.",
+        "icon": "admin"
+      },
+      {
+        "title": "Low Fees, High Returns",
+        "description": "Benefit from low fees and competitive interest rates.",
+        "icon": "billing"
+      },
+      {
+        "title": "Real-Time Management",
+        "description": "Track your transactions, and investment growth in real-time.",
+        "icon": "convenience"
+      },
+      {
+        "title": "24/7 Support",
+        "description": "We are always available to assist with your enquiries.",
+        "icon": "support"
+      }
+    ]
+  },
+  "pages": {
+    "career": {
+      "title": "Career",
+      "description": "How to get involved and join the team",
+      "href": "/career"
+    },
+    "about": {
+      "title": "About Us",
+      "description": "Learn more about our company and mission",
+      "href": "/about"
+    },
+    "contact": {
+      "title": "Contact Us",
+      "description": "Speak with a support agent",
+      "href": "/contact"
+    }
+  },
+  "home_support": {
+    "email": "Email Address",
+    "message": "Message",
+    "send": "Send Message",
+    "success": "Message sent successfully"
+  },
+  "service": {
+    "action": "Explore options",
+    "four": { "title": "Mortgage Services" },
+    "one": {
+      "description": "From checking and savings accounts to internet banking and bill payment, manage your finances with ease. Enjoy the convenience of 24/7 access to your accounts, secure transactions, and personalized financial tools.",
+      "title": "Personal Banking"
+    },
+    "three": { "title": "Lending Solutions" },
+    "two": { "title": "Mortgage Services" }
+  },
+  "services": [
+    {
+      "title": "Personal Banking",
+      "href": "/personal",
+      "description": "From checking and savings accounts to internet banking and bill payment, manage your finances with ease. Enjoy the convenience of 24/7 access to your accounts, secure transactions, and personalized financial tools.",
+      "icon": "user",
+      "items": [
+        {
+          "title": "Checking Accounts",
+          "description": "Simplify your daily transactions with our flexible and fee-free checking accounts."
+        },
+        {
+          "title": "Savings Accounts",
+          "description": "Grow your savings with competitive interest rates and easy access to your funds."
+        },
+        {
+          "title": "Internet Banking",
+          "description": "Manage your finances from anywhere, at any time, with our user-friendly online banking platform."
+        },
+        {
+          "title": "Bill Payment",
+          "description": "Pay your bills quickly and securely, without the hassle of paper statements."
+        }
+      ]
+    },
+    {
+      "title": "Business Banking",
+      "href": "/business",
+      "description": "Tailored solutions including business accounts, internet banking, and treasury management. Empower your business with tools that streamline operations and enhance financial efficiency.",
+      "icon": "briefcase",
+      "items": [
+        {
+          "title": "Business Accounts",
+          "description": "Keep your business finances organized with our comprehensive business account options."
+        },
+        {
+          "title": "Business Internet Banking",
+          "description": "Monitor your business finances and perform transactions effortlessly with our secure online banking."
+        },
+        {
+          "title": "Treasury Management",
+          "description": "Optimize your cash flow and manage your assets effectively with our advanced treasury services."
+        }
+      ]
+    },
+    {
+      "title": "Lending Solutions",
+      "href": "/lending",
+      "description": "Access a variety of loans for small businesses, commercial ventures, and personal mortgages. Whether you’re expanding your business or purchasing your dream home, we offer flexible lending options to meet your needs.",
+      "icon": "dollarSign",
+      "items": [
+        {
+          "title": "Small Business Loans",
+          "description": "Get the funding you need to grow your small business with our tailored loan solutions."
+        },
+        {
+          "title": "Commercial Financing",
+          "description": "Secure financing for your commercial projects with our competitive loan options."
+        },
+        {
+          "title": "Personal Mortgages",
+          "description": "Choose from a range of mortgage products designed to fit your financial situation and homeownership goals."
+        }
+      ]
+    },
+    {
+      "title": "Mortgage Services",
+      "href": "/mortgage",
+      "description": "Find the right mortgage product, whether you’re a first-time homebuyer or looking for specialized financing. Benefit from our expert advice and competitive rates to make your home buying journey smooth and stress-free.",
+      "icon": "mortgage",
+      "items": [
+        {
+          "title": "First-Time Home Buyers",
+          "description": "Navigate the home buying process with confidence with our first-time homebuyer programs."
+        },
+        {
+          "title": "Down Payment Assistance",
+          "description": "Take advantage of our assistance programs to make your home purchase more affordable."
+        },
+        {
+          "title": "Specialized Mortgages",
+          "description": "Explore our range of FHA, VA, USDA, and jumbo loans tailored to your unique needs."
+        }
+      ]
+    }
+  ],
+  "service_title": "Services",
+  "support_desc": "Contact us or use our resources to navigate the platform and take control of your banking and investments",
+  "support_more": "FAQs",
+  "support_title": "Support"
+}

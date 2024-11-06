@@ -1,0 +1,111 @@
+{
+  "common": {
+    "savings": "Conto di Risparmio Personale",
+    "checking": "Conto Corrente Personale",
+    "business": "Conto Aziendale",
+    "details": "Dettagli",
+    "action": "Crea Conto"
+  },
+  "meta": {
+    "upload": {
+      "complete": "Caricamento Completato",
+      "success": "Successo",
+      "button": {
+        "ready": "Seleziona immagine",
+        "isUploading": "Caricamento ...",
+        "prep": "Preparazione ..."
+      },
+      "allowed": {
+        "ready": "Puoi caricare solo immagini",
+        "isUploading": "Sembra che l'immagine sia in caricamento",
+        "prep": "Verifica di ciò che è consentito"
+      }
+    },
+    "transfer": {
+      "search": "Filtra transazioni",
+      "status": "Stato",
+      "type": "Tipo",
+      "name": "Nome",
+      "amount": "Importo",
+      "date": "Data",
+      "asc": "Ascendente",
+      "desc": "Discendente",
+      "hide": "Nascondi",
+      "pending": "In sospeso",
+      "success": "Successo",
+      "rejected": "Rifiutato",
+      "transfer": "Trasferisci",
+      "fund": "Fondo",
+      "reset": "Ripristina"
+    }
+  },
+  "message": {
+    "enough": "Non hai fondi sufficienti nel tuo conto per completare questa transazione",
+    "exist": "Il conto non esiste",
+    "generic": "Spiacenti, non possiamo completare questa azione al momento, riprova tra qualche minuto o contatta il servizio clienti",
+    "success": "Completato con successo"
+  },
+  "card": {
+    "transfer": "Trasferisci",
+    "withdraw": "Preleva",
+    "details": "Dettagli",
+    "active": "attivo",
+    "inactive": "inattivo",
+    "closed": "chiuso",
+    "notEnough": {
+      "title": "Fondi insufficienti!",
+      "desc": "Non hai fondi sufficienti su questo conto per completare questa transazione!",
+      "cancel": "Annulla"
+    },
+    "transCard": {
+      "title": "Trasferisci",
+      "number": "Numero di conto",
+      "amount": "Importo (USD)",
+      "proceed": "Trasferisci ora",
+      "cancel": "Annulla"
+    },
+    "action": "Crea conto"
+  },
+  "block": {
+    "title": "Account bloccato",
+    "desc": "Per sbloccare il tuo account, contatta il supporto per la riattivazione dell'account e ulteriori elaborazioni.",
+    "action": "Contatta il supporto"
+  },
+  "checking": {
+    "create": {
+      "title": "Crea Conto Corrente Personale",
+      "desc": "Si prega di confermare che si desidera creare un Conto Corrente cliccando il pulsante qui sotto.",
+      "confirm": "Crea Conto Corrente",
+      "cancel": "Annulla",
+      "success": "Conto Corrente Personale creato con successo.",
+      "exists": "Hai già un conto corrente personale",
+      "error": "Impossibile completare la richiesta. Si prega di riprovare o contattare il supporto."
+    }
+  },
+  "savings": {
+    "create": {
+      "title": "Crea Conto di Risparmio Personale",
+      "desc": "Si prega di confermare che si desidera creare un Conto di Risparmio cliccando il pulsante qui sotto.",
+      "confirm": "Crea Conto di Risparmio",
+      "cancel": "Annulla",
+      "success": "Conto di Risparmio Personale creato con successo.",
+      "exists": "Hai già un conto di risparmio personale",
+      "error": "Impossibile completare la richiesta. Si prega di riprovare o contattare il supporto."
+    }
+  },
+  "business": {
+    "create": {
+      "title": "Crea Conto Aziendale",
+      "desc": "Stai per creare un Conto Aziendale. Si prega di fornire i dati necessari per procedere.",
+      "confirm": "Crea Conto Aziendale",
+      "cancel": "Annulla",
+      "placeholder": {
+        "name": "Nome dell'Azienda",
+        "type": "Tipo di Azienda"
+      },
+      "success": "Conto Aziendale creato con successo.",
+      "exists": "Hai già un conto aziendale",
+      "error": "Impossibile completare la richiesta. Si prega di riprovare o contattare il supporto."
+    }
+  }
+}

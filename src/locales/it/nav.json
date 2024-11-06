@@ -1,0 +1,328 @@
+{
+  "mainNav": [
+    {
+      "title": "Personale",
+      "items": [
+        {
+          "title": "Banca Personale",
+          "items": [
+            {
+              "title": "Conti Correnti",
+              "items": []
+            },
+            {
+              "title": "Conti di Risparmio",
+              "items": []
+            },
+            {
+              "title": "Carte Bancarie",
+              "items": []
+            }
+          ]
+        },
+        {
+          "title": "Banca Conveniente",
+          "items": [
+            {
+              "title": "Banca Online",
+              "items": []
+            },
+            {
+              "title": "Pagamento Bollette",
+              "items": []
+            },
+            {
+              "title": "Banca USSD",
+              "items": []
+            }
+          ]
+        },
+        {
+          "title": "Risorse Personali",
+          "items": [
+            {
+              "title": "Mutui",
+              "items": []
+            },
+            {
+              "title": "Centro Risorse",
+              "items": []
+            },
+            {
+              "title": "Tassi di Deposito",
+              "items": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Business",
+      "items": [
+        {
+          "title": "Soluzioni Bancarie",
+          "items": [
+            {
+              "title": "Conti Aziendali",
+              "items": []
+            },
+            {
+              "title": "Banca Online per Aziende",
+              "items": []
+            },
+            {
+              "title": "Gestione della Tesoreria",
+              "items": []
+            },
+            {
+              "title": "Carte Bancarie",
+              "items": []
+            }
+          ]
+        },
+        {
+          "title": "Banca Specializzata",
+          "items": [
+            {
+              "title": "Soluzioni di Pagamento",
+              "items": []
+            },
+            {
+              "title": "Soluzioni ACH",
+              "items": []
+            },
+            {
+              "title": "Soluzioni Industriali",
+              "items": []
+            },
+            {
+              "title": "Tassi di Deposito",
+              "items": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Finanziamenti",
+      "items": [
+        {
+          "title": "Finanziamenti per Imprese",
+          "items": [
+            {
+              "title": "Prestiti per Piccole Imprese",
+              "items": []
+            },
+            {
+              "title": "Prestiti SBA",
+              "items": []
+            },
+            {
+              "title": "Prestiti USDA",
+              "items": []
+            },
+            {
+              "title": "Programmi di Assistenza per Imprese",
+              "items": []
+            }
+          ]
+        },
+        {
+          "title": "Finanziamenti Commerciali",
+          "items": [
+            {
+              "title": "Immobili Commerciali",
+              "items": []
+            },
+            {
+              "title": "Prestiti per Attrezzature",
+              "items": []
+            },
+            {
+              "title": "Prestiti per Acquisizioni",
+              "items": []
+            },
+            {
+              "title": "Finanziamenti per Magazzini",
+              "items": []
+            }
+          ]
+        },
+        {
+          "title": "Risorse di Finanziamento",
+          "items": [
+            {
+              "title": "Supporto per Prestiti Aziendali",
+              "items": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Mutui",
+      "items": [
+        {
+          "title": "Prodotti Ipotecari",
+          "items": [
+            {
+              "title": "Acquirenti Prima Casa",
+              "items": []
+            },
+            {
+              "title": "Assistenza per Acconto",
+              "items": []
+            },
+            {
+              "title": "Tassi Ipotecari",
+              "items": []
+            },
+            {
+              "title": "FHA, VA, & USDA",
+              "items": []
+            },
+            {
+              "title": "Mutui Jumbo",
+              "items": []
+            }
+          ]
+        },
+        {
+          "title": "Prodotti Specializzati",
+          "items": [
+            {
+              "title": "Ristrutturazione e FHA 203(k)",
+              "items": []
+            },
+            {
+              "title": "Linee di Credito e HELOCs",
+              "items": []
+            }
+          ]
+        },
+        {
+          "title": "Risorse Ipotecarie",
+          "items": [
+            {
+              "title": "Paga il Mio Mutuo",
+              "items": []
+            },
+            {
+              "title": "Uffici Ipotecari",
+              "items": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Domande Frequenti"
+    }
+  ],
+  "sidebarNav": [
+    {
+      "title": "Pannello di Controllo",
+      "href": "/dashboard",
+      "icon": "dashboard",
+      "role": "user",
+      "items": [
+        {
+          "title": "Trasferimento",
+          "href": "/dashboard/transfer",
+          "icon": "transactions",
+          "role": "user",
+          "items": []
+        },
+        {
+          "title": "Richiesta",
+          "href": "/dashboard/request",
+          "role": "user",
+          "items": []
+        }
+      ]
+    },
+    {
+      "title": "Admin",
+      "href": "/admin",
+      "icon": "admin",
+      "role": "admin",
+      "items": [
+        {
+          "title": "Trasferimento",
+          "href": "/admin/transfer",
+          "icon": "transactions",
+          "role": "admin",
+          "items": []
+        },
+        {
+          "title": "Richiesta",
+          "href": "/admin/request",
+          "role": "admin",
+          "items": []
+        }
+      ]
+    }
+  ],
+  "navSecondary": [
+    {
+      "title": "Supporto",
+      "href": "/dashboard/support",
+      "icon": "support"
+    }
+  ],
+  "accounts": [
+    {
+      "name": "Conto Corrente",
+      "href": "/dashboard/checking",
+      "icon": "check",
+      "options": {
+        "view": "Visualizza Conto",
+        "transfer": "Trasferisci",
+        "withdraw": "Preleva",
+        "create": "Crea Conto"
+      }
+    },
+    {
+      "name": "Risparmi",
+      "href": "/dashboard/savings",
+      "icon": "billing",
+      "options": {
+        "view": "Visualizza Conto",
+        "transfer": "Trasferisci",
+        "withdraw": "Preleva",
+        "create": "Crea Conto"
+      }
+    },
+    {
+      "name": "Business",
+      "href": "/dashboard/business",
+      "icon": "briefcase",
+      "options": {
+        "view": "Visualizza Conto",
+        "transfer": "Trasferisci",
+        "withdraw": "Preleva",
+        "create": "Crea Conto"
+      }
+    }
+  ],
+  "adminNav": [
+    { "href": "/admin", "icon": "admin", "name": "Admin" },
+    { "href": "/admin/transfer", "icon": "transactions", "name": "Trasferisci" }
+  ],
+  "userNav": [
+    {
+      "title": "Admin",
+      "href": "/admin",
+      "icon": "admin",
+      "cmd": "⇧⌘X",
+      "role": "admin"
+    },
+    {
+      "title": "Cruscotto",
+      "href": "/dashboard",
+      "icon": "dashboard",
+      "cmd": "⇧⌘D",
+      "role": "user"
+    }
+  ]
+}

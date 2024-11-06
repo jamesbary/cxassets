@@ -1,0 +1,88 @@
+{
+  "story": {
+    "title": "Nuestra Historia",
+    "description": "Bienvenido a la banca moderna, donde creemos en reimaginar el futuro de la banca para la era digital. Fundada sobre los principios de innovación, seguridad y orientación al cliente, nuestra misión es proporcionar una experiencia bancaria fluida y personalizada que empodere tanto a individuos como a empresas."
+  },
+  "values": {
+    "title": "Misión y Valores",
+    "description": "Nuestra misión es transformar la forma en que gestionas tus finanzas aprovechando la tecnología de punta y un servicio al cliente excepcional. Estamos dedicados a:",
+    "items": [
+      {
+        "title": "Innovación",
+        "description": "Evolucionar continuamente nuestros servicios para satisfacer las necesidades cambiantes de nuestros clientes."
+      },
+      {
+        "title": "Seguridad",
+        "description": "Implementar medidas de seguridad de última generación para proteger tus datos y transacciones."
+      },
+      {
+        "title": "Orientación al Cliente",
+        "description": "Poner a nuestros clientes en el centro de todo lo que hacemos, garantizando una experiencia bancaria fluida y gratificante."
+      },
+      {
+        "title": "Transparencia",
+        "description": "Construir confianza a través de una comunicación clara y honesta y productos financieros directos."
+      },
+      {
+        "title": "Inclusividad",
+        "description": "Proporcionar soluciones bancarias accesibles para todos, independientemente de su historial financiero."
+      },
+      {
+        "title": "Eficiencia",
+        "description": "Optimizar los procesos para garantizar un servicio rápido y eficiente para todas sus necesidades bancarias."
+      },
+      {
+        "title": "Responsabilidad",
+        "description": "Actuar con integridad y responsabilidad en todas nuestras prácticas comerciales."
+      },
+      {
+        "title": "Sostenibilidad",
+        "description": "Promover prácticas sostenibles y contribuir a un futuro más verde."
+      }
+    ]
+  },
+  "team": {
+    "title": "Nuestro Equipo",
+    "description": "Nuestro equipo es un grupo diverso de profesionales apasionados por las finanzas y la tecnología. Reunimos a expertos de diversos campos para crear un entorno bancario dinámico y con visión de futuro. Conozca a algunos de los miembros clave:",
+    "items": [
+      {
+        "title": "John Klugger, CEO",
+        "description": "Con más de 20 años de experiencia en la industria financiera, John lidera nuestro equipo con una visión de un futuro bancario más inclusivo e innovador."
+      },
+      {
+        "title": "Jane Marlon, CTO",
+        "description": "Jane dirige nuestra división tecnológica, asegurando que nuestra plataforma se mantenga a la vanguardia de la innovación en la banca digital."
+      },
+      {
+        "title": "Alice Johnson, CFO",
+        "description": "Alice supervisa nuestras operaciones financieras, aportando una gran cantidad de conocimientos y experiencia a nuestra planificación estratégica."
+      },
+      {
+        "title": "Mark Thompson, Jefe de Experiencia del Cliente",
+        "description": "Mark desempeña perfectamente el papel de Jefe de Experiencia del Cliente, asegurando que cada interacción con el cliente sea gratificante."
+      }
+    ]
+  },
+  "whyus": {
+    "title": "¿Por Qué Elegirnos?",
+    "description": "se destaca por su compromiso con:",
+    "items": [
+      {
+        "title": "Experiencia en Línea Sin Problemas",
+        "description": "Disfrute de una plataforma fácil de usar que hace que la gestión de sus finanzas sea más fácil que nunca."
+      },
+      {
+        "title": "Servicios Integrales",
+        "description": "Desde la banca personal y empresarial hasta las soluciones de préstamo y servicios hipotecarios, ofrecemos una amplia gama de productos financieros adaptados a sus necesidades."
+      },
+      {
+        "title": "Soporte al Cliente 24/7",
+        "description": "Acceda a ayuda cuando la necesite con nuestro equipo de soporte dedicado."
+      },
+      {
+        "title": "Tasas Competitivas",
+        "description": "Benefíciese de tasas de interés atractivas y bajas tarifas en todos nuestros productos y servicios."
+      }
+    ]
+  }
+}

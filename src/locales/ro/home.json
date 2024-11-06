@@ -1,0 +1,173 @@
+{
+  "hero": {
+    "heading": "Bancă de Investiții",
+    "sub": "Experimentați viitorul Băncii Moderne și al Investițiilor cu soluții adaptate nevoilor dvs.",
+    "action": "Începeți",
+    "more": "Aflați mai multe"
+  },
+  "about": {
+    "heading": "Cine Suntem",
+    "description": "Partenerul dvs. pentru protejarea și creșterea finanțelor și investițiilor",
+    "items": [
+      {
+        "title": "Misiune",
+        "description": "Revoluționăm managementul financiar prin tehnologie avansată și un serviciu excelent pentru clienți.",
+        "icon": "mission"
+      },
+      {
+        "title": "Valori",
+        "description": "Asigurăm protecția datelor, randamente ridicate cu comisioane mici, monitorizare financiară în timp real și un suport excelent pentru clienți.",
+        "icon": "value"
+      }
+    ]
+  },
+  "features": {
+    "heading": "De Ce să Ne Alegeți",
+    "description": "Toate instrumentele bancare și de investiții de care aveți nevoie într-o singură platformă",
+    "items": [
+      {
+        "title": "Securitate",
+        "description": "Protejați-vă datele cu tehnologii avansate de criptare.",
+        "icon": "admin"
+      },
+      {
+        "title": "Comisioane Mici, Randamente Mari",
+        "description": "Beneficiați de comisioane mici și dobânzi competitive.",
+        "icon": "billing"
+      },
+      {
+        "title": "Management în Timp Real",
+        "description": "Urmăriți tranzacțiile și creșterea investițiilor în timp real.",
+        "icon": "convenience"
+      },
+      {
+        "title": "Suport 24/7",
+        "description": "Suntem întotdeauna disponibili pentru a vă ajuta cu întrebările dvs.",
+        "icon": "support"
+      }
+    ]
+  },
+  "pages": {
+    "career": {
+      "title": "Carieră",
+      "description": "Cum să vă implicați și să vă alăturați echipei",
+      "href": "/career"
+    },
+    "about": {
+      "title": "Despre Noi",
+      "description": "Aflați mai multe despre compania noastră și misiunea noastră",
+      "href": "/about"
+    },
+    "contact": {
+      "title": "Contactați-ne",
+      "description": "Vorbiți cu un agent de suport",
+      "href": "/contact"
+    }
+  },
+  "home_support": {
+    "email": "Adresa de e-mail",
+    "message": "Mesaj",
+    "send": "Trimite mesaj",
+    "success": "mesaj trimis cu succes"
+  },
+  "service": {
+    "action": "Explorați opțiunile",
+    "four": { "title": "Servicii ipotecare" },
+    "one": {
+      "description": "De la conturi curente și de economii la servicii bancare prin internet și plata facturilor, gestionați-vă finanțele cu ușurință. Bucurați-vă de confortul accesului 24/7 la conturile dvs., tranzacțiile securizate și instrumentele financiare personalizate.",
+      "title": "Personal Banking"
+    },
+    "three": { "title": "Soluții de creditare" },
+    "two": { "title": "Servicii ipotecare" }
+  },
+  "services": [
+    {
+      "title": "Personal Banking",
+      "href": "/personal",
+      "description": "De la conturi curente și de economii la internet banking și plata facturilor, gestionați-vă finanțele cu ușurință. Bucurați-vă de confortul 24/7 acces la conturile dvs., tranzacțiile securizate și instrumentele financiare personalizate.",
+      "icon": "user",
+      "items": [
+        {
+          "title": "Verificarea conturilor",
+          "description": "Simplificați-vă tranzacțiile zilnice cu ajutorul nostru flexibil și conturi curente fără comisioane."
+        },
+        {
+          "title": "Conturi de economii",
+          "description": "Crește-ți economiile cu rate competitive ale dobânzii și acces ușor la fonduri."
+        },
+        {
+          "title": "Internet Banking ",
+          "description": "Gestionați-vă finanțele de oriunde, în orice moment, cu platforma noastră bancară online ușor de utilizat."
+        },
+        {
+          "title": "Plata facturilor",
+          "description": "Plătiți-vă facturile rapid și în siguranță , fără bătaia de cap a extraselor pe hârtie."
+        }
+      ]
+    },
+    {
+      "title": "Business Banking",
+      "href": "/business",
+      "description": "Soluții personalizate, inclusiv conturi de afaceri, internet banking și management al trezoreriei. Îmbunătățiți-vă afacerea cu instrumente care eficientizează operațiunile și sporesc eficiența financiară.",
+      "icon": "briefcase",
+      "items": [
+        {
+          "title": "Conturi de afaceri",
+          "description": "Păstrați-vă finanțele organizate cu ajutorul nostru opțiuni complete de cont de afaceri."
+        },
+        {
+          "title": "Business Internet Banking",
+          "description": "Monitorizați-vă finanțele companiei și efectuați tranzacții fără efort cu ajutorul nostru online banking securizat."
+        },
+        {
+          "title": "Gestionarea trezoreriei",
+          "description": "Optimizați-vă fluxul de numerar și gestionați-vă activele în mod eficient cu serviciile noastre avansate de trezorerie."
+        }
+      ]
+    },
+    {
+      "title": "Soluții de creditare",
+      "href": "/leding",
+      "description": " Accesați o varietate de împrumuturi pentru întreprinderi mici, întreprinderi comerciale și credite ipotecare personale. Indiferent dacă vă extindeți afacerea sau vă cumpărați casa de vis, vă oferim opțiuni flexibile de împrumut pentru a vă satisface nevoile.",
+      "icon": "dollarSign",
+      "items": [
+        {
+          "title": "Împrumuturi pentru întreprinderi mici",
+          " description": "Obțineți finanțarea de care aveți nevoie pentru a vă dezvolta mica afacere cu soluțiile noastre de împrumut personalizate."
+        },
+        {
+          "title": "Finanțare comercială",
+          "description": "Finanțare sigură pentru proiectele dvs. comerciale cu opțiunile noastre competitive de împrumut. "
+        },
+        {
+          "title": "Ipoteca personală",
+          "description": "Alegeți dintr-o gamă de produse ipotecare concepute pentru a se potrivi situației dvs. financiare și obiectivelor de proprietate."
+        }
+      ]
+    },
+    {
+      "title": "Servicii ipotecare",
+      "href": "/mortgage",
+      "description": "Găsiți produsul ipotecar potrivit, indiferent dacă cumpărați pentru prima dată o casă sau căutați finanțare specializată. Beneficiați de sfaturile noastre de experți și de tarifele competitive pentru a vă face călătoria de cumpărare a casei lină și fără stres.",
+      "icon": "mortgage",
+      "items": [
+        {
+          "title": "First-Time Buyers case",
+          "description ": "Navigați cu încredere în procesul de cumpărare a casei cu programele noastre pentru cumpărători pentru prima dată."
+        },
+        {
+          "title": "Asistență pentru plata în avans",
+          "description": "Profitați de programele noastre de asistență pentru a face achiziția casei mai accesibilă ."
+        },
+        {
+          "title": "Ipoteca specializate",
+          "description": "Explorați gama noastră de împrumuturi FHA, VA, USDA și jumbo adaptate nevoilor dvs. unice."
+        }
+      ]
+    }
+  ],
+  "service_title": "Servicii",
+  "support_desc": "Contactați-ne sau folosiți resursele noastre pentru a naviga pe platformă și a prelua controlul asupra activităților bancare și a investițiilor dvs",
+  "support_more": "Întrebări frecvente",
+  "support_title": "A sustine"
+}

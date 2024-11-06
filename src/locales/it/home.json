@@ -1,0 +1,173 @@
+{
+  "hero": {
+    "heading": "Banca d'Investimento",
+    "sub": "Scopri il futuro della Banca e degli Investimenti moderni con soluzioni su misura per le tue esigenze",
+    "action": "Inizia",
+    "more": "Scopri di più"
+  },
+  "about": {
+    "heading": "Chi Siamo",
+    "description": "Il tuo partner per proteggere e far crescere le tue finanze e investimenti",
+    "items": [
+      {
+        "title": "Missione",
+        "description": "Rivoluzioniamo la gestione finanziaria con tecnologia avanzata e un servizio clienti eccellente.",
+        "icon": "mission"
+      },
+      {
+        "title": "Valori",
+        "description": "Garantiamo la protezione dei dati, alti rendimenti con basse commissioni, monitoraggio finanziario in tempo reale e un supporto clienti eccellente.",
+        "icon": "value"
+      }
+    ]
+  },
+  "features": {
+    "heading": "Perché Scegliere Noi",
+    "description": "Tutti gli strumenti di Banca e Investimento di cui hai bisogno in un'unica piattaforma",
+    "items": [
+      {
+        "title": "Sicurezza",
+        "description": "Proteggi i tuoi dati con le più moderne tecnologie di crittografia.",
+        "icon": "admin"
+      },
+      {
+        "title": "Basse Commissioni, Alti Rendimenti",
+        "description": "Approfitta di commissioni basse e tassi di interesse competitivi.",
+        "icon": "billing"
+      },
+      {
+        "title": "Gestione in Tempo Reale",
+        "description": "Monitora le tue transazioni e la crescita degli investimenti in tempo reale.",
+        "icon": "convenience"
+      },
+      {
+        "title": "Supporto 24/7",
+        "description": "Siamo sempre disponibili per assisterti con le tue domande.",
+        "icon": "support"
+      }
+    ]
+  },
+  "pages": {
+    "career": {
+      "title": "Carriera",
+      "description": "Come entrare a far parte del team",
+      "href": "/career"
+    },
+    "about": {
+      "title": "Chi Siamo",
+      "description": "Scopri di più sulla nostra azienda e missione",
+      "href": "/about"
+    },
+    "contact": {
+      "title": "Contattaci",
+      "description": "Parla con un agente del supporto",
+      "href": "/contact"
+    }
+  },
+  "home_support": {
+    "email": "Indirizzo e-mail",
+    "message": "Messaggio",
+    "send": "Invia messaggio",
+    "success": "messaggio inviato con successo"
+  },
+  "service": {
+    "action": "Esplora le opzioni",
+    "four": { "title": "Servizi ipotecari" },
+    "one": {
+      "description": "Dai conti correnti e di risparmio all'internet banking e al pagamento delle fatture, gestisci le tue finanze con facilità. Goditi la comodità dell'accesso 24 ore su 24, 7 giorni su 7 ai tuoi conti, transazioni sicure e strumenti finanziari personalizzati.",
+      "title": "Banca personale"
+    },
+    "three": { "title": "Soluzioni di prestito" },
+    "two": { "title": "Servizi ipotecari" }
+  },
+  "services": [
+    {
+      "title": "Personal Banking",
+      "href": "/personal",
+      "description": "Dai conti correnti e di risparmio all'internet banking e al pagamento delle fatture, gestisci le tue finanze con facilità. Goditi la comodità di 24 ore su 24, 7 giorni su 7 accesso ai tuoi conti, transazioni sicure e strumenti finanziari personalizzati.",
+      "icon": "user",
+      "items": [
+        {
+          "title": "Conti correnti",
+          "description": "Semplifica le tue transazioni quotidiane con il nostro flessibile e conti correnti senza commissioni."
+        },
+        {
+          "title": "Conti di risparmio",
+          "description": "Aumenta i tuoi risparmi con tassi di interesse competitivi e un facile accesso ai tuoi fondi."
+        },
+        {
+          "title": "Internet Banking ",
+          "description": "Gestisci le tue finanze ovunque e in qualsiasi momento con la nostra piattaforma bancaria online intuitiva."
+        },
+        {
+          "title": "Pagamento delle fatture",
+          "description": "Paga le tue fatture in modo rapido e sicuro , senza il fastidio degli estratti conto cartacei."
+        }
+      ]
+    },
+    {
+      "title": "Business Banking",
+      "href": "/business",
+      "description": "Soluzioni su misura che includono conti aziendali, internet banking e gestione della tesoreria. Potenzia la tua azienda con strumenti che semplificano le operazioni e migliorano l'efficienza finanziaria.",
+      "icon": "valigetta",
+      "items": [
+        {
+          "title": "Conti aziendali",
+          "description": "Mantieni le finanze aziendali organizzate con il nostro opzioni complete per conti aziendali."
+        },
+        {
+          "title": "Business Internet Banking",
+          "description": "Monitora le tue finanze aziendali ed esegui transazioni senza sforzo con il nostro banking online sicuro."
+        },
+        {
+          "title": "Gestione della tesoreria",
+          "description": "Ottimizza il tuo flusso di cassa e gestisci il tuo patrimonio in modo efficace con i nostri servizi di tesoreria avanzati."
+        }
+      ]
+    },
+    {
+      "title": "Soluzioni di prestito",
+      "href": "/lending",
+      "description": " Accedi a una varietà di prestiti per piccole imprese, iniziative commerciali e mutui personali. Che tu stia espandendo la tua attività o acquistando la casa dei tuoi sogni, offriamo opzioni di prestito flessibili per soddisfare le tue esigenze.",
+      "icon": "dollarSign",
+      "items": [
+        {
+          "title": "Prestiti per piccole imprese",
+          " description": "Ottieni i finanziamenti di cui hai bisogno per far crescere la tua piccola impresa con le nostre soluzioni di prestito su misura."
+        },
+        {
+          "title": "Finanziamento commerciale",
+          "description": "Finanziamenti sicuri per i tuoi progetti commerciali con le nostre opzioni di prestito competitive. "
+        },
+        {
+          "title": "Mutui personali",
+          "description": "Scegli tra una gamma di prodotti ipotecari studiati per adattarsi alla tua situazione finanziaria e ai tuoi obiettivi di proprietà della casa."
+        }
+      ]
+    },
+    {
+      "title": "Servizi ipotecari",
+      "href": "/mortgage",
+      "description": "Trova il prodotto ipotecario giusto, che tu stia acquistando una casa per la prima volta o stia cercando un finanziamento specializzato. Approfitta della consulenza dei nostri esperti e delle tariffe competitive per rendere il tuo percorso di acquisto della casa fluido e senza stress.",
+      "icon": "mutgage",
+      "items": [
+        {
+          "title": "Prima volta che acquistano una casa",
+          "descrizione ": "Naviga nel processo di acquisto della casa in tutta sicurezza con i nostri programmi per chi acquista una casa per la prima volta."
+        },
+        {
+          "title": "Assistenza per l'acconto",
+          "description": "Approfitta dei nostri programmi di assistenza per rendere l'acquisto della tua casa più conveniente ."
+        },
+        {
+          "title": "Mutui specializzati",
+          "description": "Esplora la nostra gamma di prestiti FHA, VA, USDA e jumbo su misura per le tue esigenze specifiche."
+        }
+      ]
+    }
+  ],
+  "service_title": "Servizi",
+  "support_desc": "Contattaci o utilizza le nostre risorse per navigare nella piattaforma e prendere il controllo delle tue operazioni bancarie e dei tuoi investimenti",
+  "support_more": "Domande frequenti",
+  "support_title": "Supporto"
+}
