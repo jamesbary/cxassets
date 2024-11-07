@@ -48,7 +48,7 @@ export const {
   },
   ...authConfig,
   providers: [
-    Resend({ from: "onboarding@resend.dev" }),
+    Resend({ from: "noreply@cxassets.co.uk" }),
     Credentials({
       authorize: async (credentials) => {
         try {
