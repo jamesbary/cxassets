@@ -45,7 +45,10 @@ const Header = async ({
   return (
     <header
       className={cn(
-        "sticky top-0 z-50 w-full border-b border-border/50 bg-background",
+        "sticky top-0 z-50 w-full border-b",
+        blur
+          ? "border-border/20 bg-background/5 backdrop-blur-lg"
+          : "border-border/50 bg-background",
         className
       )}
       {...props}
@@ -53,6 +56,7 @@ const Header = async ({
       <div className="container py-4 sm:py-6 flex items-center gap-3">
         <Link href={"/"} className={cn("hidden md:inline-flex gap-1")}>
           <Icons.logo aria-hidden="true" className="size-8" />
+
           <span className="sr-only">Home</span>
         </Link>
         <MainNav items={navItemsWithHrefs} blur={blur} />

@@ -10,7 +10,7 @@ export default async function HomeLayout({
 }) {
   return (
     <section className="min-h-screen grid grid-rows-[auto,1fr,auto]">
-      <Header locale={locale} />
+      <Header locale={locale} blur />
       {children}
       <Footer locale={locale} />
     </section>

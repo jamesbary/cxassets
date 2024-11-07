@@ -20,7 +20,7 @@ const Hero = async ({ locale }: { locale: string }) => {
   const heroData = t("hero", { returnObjects: true }) as HeroData;
 
   return (
-    <section className="relative w-full py-20 md:py-24 lg:py-28 md:min-h-[75vh] flex items-center px-4 sm:px-8">
+    <section className="relative w-full pb-20 md:pb-24 lg:pb-28 pt-52 md:pt-56 lg:pt-60 md:min-h-[75vh] flex items-center px-4 sm:px-8 -mt-32">
       <Image
         src="/assets/hero/long-3.jpeg"
         alt="hero image"
