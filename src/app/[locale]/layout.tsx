@@ -22,6 +22,7 @@ export const metadata: Metadata = {
     "Digital Banking",
   ],
   icons: [
+    { rel: "icon", url: "/favicon.svg" },
     { rel: "icon", url: "/favicon.png" },
     { rel: "icon", url: "/favicon.ico" },
   ],

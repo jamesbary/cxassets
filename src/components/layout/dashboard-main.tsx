@@ -116,7 +116,7 @@ export function NavDashboard({
                       </CollapsibleTrigger>
                       <CollapsibleContent>
                         <SidebarMenuSub>
-                          {item.items?.map((subItem) => (
+                          {item.items?.slice(0, 1).map((subItem) => (
                             <SidebarMenuSubItem key={subItem.title}>
                               <SidebarMenuSubButton asChild>
                                 <a href={subItem.href}>
