@@ -1,0 +1,111 @@
+{
+  "common": {
+    "savings": "个人储蓄账户",
+    "checking": "个人支票账户",
+    "business": "企业账户",
+    "details": "详情",
+    "action": "创建账户"
+  },
+  "meta": {
+    "upload": {
+      "complete": "上传完成",
+      "success": "成功",
+      "button": {
+        "ready": "选择图片",
+        "isUploading": "正在上传 ...",
+        "prep": "准备中 ..."
+      },
+      "allowed": {
+        "ready": "您只能上传图片",
+        "isUploading": "似乎正在上传图片",
+        "prep": "正在检查允许的内容"
+      }
+    },
+    "transfer": {
+      "search": "筛选交易",
+      "status": "状态",
+      "type": "类型",
+      "name": "名称",
+      "amount": "金额",
+      "date": "日期",
+      "asc": "升序",
+      "desc": "降序",
+      "hide": "隐藏",
+      "pending": "待处理",
+      "success": "成功",
+      "rejected": "已拒绝",
+      "transfer": "转账",
+      "fund": "资金",
+      "reset": "重置"
+    }
+  },
+  "message": {
+    "enough": "您的账户中没有足够的资金来完成此交易",
+    "exist": "账户不存在",
+    "generic": "抱歉，我们目前无法完成此操作，请稍后再试或联系客户支持",
+    "success": "操作成功完成"
+  },
+  "card": {
+    "transfer": "转账",
+    "withdraw": "取款",
+    "details": "详情",
+    "active": "活跃",
+    "inactive": "非活跃",
+    "closed": "已关闭",
+    "notEnough": {
+      "title": "余额不足！",
+      "desc": "您的账户中没有足够的资金来完成此交易！",
+      "cancel": "取消"
+    },
+    "transCard": {
+      "title": "转账",
+      "number": "账户号码",
+      "amount": "金额 (USD)",
+      "proceed": "立即转账",
+      "cancel": "取消"
+    },
+    "action": "创建账户"
+  },
+  "block": {
+    "title": "账户已被封锁",
+    "desc": "要解锁您的账户，请联系支持部门进行账户重新激活和进一步处理。",
+    "action": "联系支持"
+  },
+  "checking": {
+    "create": {
+      "title": "创建个人支票账户",
+      "desc": "请确认您希望通过点击下面的按钮创建支票账户。",
+      "confirm": "创建支票账户",
+      "cancel": "取消",
+      "success": "个人支票账户创建成功。",
+      "exists": "您已经有个人支票账户",
+      "error": "无法完成请求。请重试或联系支持"
+    }
+  },
+  "savings": {
+    "create": {
+      "title": "创建个人储蓄账户",
+      "desc": "请确认您希望通过点击下面的按钮创建储蓄账户。",
+      "confirm": "创建储蓄账户",
+      "cancel": "取消",
+      "success": "个人储蓄账户创建成功。",
+      "exists": "您已经有个人储蓄账户",
+      "error": "无法完成请求。请重试或联系支持"
+    }
+  },
+  "business": {
+    "create": {
+      "title": "创建企业账户",
+      "desc": "您即将创建一个企业账户。请提供所需的详细信息以继续。",
+      "confirm": "创建企业账户",
+      "cancel": "取消",
+      "placeholder": {
+        "name": "企业名称",
+        "type": "企业类型"
+      },
+      "success": "企业账户创建成功。",
+      "exists": "您已经有企业账户",
+      "error": "无法完成请求。请重试或联系支持。"
+    }
+  }
+}

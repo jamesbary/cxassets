@@ -22,6 +22,7 @@ const languageMapping = {
   bg: { fullName: "Български", flag: "BG" as Icons },
   it: { fullName: "Italiano", flag: "IT" as Icons },
   de: { fullName: "Deutsch", flag: "DE" as Icons },
+  "zh-CN": { fullName: "中文（简体）", flag: "CN" as Icons },
 };
 
 const SelectLanguage = ({ user }: { user?: User }) => {

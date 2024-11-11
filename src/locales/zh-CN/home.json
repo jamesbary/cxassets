@@ -1,0 +1,173 @@
+{
+  "hero": {
+    "heading": "投资银行",
+    "sub": "体验未来的现代银行和投资，提供满足您需求的解决方案",
+    "action": "立即开始",
+    "more": "了解更多"
+  },
+  "about": {
+    "heading": "关于我们",
+    "description": "您在保障和增长财务与投资方面的合作伙伴",
+    "items": [
+      {
+        "title": "使命",
+        "description": "通过先进技术和卓越的客户服务，革新财务管理。",
+        "icon": "mission"
+      },
+      {
+        "title": "价值",
+        "description": "我们确保数据保护，提供低费率、高回报的实时财务跟踪和优质客户支持。",
+        "icon": "value"
+      }
+    ]
+  },
+  "features": {
+    "heading": "为什么选择我们",
+    "description": "您所需的所有银行和投资工具，尽在一个平台",
+    "items": [
+      {
+        "title": "安全性",
+        "description": "用最先进的加密技术保护您的数据。",
+        "icon": "admin"
+      },
+      {
+        "title": "低费率，高回报",
+        "description": "享受低费率和有竞争力的利率收益。",
+        "icon": "billing"
+      },
+      {
+        "title": "实时管理",
+        "description": "实时跟踪您的交易和投资增长。",
+        "icon": "convenience"
+      },
+      {
+        "title": "24/7 支持",
+        "description": "我们随时为您的问题提供帮助。",
+        "icon": "support"
+      }
+    ]
+  },
+  "pages": {
+    "career": {
+      "title": "职业",
+      "description": "如何加入我们的团队",
+      "href": "/career"
+    },
+    "about": {
+      "title": "关于我们",
+      "description": "了解更多关于我们的公司和使命",
+      "href": "/about"
+    },
+    "contact": {
+      "title": "联系我们",
+      "description": "与支持人员联系",
+      "href": "/contact"
+    }
+  },
+  "home_support": {
+    "email": "电子邮件地址",
+    "message": "信息",
+    "send": "发送信息",
+    "success": "信息发送成功"
+  },
+  "service": {
+    "action": "探索选项",
+    "four": { "title": "按揭服务" },
+    "one": {
+      "description": "从支票和储蓄账户到网上银行和账单支付，轻松管理您的财务。享受24/7账户访问、安全交易和个性化的金融工具。",
+      "title": "个人银行业务"
+    },
+    "three": { "title": "贷款解决方案" },
+    "two": { "title": "按揭服务" }
+  },
+  "services": [
+    {
+      "title": "个人银行业务",
+      "href": "/personal",
+      "description": "从支票和储蓄账户到网上银行和账单支付，轻松管理您的财务。享受24/7账户访问、安全交易和个性化的金融工具。",
+      "icon": "user",
+      "items": [
+        {
+          "title": "支票账户",
+          "description": "通过我们的灵活、免手续费的支票账户简化您的日常交易。"
+        },
+        {
+          "title": "储蓄账户",
+          "description": "通过有竞争力的利率和便捷的资金访问增加您的储蓄。"
+        },
+        {
+          "title": "网上银行",
+          "description": "随时随地使用我们用户友好的网上银行平台管理您的财务。"
+        },
+        {
+          "title": "账单支付",
+          "description": "快速安全地支付账单，无需纸质对账单的麻烦。"
+        }
+      ]
+    },
+    {
+      "title": "商业银行业务",
+      "href": "/business",
+      "description": "包括商业账户、网上银行和资金管理的定制解决方案。为您的业务提供简化操作和提升财务效率的工具。",
+      "icon": "briefcase",
+      "items": [
+        {
+          "title": "商业账户",
+          "description": "通过我们的全面商业账户选项组织您的业务财务。"
+        },
+        {
+          "title": "商业网上银行",
+          "description": "使用我们的安全网上银行轻松监控业务财务并执行交易。"
+        },
+        {
+          "title": "资金管理",
+          "description": "通过我们的高级资金服务优化您的现金流和资产管理。"
+        }
+      ]
+    },
+    {
+      "title": "贷款解决方案",
+      "href": "/lending",
+      "description": "获取用于小企业、商业项目和个人按揭的多种贷款。无论是扩展业务还是购置理想住宅，我们都提供满足您需求的灵活贷款选择。",
+      "icon": "dollarSign",
+      "items": [
+        {
+          "title": "小企业贷款",
+          "description": "通过我们定制的贷款解决方案获得您所需的资金，以发展您的小企业。"
+        },
+        {
+          "title": "商业融资",
+          "description": "通过我们的有竞争力的贷款选项为您的商业项目获取融资。"
+        },
+        {
+          "title": "个人按揭",
+          "description": "选择适合您财务状况和置业目标的多种按揭产品。"
+        }
+      ]
+    },
+    {
+      "title": "按揭服务",
+      "href": "/mortgage",
+      "description": "找到适合的按揭产品，无论您是首次购房者还是寻找特定融资方式。通过我们的专家建议和有竞争力的利率，让您的购房之旅顺畅无忧。",
+      "icon": "mortgage",
+      "items": [
+        {
+          "title": "首次购房者",
+          "description": "通过我们的首次购房者计划自信地完成购房流程。"
+        },
+        {
+          "title": "首付款援助",
+          "description": "利用我们的援助计划，使您的购房更加实惠。"
+        },
+        {
+          "title": "特殊按揭",
+          "description": "探索我们提供的FHA、VA、USDA和大额贷款等多种按揭，以满足您的独特需求。"
+        }
+      ]
+    }
+  ],
+  "service_title": "服务",
+  "support_desc": "联系我们或使用我们的资源，轻松导航平台并掌控您的银行业务和投资",
+  "support_more": "常见问题",
+  "support_title": "支持"
+}
