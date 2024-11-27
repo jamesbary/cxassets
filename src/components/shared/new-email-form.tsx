@@ -26,14 +26,22 @@ interface EmailProps extends React.HTMLAttributes<HTMLFormElement> {
     message: string;
     send: string;
     success: string;
+    cancel: string;
   };
+  setOpen: React.Dispatch<React.SetStateAction<boolean>>;
 }
 
 interface PopulateEmailFormEventDetail {
   email: string;
 }
 
-const EmailForm = ({ placeholder, email, className, ...props }: EmailProps) => {
+const EmailForm = ({
+  placeholder,
+  email,
+  setOpen,
+  className,
+  ...props
+}: EmailProps) => {
   const [isPending, startTransition] = React.useTransition();
 
   const defaultValues: EmailPayload = {
@@ -59,6 +67,7 @@ const EmailForm = ({ placeholder, email, className, ...props }: EmailProps) => {
         } else {
           form.reset();
           toast.success(placeholder.success);
+          setOpen(false);
         }
       } catch (err) {
         catchError(err);

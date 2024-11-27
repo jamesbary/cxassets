@@ -68,7 +68,8 @@
     "email": "Indirizzo e-mail",
     "message": "Messaggio",
     "send": "Invia messaggio",
-    "success": "messaggio inviato con successo"
+    "success": "messaggio inviato con successo",
+    "cancel": "Annulla"
   },
   "service": {
     "action": "Esplora le opzioni",

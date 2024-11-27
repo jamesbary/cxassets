@@ -68,7 +68,8 @@
     "email": "Adresa de e-mail",
     "message": "Mesaj",
     "send": "Trimite mesaj",
-    "success": "mesaj trimis cu succes"
+    "success": "mesaj trimis cu succes",
+    "cancel": "Anulează"
   },
   "service": {
     "action": "Explorați opțiunile",

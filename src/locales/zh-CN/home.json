@@ -68,7 +68,8 @@
     "email": "电子邮件地址",
     "message": "信息",
     "send": "发送信息",
-    "success": "信息发送成功"
+    "success": "信息发送成功",
+    "cancel": "取消"
   },
   "service": {
     "action": "探索选项",

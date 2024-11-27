@@ -68,7 +68,8 @@
     "email": "E-Mail-Adresse",
     "message": "Nachricht",
     "send": "Nachricht senden",
-    "success": "Nachricht erfolgreich gesendet"
+    "success": "Nachricht erfolgreich gesendet",
+    "cancel": "Abbrechen"
   },
   "service": {
     "action": "Optionen erkunden",

@@ -68,7 +68,8 @@
     "email": "Dirección de correo electrónico",
     "message": "Mensaje",
     "send": "Enviar mensaje",
-    "success": "Mensaje enviado con éxito"
+    "success": "Mensaje enviado con éxito",
+    "cancel": "Cancelar"
   },
   "service": {
     "action": "Explorar opciones",

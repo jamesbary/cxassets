@@ -68,7 +68,8 @@
     "email": "Email Address",
     "message": "Message",
     "send": "Send Message",
-    "success": "Message sent successfully"
+    "success": "Message sent successfully",
+    "cancel": "Cancel"
   },
   "service": {
     "action": "Explore options",
