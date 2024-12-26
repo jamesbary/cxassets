@@ -27,6 +27,7 @@ export type Create = {
 export type Message = {
   enough: string;
   exist: string;
+  limit: string;
   generic: string;
   success: string;
 };
@@ -37,9 +38,26 @@ export type NotEnough = {
   cancel: string;
 };
 
+export type Pin = {
+  title: string;
+  desc: string;
+  proceed: string;
+  cancel: string;
+};
+
 export type TransCard = {
   title: string;
   number: string;
+  amount: string;
+  proceed: string;
+  cancel: string;
+};
+
+export type WithdrawCard = {
+  title: string;
+  bank: string;
+  number: string;
+  name: string;
   amount: string;
   proceed: string;
   cancel: string;
@@ -54,6 +72,7 @@ export type Card = {
   closed: string;
   notEnough: NotEnough;
   transCard: TransCard;
+  withdrawCard: WithdrawCard;
   action: string;
 };
 
@@ -85,6 +104,7 @@ export type Transfer = {
   rejected: string;
   transfer: string;
   fund: string;
+  withdrawal: string;
   reset: string;
 };
 
@@ -102,4 +122,55 @@ export type DashData = {
   checking: Account;
   savings: Account;
   business: Account;
+};
+
+export type PinMessage = {
+  name: string;
+  message: string;
+};
+export type CreatePin = {
+  title: string;
+  name: string;
+  confirm: string;
+  proceed: string;
+  cancel: string;
+  error: PinMessage;
+  success: PinMessage;
+};
+export type ChangePin = {
+  title: string;
+  current: string;
+  new: string;
+  confirm: string;
+  proceed: string;
+  cancel: string;
+  error: PinMessage;
+  success: PinMessage;
+};
+export type ResetPin = {
+  title: string;
+  instructions: string;
+  email: string;
+  proceed: string;
+  cancel: string;
+  error: PinMessage;
+  success: PinMessage;
+};
+export type VerifyPin = {
+  title: string;
+  name: string;
+  proceed: string;
+  cancel: string;
+  error: PinMessage;
+  success: PinMessage;
+};
+export type PinTranslation = {
+  title: string;
+  create: CreatePin;
+  change: ChangePin;
+  reset: ResetPin;
+  verify: VerifyPin;
+  name: string;
+  proceed: string;
+  cancel: string;
 };

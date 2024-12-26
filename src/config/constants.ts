@@ -57,6 +57,11 @@ export const type: DataTableOption[] = [
     label: "Fund",
     icon: "wallet",
   },
+  {
+    value: "withdrawal",
+    label: "Withdrawal",
+    icon: "note",
+  },
 ];
 
 export const personal = [

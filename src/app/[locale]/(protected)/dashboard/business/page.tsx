@@ -6,7 +6,7 @@ import { AlertTransfer } from "@/app/[locale]/(protected)/dashboard/_components/
 import { AlertWithdraw } from "@/app/[locale]/(protected)/dashboard/_components/alert-withdraw";
 import { Create } from "@/app/[locale]/(protected)/dashboard/_components/business-account";
 import { Transfer } from "@/app/[locale]/(protected)/dashboard/_components/transfer";
-import { WithdrawLink } from "@/app/[locale]/(protected)/dashboard/_components/withdraw-link";
+import { Withdraw } from "@/app/[locale]/(protected)/dashboard/_components/withdraw";
 import { CopyToClipboard } from "@/components/shared/copy-to-clipboard";
 import { Alert, AlertDescription, AlertTitle } from "@/components/ui/alert";
 import { Badge } from "@/components/ui/badge";
@@ -56,7 +56,16 @@ export default async function Page({
       business: dashData.common.business,
     },
   };
-  const withdrawTitle = dashData.card.withdraw;
+
+  const withdrawData = {
+    withdrawCard: dashData.card.withdrawCard,
+    message: dashData.message,
+    type: {
+      checking: dashData.common.checking,
+      savings: dashData.common.savings,
+      business: dashData.common.business,
+    },
+  };
 
   const createBusiness = {
     ...dashData.business.create,
@@ -109,7 +118,11 @@ export default async function Page({
             {Number(businessAccount.balance) <= 0 ? (
               <AlertWithdraw data={noWith} />
             ) : (
-              <WithdrawLink title={withdrawTitle} />
+              <Withdraw
+                type="businessAccounts"
+                id={businessAccount.id}
+                data={withdrawData}
+              />
             )}
           </div>
         </React.Fragment>

@@ -5,9 +5,9 @@ import {
   businessAccounts,
   personalCheckingAccounts,
   personalSavingsAccounts,
+  SavingsAccount,
   type BusinessAccount,
   type CheckingAccount,
-  type SavingsAccoung,
   type Transaction,
   type User,
 } from "@/db/schema";
@@ -293,7 +293,7 @@ export type AdminUser = Pick<
   | "status"
 > & {
   personalCheckingAccount: CheckingAccount;
-  personalSavingsAccount: SavingsAccoung;
+  personalSavingsAccount: SavingsAccount;
   businessAccount: BusinessAccount;
   transactions: Transaction[];
 };

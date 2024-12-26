@@ -1,0 +1,1 @@
+ALTER TYPE "public"."transactionType" ADD VALUE 'withdrawal';

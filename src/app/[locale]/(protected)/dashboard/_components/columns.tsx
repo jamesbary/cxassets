@@ -61,7 +61,7 @@ const TranslationCellWrapper: React.FC<TranslationCellWrapperProps> = ({
     if (!ty) return null;
 
     const Icon = Icons[ty.icon];
-    const tyvalue = ty.value as "transfer" | "fund";
+    const tyvalue = ty.value as "transfer" | "fund" | "withdrawal";
     return (
       <div className="flex items-center">
         <Icon className="mr-2 h-4 w-4 text-muted-foreground" />

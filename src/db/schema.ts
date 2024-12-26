@@ -21,7 +21,11 @@ export const transactionStatus = pgEnum("transactionStatus", [
   "pending",
   "rejected",
 ]);
-export const transactionType = pgEnum("transactionType", ["fund", "transfer"]);
+export const transactionType = pgEnum("transactionType", [
+  "fund",
+  "transfer",
+  "withdrawal",
+]);
 export const accountType = pgEnum("accountType", [
   "personalCheckingAccounts",
   "personalSavingsAccounts",
@@ -224,5 +228,5 @@ export const businessAccountsRelations = relations(
 export type User = typeof users.$inferSelect;
 export type Transaction = typeof transactions.$inferSelect;
 export type CheckingAccount = typeof personalCheckingAccounts.$inferSelect;
-export type SavingsAccoung = typeof personalSavingsAccounts.$inferSelect;
+export type SavingsAccount = typeof personalSavingsAccounts.$inferSelect;
 export type BusinessAccount = typeof businessAccounts.$inferSelect;

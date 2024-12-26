@@ -35,6 +35,7 @@
       "success": "Éxito",
       "rejected": "Rechazado",
       "transfer": "Transferir",
+      "withdrawal": "Retiro",
       "fund": "Fondo",
       "reset": "Reiniciar"
     }
@@ -42,6 +43,7 @@
   "message": {
     "enough": "No tiene suficientes fondos en su cuenta para completar esta transacción",
     "exist": "La cuenta no existe",
+    "limit": "Lo sentimos. Ha superado su límite de retiro para el mes.",
     "generic": "Lo sentimos, no podemos completar esta acción actualmente, por favor intente de nuevo en unos minutos o contacte al servicio de atención al cliente",
     "success": "Completado con éxito"
   },
@@ -57,11 +59,86 @@
       "desc": "No tiene suficientes fondos en esta cuenta para completar esta transacción!",
       "cancel": "Cancelar"
     },
+    "pin": {
+      "title": "PIN de Transacción",
+      "create": {
+        "title": "Crear PIN",
+        "name": "PIN",
+        "confirm": "Confirmar PIN",
+        "proceed": "Crear PIN",
+        "cancel": "Cancelar",
+        "error": {
+          "name": "Error",
+          "message": "No se pudo crear el PIN de transacción. ¡Inténtalo de nuevo!"
+        },
+        "success": {
+          "name": "Éxito",
+          "message": "El PIN de transacción se creó con éxito."
+        }
+      },
+      "change": {
+        "title": "Cambiar PIN",
+        "current": "PIN Actual",
+        "new": "Nuevo PIN",
+        "confirm": "Confirmar Nuevo PIN",
+        "proceed": "Cambiar PIN",
+        "cancel": "Cancelar",
+        "error": {
+          "name": "Error",
+          "message": "No se pudo cambiar el PIN de transacción. ¡Inténtalo de nuevo!"
+        },
+        "success": {
+          "name": "Éxito",
+          "message": "El PIN de transacción se cambió con éxito."
+        }
+      },
+      "reset": {
+        "title": "Restablecer PIN",
+        "instructions": "Para restablecer tu PIN, proporciona tu correo electrónico registrado.",
+        "email": "Correo electrónico",
+        "proceed": "Enviar instrucciones",
+        "cancel": "Cancelar",
+        "error": {
+          "name": "Error",
+          "message": "No se pudieron enviar las instrucciones. ¡Inténtalo de nuevo!"
+        },
+        "success": {
+          "name": "Éxito",
+          "message": "Las instrucciones se enviaron con éxito."
+        }
+      },
+      "verify": {
+        "title": "Verificar PIN",
+        "name": "Introducir PIN",
+        "proceed": "Verificar PIN",
+        "cancel": "Cancelar",
+        "error": {
+          "name": "PIN Inválido",
+          "message": "El PIN introducido es incorrecto. ¡Inténtalo de nuevo!"
+        },
+        "success": {
+          "name": "Éxito",
+          "message": "El PIN de transacción se verificó con éxito."
+        }
+      },
+      "name": "PIN",
+      "proceed": "Continuar",
+      "cancel": "Cancelar"
+    },
     "transCard": {
       "title": "Transferir",
       "number": "Número de cuenta",
       "amount": "Cantidad (USD)",
       "proceed": "Transferir ahora",
+      "cancel": "Cancelar"
+    },
+    "withdrawCard": {
+      "title": "Retirar",
+      "bank": "Nombre del banco",
+      "name": "Nombre de la cuenta",
+      "number": "Número de cuenta",
+      "amount": "Monto (USD)",
+      "proceed": "Retirar ahora",
       "cancel": "Cancelar"
     },
     "action": "Crear cuenta"

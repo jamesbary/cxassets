@@ -35,6 +35,7 @@
       "success": "Succes",
       "rejected": "Respins",
       "transfer": "Transfer",
+      "withdrawal": "Retragere",
       "fund": "Fond",
       "reset": "Resetare"
     }
@@ -42,6 +43,7 @@
   "message": {
     "enough": "Nu aveți suficiente fonduri în contul dvs. pentru a finaliza această tranzacție",
     "exist": "Contul nu există",
+    "limit": "Ne pare rău. Ai depășit limita de retragere pentru această lună.",
     "generic": "Ne pare rău, nu putem finaliza această acțiune în acest moment, vă rugăm să încercați din nou peste câteva minute sau contactați suportul pentru clienți",
     "success": "Finalizat cu succes"
   },
@@ -57,12 +59,87 @@
       "desc": "Nu aveți suficiente fonduri în acest cont pentru a finaliza această tranzacție!",
       "cancel": "Anulare"
     },
+    "pin": {
+      "title": "PIN de Tranzacție",
+      "create": {
+        "title": "Creează PIN",
+        "name": "PIN",
+        "confirm": "Confirmă PIN",
+        "proceed": "Creează PIN",
+        "cancel": "Anulează",
+        "error": {
+          "name": "Eroare",
+          "message": "Nu s-a putut crea PIN-ul de tranzacție. Încearcă din nou!"
+        },
+        "success": {
+          "name": "Succes",
+          "message": "PIN-ul de tranzacție a fost creat cu succes."
+        }
+      },
+      "change": {
+        "title": "Schimbă PIN",
+        "current": "PIN Curent",
+        "new": "PIN Nou",
+        "confirm": "Confirmă PIN-ul Nou",
+        "proceed": "Schimbă PIN",
+        "cancel": "Anulează",
+        "error": {
+          "name": "Eroare",
+          "message": "Nu s-a putut schimba PIN-ul de tranzacție. Încearcă din nou!"
+        },
+        "success": {
+          "name": "Succes",
+          "message": "PIN-ul de tranzacție a fost schimbat cu succes."
+        }
+      },
+      "reset": {
+        "title": "Resetează PIN",
+        "instructions": "Pentru a reseta PIN-ul, te rugăm să furnizezi adresa de email înregistrată.",
+        "email": "Email",
+        "proceed": "Trimite Instrucțiuni",
+        "cancel": "Anulează",
+        "error": {
+          "name": "Eroare",
+          "message": "Nu s-au putut trimite instrucțiunile. Încearcă din nou!"
+        },
+        "success": {
+          "name": "Succes",
+          "message": "Instrucțiunile au fost trimise cu succes."
+        }
+      },
+      "verify": {
+        "title": "Verifică PIN",
+        "name": "Introdu PIN",
+        "proceed": "Verifică PIN",
+        "cancel": "Anulează",
+        "error": {
+          "name": "PIN Invalid",
+          "message": "PIN-ul introdus este incorect. Încearcă din nou!"
+        },
+        "success": {
+          "name": "Succes",
+          "message": "PIN-ul de tranzacție a fost verificat cu succes."
+        }
+      },
+      "name": "PIN",
+      "proceed": "Continuă",
+      "cancel": "Anulează"
+    },
     "transCard": {
       "title": "Transferă",
       "number": "Număr de cont",
       "amount": "Sumă (USD)",
       "proceed": "Transferă acum",
       "cancel": "Anulare"
+    },
+    "withdrawCard": {
+      "title": "Retragere",
+      "bank": "Numele băncii",
+      "name": "Numele contului",
+      "number": "Numărul contului",
+      "amount": "Sumă (USD)",
+      "proceed": "Retrage acum",
+      "cancel": "Anulează"
     },
     "action": "Creează cont"
   },

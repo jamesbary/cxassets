@@ -46,5 +46,19 @@ export const accountSchema = z.object({
   number: z.string().min(1),
 });
 
+export const bankSchema = z.object({
+  amount: z.string().regex(/^\d+(\.\d{1,2})?$/, {
+    message: "Must be a valid amount",
+  }),
+  type: z.enum(transactions.account.enumValues, {
+    required_error: "Must be a valid account type",
+  }),
+  accountId: z.string().min(1),
+  bank: z.string().min(1),
+  number: z.string().min(1),
+  name: z.string().min(1),
+});
+
 export type TransactionPayload = z.infer<typeof transactionSchema>;
 export type AccountPayload = z.infer<typeof accountSchema>;
+export type BankPayload = z.infer<typeof bankSchema>;

@@ -71,7 +71,8 @@ export function DataTableFacetedFilter<TData, TValue>({
                         | "rejected"
                         | "success"
                         | "transfer"
-                        | "fund";
+                        | "fund"
+                        | "withdrawal";
                       return (
                         <Badge
                           variant="secondary"
@@ -102,7 +103,8 @@ export function DataTableFacetedFilter<TData, TValue>({
                   | "rejected"
                   | "success"
                   | "transfer"
-                  | "fund";
+                  | "fund"
+                  | "withdrawal";
                 return (
                   <CommandItem
                     key={option.value}

@@ -4,7 +4,7 @@ import { notFound } from "next/navigation";
 import { AlertTransfer } from "@/app/[locale]/(protected)/dashboard/_components/alert-transfer";
 import { AlertWithdraw } from "@/app/[locale]/(protected)/dashboard/_components/alert-withdraw";
 import { Transfer } from "@/app/[locale]/(protected)/dashboard/_components/transfer";
-import { WithdrawLink } from "@/app/[locale]/(protected)/dashboard/_components/withdraw-link";
+import { Withdraw } from "@/app/[locale]/(protected)/dashboard/_components/withdraw";
 import { CopyToClipboard } from "@/components/shared/copy-to-clipboard";
 import { Badge } from "@/components/ui/badge";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
@@ -55,7 +55,15 @@ export default async function Page({
       business: dashData.common.business,
     },
   };
-  const withdrawTitle = dashData.card.withdraw;
+  const withdrawData = {
+    withdrawCard: dashData.card.withdrawCard,
+    message: dashData.message,
+    type: {
+      checking: dashData.common.checking,
+      savings: dashData.common.savings,
+      business: dashData.common.business,
+    },
+  };
 
   return (
     <>
@@ -95,7 +103,11 @@ export default async function Page({
         {Number(s_account.balance) <= 0 ? (
           <AlertWithdraw data={noWith} />
         ) : (
-          <WithdrawLink title={withdrawTitle} />
+          <Withdraw
+            type="personalSavingsAccounts"
+            id={s_account.id}
+            data={withdrawData}
+          />
         )}
       </div>
     </>

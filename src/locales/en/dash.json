@@ -35,6 +35,7 @@
       "success": "Success",
       "rejected": "Rejected",
       "transfer": "Transfer",
+      "withdrawal": "Withdrawal",
       "fund": "Fund",
       "reset": "Reset"
     }
@@ -42,6 +43,7 @@
   "message": {
     "enough": "You do not have enough fund in your account to complete this transaction",
     "exist": "Account does not exist",
+    "limit": "Sorry. You have exceeded your withdrawal limit for the month.",
     "generic": "Sorry we cannot complete this action currently, please try again in few minutes or contact customer support",
     "success": "Completted successfully"
   },
@@ -57,11 +59,86 @@
       "desc": "You do not have enough fund in this account to complete this transaction!",
       "cancel": "Cancel"
     },
+    "pin": {
+      "title": "Transaction Pin",
+      "create": {
+        "title": "Create Pin",
+        "name": "Pin",
+        "confirm": "Confirm Pin",
+        "proceed": "Create Pin",
+        "cancel": "Cancel",
+        "error": {
+          "name": "Oops",
+          "message": "Could not create transaction pin. Try again!"
+        },
+        "success": {
+          "name": "Success",
+          "message": "Transaction pin created successfully."
+        }
+      },
+      "change": {
+        "title": "Change Pin",
+        "current": "Current Pin",
+        "new": "New Pin",
+        "confirm": "Confirm New Pin",
+        "proceed": "Change Pin",
+        "cancel": "Cancel",
+        "error": {
+          "name": "Oops",
+          "message": "Could not change transaction pin. Try again!"
+        },
+        "success": {
+          "name": "Success",
+          "message": "Transaction pin changed successfully."
+        }
+      },
+      "reset": {
+        "title": "Reset Pin",
+        "instructions": "To reset your PIN, please provide your registered email.",
+        "email": "Email",
+        "proceed": "Send Reset Instructions",
+        "cancel": "Cancel",
+        "error": {
+          "name": "Oops",
+          "message": "Could not send reset instructions. Try again!"
+        },
+        "success": {
+          "name": "Success",
+          "message": "Reset instructions sent successfully."
+        }
+      },
+      "verify": {
+        "title": "Verify Pin",
+        "name": "Enter Pin",
+        "proceed": "Verify Pin",
+        "cancel": "Cancel",
+        "error": {
+          "name": "Invalid Pin",
+          "message": "The pin entered is incorrect. Try again!"
+        },
+        "success": {
+          "name": "Success",
+          "message": "Transaction pin verified successfully."
+        }
+      },
+      "name": "Pin",
+      "proceed": "Continue",
+      "cancel": "Cancel"
+    },
     "transCard": {
       "title": "Transfer",
       "number": "Account Number",
       "amount": "Amount (USD)",
       "proceed": "Transfer Now",
+      "cancel": "Cancel"
+    },
+    "withdrawCard": {
+      "title": "Withdraw",
+      "bank": "Bank Name",
+      "name": "Account Name",
+      "number": "Account Number",
+      "amount": "Amount (USD)",
+      "proceed": "Withdraw Now",
       "cancel": "Cancel"
     },
     "action": "Create Account"

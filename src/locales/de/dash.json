@@ -35,6 +35,7 @@
       "success": "Erfolg",
       "rejected": "Abgelehnt",
       "transfer": "Überweisung",
+      "withdrawal": "Abhebung",
       "fund": "Fonds",
       "reset": "Zurücksetzen"
     }
@@ -42,6 +43,7 @@
   "message": {
     "enough": "Sie haben nicht genügend Guthaben auf Ihrem Konto, um diese Transaktion abzuschließen",
     "exist": "Konto existiert nicht",
+    "limit": "Entschuldigung. Sie haben Ihr Auszahlungslimit für diesen Monat überschritten.",
     "generic": "Leider können wir diese Aktion derzeit nicht ausführen, bitte versuchen Sie es in ein paar Minuten erneut oder kontaktieren Sie den Kundensupport",
     "success": "Erfolgreich abgeschlossen"
   },
@@ -57,11 +59,86 @@
       "desc": "Sie haben nicht genügend Guthaben auf diesem Konto, um diese Transaktion abzuschließen!",
       "cancel": "Abbrechen"
     },
+    "pin": {
+      "title": "Transaktions-PIN",
+      "create": {
+        "title": "PIN erstellen",
+        "name": "PIN",
+        "confirm": "PIN bestätigen",
+        "proceed": "PIN erstellen",
+        "cancel": "Abbrechen",
+        "error": {
+          "name": "Oh nein",
+          "message": "Transaktions-PIN konnte nicht erstellt werden. Versuchen Sie es erneut!"
+        },
+        "success": {
+          "name": "Erfolg",
+          "message": "Transaktions-PIN wurde erfolgreich erstellt."
+        }
+      },
+      "change": {
+        "title": "PIN ändern",
+        "current": "Aktueller PIN",
+        "new": "Neuer PIN",
+        "confirm": "Neuen PIN bestätigen",
+        "proceed": "PIN ändern",
+        "cancel": "Abbrechen",
+        "error": {
+          "name": "Oh nein",
+          "message": "Transaktions-PIN konnte nicht geändert werden. Versuchen Sie es erneut!"
+        },
+        "success": {
+          "name": "Erfolg",
+          "message": "Transaktions-PIN wurde erfolgreich geändert."
+        }
+      },
+      "reset": {
+        "title": "PIN zurücksetzen",
+        "instructions": "Um Ihren PIN zurückzusetzen, geben Sie bitte Ihre registrierte E-Mail-Adresse an.",
+        "email": "E-Mail",
+        "proceed": "Anweisungen senden",
+        "cancel": "Abbrechen",
+        "error": {
+          "name": "Oh nein",
+          "message": "Anweisungen konnten nicht gesendet werden. Versuchen Sie es erneut!"
+        },
+        "success": {
+          "name": "Erfolg",
+          "message": "Anweisungen wurden erfolgreich gesendet."
+        }
+      },
+      "verify": {
+        "title": "PIN überprüfen",
+        "name": "PIN eingeben",
+        "proceed": "PIN überprüfen",
+        "cancel": "Abbrechen",
+        "error": {
+          "name": "Ungültiger PIN",
+          "message": "Der eingegebene PIN ist falsch. Versuchen Sie es erneut!"
+        },
+        "success": {
+          "name": "Erfolg",
+          "message": "Transaktions-PIN wurde erfolgreich überprüft."
+        }
+      },
+      "name": "PIN",
+      "proceed": "Fortfahren",
+      "cancel": "Abbrechen"
+    },
     "transCard": {
       "title": "Überweisen",
       "number": "Kontonummer",
       "amount": "Betrag (USD)",
       "proceed": "Jetzt überweisen",
+      "cancel": "Abbrechen"
+    },
+    "withdrawCard": {
+      "title": "Abheben",
+      "bank": "Bankname",
+      "name": "Kontoinhaber",
+      "number": "Kontonummer",
+      "amount": "Betrag (USD)",
+      "proceed": "Jetzt abheben",
       "cancel": "Abbrechen"
     },
     "action": "Konto erstellen"

@@ -1,6 +1,7 @@
 "use server";
 
 import { auth } from "@/auth";
+import { and, eq, sql } from "drizzle-orm";
 import { revalidatePath } from "next/cache";
 import { redirect } from "next/navigation";
 
@@ -10,6 +11,7 @@ import {
   businessAccounts,
   personalCheckingAccounts,
   personalSavingsAccounts,
+  SavingsAccount,
   transactions,
 } from "@/db/schema";
 import { getAccountById } from "@/lib/queries/account";
@@ -19,11 +21,11 @@ import {
   type BusinessAccountPayload,
 } from "@/lib/validations/account";
 import {
-  AccountPayload,
+  type AccountPayload,
+  type BankPayload,
   type TransactionPayload,
 } from "@/lib/validations/transaction";
 import { AccountTable } from "@/types";
-import { eq } from "drizzle-orm";
 
 // Function to check if a user already has an account of a specific type
 
@@ -231,6 +233,80 @@ export const transfer = async (input: AccountPayload) => {
     userId,
     amount: input.amount,
     status: "success",
+  });
+
+  revalidatePath(appConfig.entry.href);
+  return true;
+};
+
+export const withdraw = async (input: BankPayload) => {
+  const session = await auth();
+  if (!session?.user?.id) redirect(appConfig.auth.signin.href);
+
+  const userId = session.user.id;
+
+  const accountTable = getAccountTable(input.type);
+
+  const sourceTable = await db
+    .select()
+    .from(accountTable)
+    .where(eq(accountTable.id, input.accountId));
+
+  if (!sourceTable.length) return "exist";
+
+  const accountData = sourceTable[0];
+  const currentBalance = parseFloat(accountData.balance);
+
+  if (currentBalance < parseFloat(input.amount)) return "enough";
+
+  // Enforce withdrawal limit for personal savings accounts
+  if (accountTable === personalSavingsAccounts) {
+    const savingsData = sourceTable[0] as SavingsAccount;
+    const withdrawalLimit = savingsData.withdrawalLimit;
+
+    // Get the current date details
+    const now = new Date();
+    const currentMonth = now.getMonth() + 1; // JavaScript months are 0-indexed
+    const currentYear = now.getFullYear();
+
+    // Count withdrawals for the current month
+    const monthlyWithdrawals = await db
+      .select({
+        count: sql<number>`COUNT(*)`,
+      })
+      .from(transactions)
+      .where(
+        and(
+          eq(transactions.accountId, input.accountId),
+          eq(transactions.type, "withdrawal"),
+          eq(transactions.userId, userId),
+          sql`EXTRACT(MONTH FROM ${transactions.date}) = ${currentMonth}`,
+          sql`EXTRACT(YEAR FROM ${transactions.date}) = ${currentYear}`
+        )
+      );
+
+    const withdrawalsCount = monthlyWithdrawals[0]?.count || 0;
+
+    // Prevent withdrawal if limit is exceeded
+    if (withdrawalsCount >= withdrawalLimit) return "limit";
+  }
+
+  const newSourceBalance = currentBalance - parseFloat(input.amount);
+  await db
+    .update(accountTable)
+    .set({
+      balance: String(newSourceBalance),
+    })
+    .where(eq(accountTable.id, input.accountId));
+
+  await db.insert(transactions).values({
+    account: input.type,
+    accountId: input.accountId,
+    type: "withdrawal",
+    userId,
+    amount: input.amount,
+    status: "success",
+    description: `Bank: ${input.bank}; Account Name: ${input.name}; Bank Number: ${input.number}`,
   });
 
   revalidatePath(appConfig.entry.href);

@@ -35,6 +35,7 @@
       "success": "Successo",
       "rejected": "Rifiutato",
       "transfer": "Trasferisci",
+      "withdrawal": "Prelievo",
       "fund": "Fondo",
       "reset": "Ripristina"
     }
@@ -42,6 +43,7 @@
   "message": {
     "enough": "Non hai fondi sufficienti nel tuo conto per completare questa transazione",
     "exist": "Il conto non esiste",
+    "limit": "Ci dispiace. Hai superato il limite di prelievo per il mese.",
     "generic": "Spiacenti, non possiamo completare questa azione al momento, riprova tra qualche minuto o contatta il servizio clienti",
     "success": "Completato con successo"
   },
@@ -57,11 +59,86 @@
       "desc": "Non hai fondi sufficienti su questo conto per completare questa transazione!",
       "cancel": "Annulla"
     },
+    "pin": {
+      "title": "PIN di Transazione",
+      "create": {
+        "title": "Crea PIN",
+        "name": "PIN",
+        "confirm": "Conferma PIN",
+        "proceed": "Crea PIN",
+        "cancel": "Annulla",
+        "error": {
+          "name": "Errore",
+          "message": "Impossibile creare il PIN di transazione. Riprova!"
+        },
+        "success": {
+          "name": "Successo",
+          "message": "PIN di transazione creato con successo."
+        }
+      },
+      "change": {
+        "title": "Cambia PIN",
+        "current": "PIN Attuale",
+        "new": "Nuovo PIN",
+        "confirm": "Conferma Nuovo PIN",
+        "proceed": "Cambia PIN",
+        "cancel": "Annulla",
+        "error": {
+          "name": "Errore",
+          "message": "Impossibile cambiare il PIN di transazione. Riprova!"
+        },
+        "success": {
+          "name": "Successo",
+          "message": "PIN di transazione cambiato con successo."
+        }
+      },
+      "reset": {
+        "title": "Reimposta PIN",
+        "instructions": "Per reimpostare il PIN, fornisci la tua email registrata.",
+        "email": "Email",
+        "proceed": "Invia Istruzioni",
+        "cancel": "Annulla",
+        "error": {
+          "name": "Errore",
+          "message": "Impossibile inviare le istruzioni. Riprova!"
+        },
+        "success": {
+          "name": "Successo",
+          "message": "Istruzioni inviate con successo."
+        }
+      },
+      "verify": {
+        "title": "Verifica PIN",
+        "name": "Inserisci PIN",
+        "proceed": "Verifica PIN",
+        "cancel": "Annulla",
+        "error": {
+          "name": "PIN non valido",
+          "message": "Il PIN inserito è errato. Riprova!"
+        },
+        "success": {
+          "name": "Successo",
+          "message": "PIN di transazione verificato con successo."
+        }
+      },
+      "name": "PIN",
+      "proceed": "Continua",
+      "cancel": "Annulla"
+    },
     "transCard": {
       "title": "Trasferisci",
       "number": "Numero di conto",
       "amount": "Importo (USD)",
       "proceed": "Trasferisci ora",
+      "cancel": "Annulla"
+    },
+    "withdrawCard": {
+      "title": "Prelievo",
+      "bank": "Nome della banca",
+      "name": "Nome del conto",
+      "number": "Numero del conto",
+      "amount": "Importo (USD)",
+      "proceed": "Preleva ora",
       "cancel": "Annulla"
     },
     "action": "Crea conto"

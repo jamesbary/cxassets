@@ -1,16 +1,17 @@
 import { AlertTransfer } from "@/app/[locale]/(protected)/dashboard/_components/alert-transfer";
+import { AlertWithdraw } from "@/app/[locale]/(protected)/dashboard/_components/alert-withdraw";
 import { BusinessAccountDrawerDialog } from "@/app/[locale]/(protected)/dashboard/_components/business-account";
 import { CheckingAccountDrawerDialog } from "@/app/[locale]/(protected)/dashboard/_components/checking-account";
 import { SavingsAccountDrawerDialog } from "@/app/[locale]/(protected)/dashboard/_components/savings-account";
 import { Transfer } from "@/app/[locale]/(protected)/dashboard/_components/transfer";
-import { WithdrawLink } from "@/app/[locale]/(protected)/dashboard/_components/withdraw-link";
+import { Withdraw } from "@/app/[locale]/(protected)/dashboard/_components/withdraw";
 import { Icons } from "@/components/shared/icons";
 import { buttonVariants } from "@/components/ui/button";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import type {
   BusinessAccount,
   CheckingAccount,
-  SavingsAccoung,
+  SavingsAccount,
 } from "@/db/schema";
 import initTranslations from "@/lib/i18n";
 import { cn, formatAmount } from "@/lib/utils";
@@ -19,7 +20,7 @@ import Link from "next/link";
 
 type Props = React.HTMLAttributes<HTMLElement> & {
   checkingAccount?: CheckingAccount;
-  savingsAccount?: SavingsAccoung;
+  savingsAccount?: SavingsAccount;
   businessAccount?: BusinessAccount;
   locale: string;
 };
@@ -60,7 +61,17 @@ const Cards = async ({
       business: dashData.common.business,
     },
   };
-  const withdrawTitle = cardData.withdraw;
+
+  const withdrawData = {
+    withdrawCard: cardData.withdrawCard,
+    message: messageData,
+    type: {
+      checking: dashData.common.checking,
+      savings: dashData.common.savings,
+      business: dashData.common.business,
+    },
+  };
+
   const createChecking = {
     ...dashData.checking.create,
     action: dashData.common.action,
@@ -72,6 +83,11 @@ const Cards = async ({
   const createBusiness = {
     ...dashData.business.create,
     action: dashData.common.action,
+  };
+
+  const noWith = {
+    ...cardData.notEnough,
+    btn: cardData.withdraw,
   };
 
   return (
@@ -98,7 +114,16 @@ const Cards = async ({
                   data={data}
                 />
               )}
-              <WithdrawLink title={withdrawTitle} />
+              {/* <WithdrawLink title={withdrawTitle} /> */}
+              {Number(checkingAccount.balance) <= 0 ? (
+                <AlertWithdraw data={noWith} />
+              ) : (
+                <Withdraw
+                  type="personalCheckingAccounts"
+                  id={checkingAccount.id}
+                  data={withdrawData}
+                />
+              )}
               <Link
                 href="/dashboard/checking"
                 // href={`/dashboard/checking/${checkingAccount.id}`}
@@ -140,7 +165,16 @@ const Cards = async ({
                   data={data}
                 />
               )}
-              <WithdrawLink title={withdrawTitle} />
+              {/* <WithdrawLink title={withdrawTitle} /> */}
+              {Number(savingsAccount.balance) <= 0 ? (
+                <AlertWithdraw data={noWith} />
+              ) : (
+                <Withdraw
+                  type="personalSavingsAccounts"
+                  id={savingsAccount.id}
+                  data={withdrawData}
+                />
+              )}
               <Link
                 href="/dashboard/savings"
                 // href={`/dashboard/savings/${savingsAccount.id}`}
@@ -182,7 +216,16 @@ const Cards = async ({
                   data={data}
                 />
               )}
-              <WithdrawLink title={withdrawTitle} />
+              {/* <WithdrawLink title={withdrawTitle} /> */}
+              {Number(businessAccount.balance) <= 0 ? (
+                <AlertWithdraw data={noWith} />
+              ) : (
+                <Withdraw
+                  type="businessAccounts"
+                  id={businessAccount.id}
+                  data={withdrawData}
+                />
+              )}
               <Link
                 href="/dashboard/business"
                 // href={`/dashboard/business/${businessAccount.id}`}
