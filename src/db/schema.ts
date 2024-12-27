@@ -48,6 +48,8 @@ export const users = pgTable("user", {
     .notNull()
     .default("0"),
   password: text("password"),
+  pin: varchar("pin", { length: 6 }),
+  hashedPin: text("hashedPin"),
   country: varchar("country", { length: 255 }),
   status: status("status").notNull().default("active"),
 });

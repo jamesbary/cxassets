@@ -13,9 +13,10 @@ import {
   personalSavingsAccounts,
   SavingsAccount,
   transactions,
+  users,
 } from "@/db/schema";
 import { getAccountById } from "@/lib/queries/account";
-import { generateAccountNumber, getAccountTable } from "@/lib/utils";
+import { generateAccountNumber, getAccountTable, verifyPin } from "@/lib/utils";
 import {
   businessAccountSchema,
   type BusinessAccountPayload,
@@ -245,6 +246,19 @@ export const withdraw = async (input: BankPayload) => {
 
   const userId = session.user.id;
 
+  // First verify PIN
+  const user = await db
+    .select()
+    .from(users)
+    .where(eq(users.id, userId))
+    .limit(1);
+
+  if (!user.length || !user[0].hashedPin) return "no_pin";
+
+  const isPinValid = verifyPin(input.pin, user[0].hashedPin);
+  if (!isPinValid) return "invalid_pin";
+
+  // Withdrawal function
   const accountTable = getAccountTable(input.type);
 
   const sourceTable = await db
@@ -266,11 +280,30 @@ export const withdraw = async (input: BankPayload) => {
 
     // Get the current date details
     const now = new Date();
+    const currentDay = now.getDate();
     const currentMonth = now.getMonth() + 1; // JavaScript months are 0-indexed
     const currentYear = now.getFullYear();
 
     // Count withdrawals for the current month
-    const monthlyWithdrawals = await db
+    // const monthlyWithdrawals = await db
+    //   .select({
+    //     count: sql<number>`COUNT(*)`,
+    //   })
+    //   .from(transactions)
+    //   .where(
+    //     and(
+    //       eq(transactions.accountId, input.accountId),
+    //       eq(transactions.type, "withdrawal"),
+    //       eq(transactions.userId, userId),
+    //       sql`EXTRACT(MONTH FROM ${transactions.date}) = ${currentMonth}`,
+    //       sql`EXTRACT(YEAR FROM ${transactions.date}) = ${currentYear}`
+    //     )
+    //   );
+
+    // const withdrawalsCount = monthlyWithdrawals[0]?.count || 0;
+
+    // Count withdrawals for the current day
+    const dailyWithdrawals = await db
       .select({
         count: sql<number>`COUNT(*)`,
       })
@@ -280,15 +313,16 @@ export const withdraw = async (input: BankPayload) => {
           eq(transactions.accountId, input.accountId),
           eq(transactions.type, "withdrawal"),
           eq(transactions.userId, userId),
+          sql`EXTRACT(DAY FROM ${transactions.date}) = ${currentDay}`,
           sql`EXTRACT(MONTH FROM ${transactions.date}) = ${currentMonth}`,
           sql`EXTRACT(YEAR FROM ${transactions.date}) = ${currentYear}`
         )
       );
 
-    const withdrawalsCount = monthlyWithdrawals[0]?.count || 0;
+    const withdrawalsCount = dailyWithdrawals[0]?.count || 0;
 
     // Prevent withdrawal if limit is exceeded
-    if (withdrawalsCount >= withdrawalLimit) return "limit";
+    if (withdrawalsCount >= withdrawalLimit) return "day";
   }
 
   const newSourceBalance = currentBalance - parseFloat(input.amount);

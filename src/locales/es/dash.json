@@ -44,6 +44,9 @@
     "enough": "No tiene suficientes fondos en su cuenta para completar esta transacción",
     "exist": "La cuenta no existe",
     "limit": "Lo sentimos. Ha superado su límite de retiro para el mes.",
+    "day": "Lo siento. Ha superado su límite de retiro para el día.",
+    "no_pin": "Aún no tienes un PIN configurado. Por favor, crea un PIN de transacción.",
+    "invalid_pin": "El PIN ingresado es incorrecto. ¡Inténtalo de nuevo!",
     "generic": "Lo sentimos, no podemos completar esta acción actualmente, por favor intente de nuevo en unos minutos o contacte al servicio de atención al cliente",
     "success": "Completado con éxito"
   },
@@ -139,7 +142,13 @@
       "number": "Número de cuenta",
       "amount": "Monto (USD)",
       "proceed": "Retirar ahora",
-      "cancel": "Cancelar"
+      "cancel": "Cancelar",
+      "pin": {
+        "title": "Ingrese su PIN para confirmar el retiro",
+        "label": "PIN de 6 dígitos",
+        "proceed": "Continuar",
+        "cancel": "Cancelar"
+      }
     },
     "action": "Crear cuenta"
   },

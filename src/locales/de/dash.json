@@ -44,6 +44,9 @@
     "enough": "Sie haben nicht genügend Guthaben auf Ihrem Konto, um diese Transaktion abzuschließen",
     "exist": "Konto existiert nicht",
     "limit": "Entschuldigung. Sie haben Ihr Auszahlungslimit für diesen Monat überschritten.",
+    "day": "Entschuldigung. Sie haben Ihr Auszahlungslimit für den Tag überschritten.",
+    "no_pin": "Sie haben noch keinen PIN eingerichtet. Bitte erstellen Sie eine Transaktions-PIN.",
+    "invalid_pin": "Die eingegebene PIN ist falsch. Bitte versuchen Sie es erneut!",
     "generic": "Leider können wir diese Aktion derzeit nicht ausführen, bitte versuchen Sie es in ein paar Minuten erneut oder kontaktieren Sie den Kundensupport",
     "success": "Erfolgreich abgeschlossen"
   },
@@ -139,7 +142,13 @@
       "number": "Kontonummer",
       "amount": "Betrag (USD)",
       "proceed": "Jetzt abheben",
-      "cancel": "Abbrechen"
+      "cancel": "Abbrechen",
+      "pin": {
+        "title": "Geben Sie Ihre PIN ein, um die Auszahlung zu bestätigen",
+        "label": "6-stelliger PIN",
+        "proceed": "Weiter",
+        "cancel": "Abbrechen"
+      }
     },
     "action": "Konto erstellen"
   },

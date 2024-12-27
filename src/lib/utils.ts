@@ -25,7 +25,8 @@ export function cn(...inputs: ClassValue[]) {
   return twMerge(clsx(inputs));
 }
 
-const keyLength = 64;
+const PASSWORD_KEY_LENGTH = 64;
+const PIN_KEY_LENGTH = 32;
 
 export function formatBytes(
   bytes: number,
@@ -48,19 +49,34 @@ export function formatBytes(
 export const hashPassword = (password: string): string => {
   const salt = crypto.randomBytes(16).toString("hex");
   const hashedPassword = crypto
-    .scryptSync(password, salt, keyLength)
+    .scryptSync(password, salt, PASSWORD_KEY_LENGTH)
     .toString("hex");
   return `${salt}:${hashedPassword}`;
 };
 
 export const verifyPassword = (password: string, hash: string): boolean => {
   const [salt, hashedPassword] = hash.split(":");
-  const hashedBuffer = crypto.scryptSync(password, salt, keyLength);
+  const hashedBuffer = crypto.scryptSync(password, salt, PASSWORD_KEY_LENGTH);
 
   return crypto.timingSafeEqual(
     Buffer.from(hashedPassword, "hex"),
     hashedBuffer
   );
+};
+
+export const hashPin = (pin: string): string => {
+  const salt = crypto.randomBytes(16).toString("hex");
+  const hashedPin = crypto
+    .scryptSync(pin, salt, PIN_KEY_LENGTH)
+    .toString("hex");
+  return `${salt}:${hashedPin}`;
+};
+
+export const verifyPin = (pin: string, hash: string): boolean => {
+  const [salt, hashedPin] = hash.split(":");
+  const hashedBuffer = crypto.scryptSync(pin, salt, PIN_KEY_LENGTH);
+
+  return crypto.timingSafeEqual(Buffer.from(hashedPin, "hex"), hashedBuffer);
 };
 
 export const getInitials = (name?: string | null): string => {

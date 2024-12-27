@@ -44,6 +44,9 @@
     "enough": "Nu aveți suficiente fonduri în contul dvs. pentru a finaliza această tranzacție",
     "exist": "Contul nu există",
     "limit": "Ne pare rău. Ai depășit limita de retragere pentru această lună.",
+    "day": "Ne pare rău. Ați depășit limita de retragere pentru ziua respectivă.",
+    "no_pin": "Nu aveți încă un PIN configurat. Vă rugăm să creați un PIN pentru tranzacții.",
+    "invalid_pin": "PIN-ul introdus este incorect. Încercați din nou!",
     "generic": "Ne pare rău, nu putem finaliza această acțiune în acest moment, vă rugăm să încercați din nou peste câteva minute sau contactați suportul pentru clienți",
     "success": "Finalizat cu succes"
   },
@@ -139,7 +142,13 @@
       "number": "Numărul contului",
       "amount": "Sumă (USD)",
       "proceed": "Retrage acum",
-      "cancel": "Anulează"
+      "cancel": "Anulează",
+      "pin": {
+        "title": "Introduceți PIN-ul pentru a confirma retragerea",
+        "label": "PIN din 6 cifre",
+        "proceed": "Continuați",
+        "cancel": "Anulați"
+      }
     },
     "action": "Creează cont"
   },

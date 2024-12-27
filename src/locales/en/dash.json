@@ -44,8 +44,11 @@
     "enough": "You do not have enough fund in your account to complete this transaction",
     "exist": "Account does not exist",
     "limit": "Sorry. You have exceeded your withdrawal limit for the month.",
+    "day": "Sorry. You have exceeded your withdrawal limit for the day.",
+    "no_pin": "You do not have pin set up yet. Please create a transaction pin",
+    "invalid_pin": "The pin entered is incorrect. Try again!",
     "generic": "Sorry we cannot complete this action currently, please try again in few minutes or contact customer support",
-    "success": "Completted successfully"
+    "success": "Completed successfully"
   },
   "card": {
     "transfer": "Transfer",
@@ -139,7 +142,13 @@
       "number": "Account Number",
       "amount": "Amount (USD)",
       "proceed": "Withdraw Now",
-      "cancel": "Cancel"
+      "cancel": "Cancel",
+      "pin": {
+        "title": "Enter your PIN to confirm withdrawal",
+        "label": "6-digit PIN",
+        "proceed": "Continue",
+        "cancel": "Cancel"
+      }
     },
     "action": "Create Account"
   },

@@ -44,6 +44,9 @@
     "enough": "Non hai fondi sufficienti nel tuo conto per completare questa transazione",
     "exist": "Il conto non esiste",
     "limit": "Ci dispiace. Hai superato il limite di prelievo per il mese.",
+    "day": "Spiacente. Hai superato il limite di prelievo per la giornata.",
+    "no_pin": "Non hai ancora configurato un PIN. Per favore, crea un PIN per le transazioni.",
+    "invalid_pin": "Il PIN inserito è errato. Riprova!",
     "generic": "Spiacenti, non possiamo completare questa azione al momento, riprova tra qualche minuto o contatta il servizio clienti",
     "success": "Completato con successo"
   },
@@ -139,7 +142,13 @@
       "number": "Numero del conto",
       "amount": "Importo (USD)",
       "proceed": "Preleva ora",
-      "cancel": "Annulla"
+      "cancel": "Annulla",
+      "pin": {
+        "title": "Inserisci il tuo PIN per confermare il prelievo",
+        "label": "PIN a 6 cifre",
+        "proceed": "Continua",
+        "cancel": "Annulla"
+      }
     },
     "action": "Crea conto"
   },

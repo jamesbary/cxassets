@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   title: appConfig.auth.onboarding.title,
 };
 
-export default async function DashboardPage() {
+export default async function OnboardingPage() {
   // redirect(appConfig.url);
   return (
     <main>

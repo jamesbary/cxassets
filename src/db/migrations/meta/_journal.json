@@ -15,6 +15,34 @@
       "when": 1735228293830,
       "tag": "0001_round_pepper_potts",
       "breakpoints": true
+    },
+    {
+      "idx": 2,
+      "version": "7",
+      "when": 1735299420574,
+      "tag": "0002_bizarre_zemo",
+      "breakpoints": true
+    },
+    {
+      "idx": 3,
+      "version": "7",
+      "when": 1735328522321,
+      "tag": "0003_clumsy_mathemanic",
+      "breakpoints": true
+    },
+    {
+      "idx": 4,
+      "version": "7",
+      "when": 1735328686847,
+      "tag": "0004_bitter_greymalkin",
+      "breakpoints": true
+    },
+    {
+      "idx": 5,
+      "version": "7",
+      "when": 1735328997044,
+      "tag": "0005_complex_firebrand",
+      "breakpoints": true
     }
   ]
 }

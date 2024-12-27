@@ -1,0 +1,1 @@
+ALTER TABLE "user" ALTER COLUMN "pin" SET DATA TYPE text;

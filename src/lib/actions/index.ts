@@ -2,7 +2,8 @@
 
 import { AuthError } from "next-auth";
 
-import { signIn, signOut } from "@/auth";
+import { auth, signIn, signOut } from "@/auth";
+import { appConfig } from "@/config";
 import { DEFAULT_AUTH_REDIRECT } from "@/config/constants";
 import { db } from "@/db";
 import { users } from "@/db/schema";
@@ -12,7 +13,12 @@ import {
   getUserByEmail,
   getUserByNameOrEmail,
 } from "@/lib/queries/user";
-import { getAccountTable, hashPassword, verifyPassword } from "@/lib/utils";
+import {
+  getAccountTable,
+  hashPassword,
+  hashPin,
+  verifyPassword,
+} from "@/lib/utils";
 import {
   authWithAccountNumberSchema,
   authWithCredentialsSchema,
@@ -21,7 +27,9 @@ import {
   type EmailPayload,
   type UserPayload,
 } from "@/lib/validations/auth";
+import { PinPayload } from "@/lib/validations/transaction";
 import { eq } from "drizzle-orm";
+import { redirect } from "next/navigation";
 
 export const authenticate = async (input: EmailPayload) => {
   const parsedEmail = emailSchema.safeParse(input);
@@ -182,4 +190,22 @@ export const signinCredential = async (
     }
     throw error;
   }
+};
+
+export const createPin = async (input: PinPayload) => {
+  const session = await auth();
+  if (!session?.user?.id) redirect(appConfig.auth.signin.href);
+
+  const userId = session.user.id;
+
+  const { pin } = input;
+
+  const hashedPin = hashPin(pin);
+
+  await db
+    .update(users)
+    .set({
+      hashedPin,
+    })
+    .where(eq(users.id, userId));
 };

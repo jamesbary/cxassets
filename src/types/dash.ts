@@ -28,6 +28,9 @@ export type Message = {
   enough: string;
   exist: string;
   limit: string;
+  day: string;
+  no_pin: string;
+  invalid_pin: string;
   generic: string;
   success: string;
 };
@@ -61,6 +64,12 @@ export type WithdrawCard = {
   amount: string;
   proceed: string;
   cancel: string;
+  pin: {
+    title: string;
+    label: string;
+    proceed: string;
+    cancel: string;
+  };
 };
 
 export type Card = {
@@ -71,6 +80,7 @@ export type Card = {
   inactive: string;
   closed: string;
   notEnough: NotEnough;
+  pin: PinTranslation;
   transCard: TransCard;
   withdrawCard: WithdrawCard;
   action: string;

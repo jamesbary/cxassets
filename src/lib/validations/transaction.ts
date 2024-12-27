@@ -46,6 +46,15 @@ export const accountSchema = z.object({
   number: z.string().min(1),
 });
 
+export const pinSchema = z.object({
+  pin: z
+    .string()
+    .min(6, "PIN must be exactly 6 digits")
+    .max(6, "PIN must be exactly 6 digits")
+    .regex(/^\d+$/, "PIN must contain only numbers")
+    .transform((val) => val.padStart(6, "0")),
+});
+
 export const bankSchema = z.object({
   amount: z.string().regex(/^\d+(\.\d{1,2})?$/, {
     message: "Must be a valid amount",
@@ -57,8 +66,10 @@ export const bankSchema = z.object({
   bank: z.string().min(1),
   number: z.string().min(1),
   name: z.string().min(1),
+  pin: pinSchema.shape.pin,
 });
 
 export type TransactionPayload = z.infer<typeof transactionSchema>;
 export type AccountPayload = z.infer<typeof accountSchema>;
 export type BankPayload = z.infer<typeof bankSchema>;
+export type PinPayload = z.infer<typeof pinSchema>;
